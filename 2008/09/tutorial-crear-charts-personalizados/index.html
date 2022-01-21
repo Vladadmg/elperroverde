@@ -1,0 +1,963 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>[GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero | El Perro Verde</title>
+
+<meta name="generator" content="WordPress 2.9.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.elperroverde.net/elperroverde/wp-content/themes/girl/style.css?1269122455" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde RSS Feed" href="http://www.elperroverde.net/feed/" />
+<link rel="pingback" href="http://www.elperroverde.net/elperroverde/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde &raquo; [GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero RSS de los comentarios" href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.elperroverde.net/elperroverde/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.elperroverde.net/elperroverde/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='El Perro Verde' href='http://www.elperroverde.net' />
+<link rel='start' title='Pasando el rato &#8230;' href='http://www.elperroverde.net/2007/06/pasando-el-rato/' />
+<link rel='prev' title='La visión subjetiva' href='http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo/' />
+<link rel='next' title='Piedra vs iPhone 3G' href='http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g/' />
+<meta name="generator" content="WordPress 2.9.1" />
+
+<!-- All in One SEO Pack 1.6.10 by Michael Torbert of Semper Fi Web Design[284,411] -->
+<meta name="description" content="En Guitar Hero, cada canción del juego está compuesta básicamente por dos archivos: un .mid, y un .vgs. Si ya habéis echado un vistazo al tutorial que" />
+<meta name="keywords" content="guitar hero,musica,tutoriales,videojuegos" />
+<link rel="canonical" href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados/" />
+<!-- /all in one seo pack -->
+<link rel="shortlink" href="http://wp.me/pEGkZ-2g" /><!-- wpscanner --></head>
+<body>
+<div id="main">
+  <div id="header">
+<form method="get" id="searchform" action="http://www.elperroverde.net/">
+<div><input type="text" size=50 value="Buscar en el Blog..." onblur="if(this.value == '') {this.value = 'Buscar en el Blog...';}" onfocus="if(this.value == 'Buscar en el Blog...') {this.value = '';}"name="s" id="s" />
+</div>
+</form>
+    <!--<div id="logo">
+	  <h1><a href="http://www.elperroverde.net/">El Perro Verde</a></h1>
+	  <div class="description">Videojuegos, música, y un poco de todo a partes desiguales.</div>
+	</div>-->
+	<ul id="menu">
+	  <li class="page_item"><a href="http://www.elperroverde.net/" title="Home"><img class='imageninicio' src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/home.png' alt='Página de Inicio' /></a></li>
+	  <li class="page_item page-item-944"><a href="http://www.elperroverde.net/mi-coleccion/" title="Mi colección">Mi colección</a></li>
+<li class="page_item page-item-2"><a href="http://www.elperroverde.net/contacto/" title="Contacto">Contacto</a></li>
+<li class="page_item page-item-925"><a href="http://www.elperroverde.net/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+	</ul>
+
+
+
+  </div>
+  <!--/header -->
+  <div id="content">
+  
+    
+    <div class="post" id="post-140">
+    <div class="post-date"><span class="post-month">Sep</span> <span class="post-day">21</span></div>
+<div class="title">
+	  <h2><a href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados/" rel="bookmark" title="Permalink a [GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero">[GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero</a></h2>
+		<small class="author">Por <b>Tragy</b>, publicado el <b>21 de Septiembre, 2008 | <a href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados/#comments" title="Comentarios en [GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero">31 comentarios </a></b><small class="date"></small></small></div>
+	  <div class="entry">
+		<p>En Guitar Hero, cada canción del juego está compuesta básicamente por dos archivos: un .mid, y un .vgs. Si ya habéis echado un vistazo al tutorial que publiqué hace un tiempo <a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas.html">en este mismo blog</a>, ya sabréis que el .vgs contiene el audio dividido en 4 o 5 pistas, así como un mp3 común tiene dos, una para el altavoz izquierdo y otra para el derecho.</p>
+<p>El .mid, debe estar creado expresamente para ser introducido en el juego. No sirven los típicos politonos en formato <span style="font-style:italic;">midi</span>, ya que no tienen datos que el juego pueda reconocer.</p>
+<p>En este tutorial, vamos a usar un programa llamado <a href="http://www.scorehero.com/forum/viewtopic.php?t=7466">FeedBack</a>. Los archivos que se obtienen con él son .chart, aunque cumplirán la misma función que el .mid del juego: contendrán la posición de cada nota, las animaciones de los personajes en cada momento de la canción, efectos de luces, secciones para el modo práctica&#8230; Resumiendo, lo que hace falta para la canción.</p>
+<p>Una vez creado el .chart, podremos ponerlo en el juego <a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas.html">usando el Guitar Hero Explorer</a>, o convertirlo a otros formatos para usarlo en Guitar Zero, o Frets on Fire.</p>
+<p>En fin, tras una breve y aburrida introducción, vamos a lo que interesa. Habrá mucho texto, pero es necesario para analizar a fondo este fantástico programa.<span class="linkleermas"> </span></p>
+<p><span class="fullpost"><span style="font-size:180%;"><br />
+</span></span></p>
+<div style="text-align:center;"><span style="font-size:130%;"><span style="font-size:130%;">CREAR CANCIONES PARA GUITAR HERO USANDO FEEDBACK</span><br />
+</span></div>
+<p style="text-align: left;"><a href="http://picasaweb.google.com/lh/photo/X-rus9M-11dvk5qjKKRffA?feat=embedwebsite"><img class="aligncenter" src="http://lh3.ggpht.com/_4Ori_yu5PJU/SNgOW05fsCI/AAAAAAAAAQY/TgDo1ewwykc/s400/MarcaAgua.jpg" alt="" /></a><br />
+Con este programa, podremos crear archivos .chart, que ya contendrán todo lo necesario para poder meterlos en el juego. Sobre estas lineas, hay una captura del aspecto del programa, con la interfaz sobre la que se crean las canciones. Bastante parecido a Guitar Hero, digamos. De ahí que resulte tan intuitivo colocar las notas que luego tocaremos en el juego.</p>
+<p>Lo primero es <a href="http://www.dotblip.com/feedback/index.php?page=download">descargar el programa</a> en cuestión y descomprimirlo en una carpeta, a nuestro gusto. Echando un vistazo, vemos que dentro de la carpeta, hay un par de ejecutables, y la carpeta <span style="font-style:italic;">Songs</span>, entre otras cosas. Nos interesa <span style="font-style:italic;">FeedBack.exe</span> (o <span style="font-style:italic;">FeedBack_OpenGL.exe</span>, si conoces la diferencia sabrás cual es el que mas te conviene). Al hacer doble clic en este archivo, nos llevará a la pantalla de selección de idioma, y tras una pequeña pantalla de ayuda, de la que saldremos pulsando <span style="font-style:italic;">Esc</span>, encontramos una pantalla similar a la que comentaba antes.</p>
+<p>Antes de empezar, si queréis echad un vistazo a las opciones que tiene el programa. Lo básico, es pulsar <span style="font-style:italic;">Esc</span> para acceder al menú, e ir navegando por las opciones con las flechas hacia arriba o abajo, pulsando <span style="font-style:italic;">Intro</span> para seleccionar una opción.</p>
+<p>Si por error, tocamos alguna opción que modifique el comportamiento del programa en general, podemos borrar el archivo <span style="font-style:italic;">Config.ini</span> que está en la carpeta principal, que al abrir el programa de nuevo se generará solito como si fuera la primera vez que lo ejecutamos.</p>
+<p>El siguiente paso, será crear un archivo nuevo para empezar una canción.</p>
+<table border="3">
+<tbody>
+<tr>
+<td>
+<div style="text-align:center;"><span style="font-size:130%;">CREAR UNA CANCIÓN NUEVA</span></div>
+<p>Vamos a crear una canción empezando de cero. Para ello, colocamos la canción en si dentro de la carpeta <span style="font-style:italic;">Songs</span>, ya sea en formato <span style="font-style:italic;">mp3</span> o <span style="font-style:italic;">ogg</span>. Hecho esto, abrimos FeedBack y pulsamos <span style="font-style:italic;">Esc </span>para ir al menú, para seleccionar <span style="font-style:italic;">Nuevo Chart</span>. En el menú que aparece, seleccionamos el audio que acabamos de copiar, y nos permitirá cambiar unos cuantos ajustes del .chart que se va a crear.</p>
+<p style="text-align: left;"><a href="http://picasaweb.google.com/lh/photo/7lu_wZUa8bxi-ID8YymNQA?feat=embedwebsite"><img class="aligncenter" src="http://lh4.ggpht.com/_4Ori_yu5PJU/SNga1Ab7xOI/AAAAAAAAAQo/btgfSnn72t4/s400/CancionNueva.JPG" alt="" /></a><br />
+Podemos poner nuestro nombre, el tipo de canción que es, y varios ajustes más, o pulsar <span style="font-style:italic;">Esc</span> para dejarlo todo por defecto y empezar lo interesante: crear la canción.</p>
+<p>Ahora, lo que tenemos que escoger es en que sección del .chart irán colocadas las notas. Para ello, podemos usar las teclas desde <span style="font-style:italic;">F1</span> a <span style="font-style:italic;">F11</span>. Cada una de estas secciones puede contener notas distintas para la misma canción. Veo que en esta última versión incluyen pistas para batería, voz, etc&#8230; Por lo que intuyo que tiene funciones para Rock Band, aunque todavía me tengo que informar bien sobre esto, tras lo cual actualizaré esta información.</p>
+<p>Además, dentro de cada sección, podemos pulsar <span style="font-style:italic;">Shift</span> + <span style="font-style:italic;">F1</span> a <span style="font-style:italic;">F4</span>, para escoger la dificultad en la que vamos a trabajar. De nuevo, se pueden colocar notas distintas en cada dificultad, y así aparecerán luego en el juego.</p>
+<p>Dicho esto, pasamos un poco a la acción, que es lo interesante.</td>
+</tr>
+</tbody>
+</table>
+<table border="3">
+<tbody>
+<tr>
+<td>
+<div style="text-align:center;"><span style="font-size:130%;">COLOCAR NOTAS Y CAMBIAR BPM</p>
+<p></span></div>
+<p>Lo más básico a la hora de crear el .chart, será colocar las notas en la plantilla, y cambiar la velocidad a la que transcurren por la pantalla. Vamos primero con las notas.</p>
+<p>Para movernos por la plantilla,  pulsamos arriba y abajo. Con izquierda y derecha cambiamos el parámetro <span style="font-style:italic;">Paso</span>, que viene a ser la distancia que nos movemos cada vez que pulsamos arriba (o abajo). 1/1 equivale a un compás, y si entendemos un mínimo de fracciones (que ya no digo de música), no habrá problemas con esto.</p>
+<p>Para colocar o quitar una nota, pulsamos <span style="font-style:italic;">1  2  3  4  5</span>. Cada tecla corresponde a una nota, 1 al verde, 2 al rojo&#8230; Se entiende, ¿no? Pues pulsando izquierda, derecha, arriba, abajo, y colocando notas, ya sabemos lo básico para ir colocándolas.<br />
+Además, para poner notas sostenidas, podemos hacerlo manteniendo pulsada la tecla de la nota que queramos colocar, y sin soltarla, pulsamos hacia arriba las veces necesarias hasta que cubra el espacio suficiente. Si cubre mas espacio del que necesitamos, podemos acortar el espacio recorrido con cada pulsación pulsando derecha o izquierda, siempre sin soltar la tecla de la nota.</p>
+<p>Vamos ahora con el BPM (<a href="http://es.wikipedia.org/wiki/Beats_per_minute">Beats Per Minute</a>, o &#8216;Pulsos&#8217; por minuto). Cuanto mas grande sea este número, mas rápido transcurren las notas. Podemos cambiarlo pulsando <span style="font-style:italic;">?</span> o <span style="font-style:italic;">¿</span>, en cualquier momento de la plantilla que estamos creando. Por e<br />
+jemplo, establecemos un BPM al principio de la canción, pulsamos arriba un par de veces, y cambiamos el BPM. Hasta el segundo cambio, la canción transcurre con el primer BPM que pusimos. Aprender a jugar con este parámetro es muy importante, para poder sincronizar las notas y ajustarlas al sonido de la canción.</p>
+<p>Para mas precisión, podemos pulsar:<br />
+<span style="font-style:italic;">Shift</span> + <span style="font-style:italic;">?/¿</span> Para cambiar el BPM en décimas.<br />
+<span style="font-style:italic;">Ctrl</span> + <span style="font-style:italic;">?/¿</span> Para cambiarlo en centésimas.<br />
+<span style="font-style:italic;">Ctrl</span> + <span style="font-style:italic;">Shift</span> + <span style="font-style:italic;">?/¿</span> O en milésimas.</p>
+<p>Mas adelante, veremos que se puede utilizar una técnica llamada Anchors (o &#8216;puntos de ancla&#8217;), con la cual marcaremos la primera nota de una sección, y la última. Después, con sincronizar solamente esas dos notas, FeedBack se encargará de colocar los BPM necesarios en esa sección para que lleve un ritmo constante. De todas formas, para poder comprender bien como funciona este método, lo mejor es aprender primero a manejarse con el cambio manual de BPM.</td>
+</tr>
+</tbody>
+</table>
+<table border="3">
+<tbody>
+<tr>
+<td>
+<div style="text-align:center;"><span style="font-size:130%;"> PREVISUALIZAR NUESTRO TRABAJO</span></div>
+<div style="text-align:center;"><span style="font-size:130%;"><br />
+</span></div>
+<div style="text-align:left;">Está muy bien colocar notas a ojo de buen cubero, pero FeedBack incluye la opción de previsualizar la canción. Ésta es la opción más útil que tiene el programa, ya que nos permitirá reproducir nuestra plantilla al mismo tiempo que la música, y así podemos ver si las notas están bien colocadas.</div>
+<p>Para empezar la previsualización, pulsamos <span style="font-style:italic;">Espacio</span>, y empezará a desplazarse la plantilla tal cual lo vemos en Guitar Hero. Pulsando de nuevo <span style="font-style:italic;">Espacio</span>, paramos, y podemos volver a editar la pista. Si queremos reproducir desde el principio la canción, podemos hacerlo con <span style="font-style:italic;">Shift</span> + <span style="font-style:italic;">Espacio</span>.</p>
+<p>Además, hay un par de opciones muy útiles durante la previsualización, que nos ayudarán a sincronizar mejor las notas.</p>
+<p>Pulsando <span style="font-style:italic;">M</span> activamos/desactivamos un metrónomo, con el que podemos asegurarnos de que estamos haciendo nuestra pista al ritmo real de la canción. No es necesario seguirlo al 100%, pero si que hará que las notas queden mucho mejor distribuidas.</p>
+<p>Con <span style="font-style:italic;">N</span> activamos las &#8216;palmadas&#8217;, que hará que suene una &#8216;palmada&#8217; cada vez que una nota que hemos colocado pase por la linea, es decir, justo cuando tendríamos que tocarla en el juego. Está bastante claro que se sincroniza mejor de oído que visualmente, y activando esta opción durante la previsualización será mas fácil saber que notas están fuera de lugar.</p>
+<p>Como pequeño inciso, podemos cambiar el volumen de estos dos efectos pulsando V, y moviendo la correspondiente barra con izquierda o derecha. Por si no oímos la canción con tanto efecto, vamos.</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/0zTAMmutCfN8S1rPNWXHDQ?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4Ori_yu5PJU/SNgqVkIzoaI/AAAAAAAAAQw/A0zBik2fiSs/s400/Vol.JPG" alt="" /></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Bueno, y hasta aquí la primera parte del tutorial. Podemos pulsar <span style="font-style:italic;">S </span>para guardar el .chart en cualquier momento, y cargarlo de nuevo cuando queramos (en lugar de pulsar en Nuevo Chart, pulsamos en Cargar Chart)</p>
+<p>Id trasteando un poco, que pronto pondré más información sobre como usar el programa: animar los personajes, colocar la energía estrella, secciones para el jugador uno y dos, y mas trucos para hacer más fácil la creación de canciones.</p>
+<p>Si queréis algunas canciones, podéis descargarlas <a href="http://www.elperroverde.net/category/guitar-hero/">aquí mismo</a>. Además, si aún no sabéis como ponerlas en el juego, tenéis <a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas.html">este fantástico tutorial</a> (cof, cof&#8230;) para insertarlas en Guitar Hero 2 de PS2.</p>
+<p>Un saludo, y nos vemos!</p>
+<p>Actualización: Ya está lista la siguiente parte del tutorial: <a href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y.html">Eventos y Secciones</a>.</p>
+<h3  class="related_post_title">También te puede interesar...</h3><ul class="related_post"><li><a href="http://www.elperroverde.net/2008/10/gh-cambiar-los-nombres-de-las-canciones/" title="[GH] Cambiar los nombres de las canciones">[GH] Cambiar los nombres de las canciones</a></li><li><a href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y/" title="[GH] Tutorial de FeedBack: Eventos y Secciones">[GH] Tutorial de FeedBack: Eventos y Secciones</a></li><li><a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas/" title="[GH] Insertar canciones personalizadas en Guitar Hero 2 (PS2)">[GH] Insertar canciones personalizadas en Guitar Hero 2 (PS2)</a></li><li><a href="http://www.elperroverde.net/2008/08/gh-pack-de-3-canciones-platero-y-t/" title="[GH] Pack de 3 canciones: Platero y Tú">[GH] Pack de 3 canciones: Platero y Tú</a></li><li><a href="http://www.elperroverde.net/2008/06/gh-canciones-exclusivas-de-xbox-360/" title="[GH] Canciones exclusivas de Xbox 360 para PS2">[GH] Canciones exclusivas de Xbox 360 para PS2</a></li></ul>				
+			  </div>		
+
+		
+<!-- You can start editing here. -->
+
+	<hr><h5 id="comments">31 respuestas a &#8220;[GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero&#8221;</h5> 
+
+	<ol class="commentlist">
+                
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-499">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>darkxwarrior</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/12/08 a las 20:39 | <a href="#comment-499">#1</a>  </small></div>
+
+			<div class="txtcom"><p>gracias por le dato amigo!!<br />ahora entiendo como usar el programa!! XD</p>
+<p>gracias</p>
+<p>salu2 desde chile</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-500">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">2/2/09 a las 6:00 | <a href="#comment-500">#2</a>  </small></div>
+
+			<div class="txtcom"><p>me late la idea, pero pues la neta soy medio piedra para eso de crear la rola, si pudieras, quisiera qu eme echaras la mano con unas rolas de mago de oz, gracias de antemano carnal.</p>
+<p><a href="mailto:deathmatch034@live.com.mx">deathmatch034@live.com.mx</a></p>
+<p>cuando me agregues, si es que lo haces, dime quien eres y tu asunto, por que si no no agrego a naiiiiden jeje gracias de new brother.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-501">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">2/2/09 a las 21:37 | <a href="#comment-501">#3</a>  </small></div>
+
+			<div class="txtcom"><p>Lo siento pero no es que ande con mucho tiempo para echarte un cable. Si es alguna duda concreta, plantéala, y a ver si te se ayudar.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-503">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">15/2/09 a las 17:02 | <a href="#comment-503">#4</a>  </small></div>
+
+			<div class="txtcom"><p>Poder se puede, pero no se cual es exactamente el método para meter las canciones en el juego, y grabarlo correctamente. En <a HREF="http://www.wiisos.com/" REL="nofollow" rel="nofollow">Wiisos</a> hay unos cuantos ya modificados, con las canciones de los que salieron en PS2, pero sobre la manera de personalizarlos no consigo encontrar nada.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-502">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Zeithgeist</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">15/2/09 a las 16:58 | <a href="#comment-502">#5</a>  </small></div>
+
+			<div class="txtcom"><p>se puede hacer para usarlo con wii?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-505">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">17/2/09 a las 20:14 | <a href="#comment-505">#6</a>  </small></div>
+
+			<div class="txtcom"><p>El .chart y el .mid cumplen la misma función, pero ambos deben estar hechos específicamente para colocar en Guitar Hero, no sirve un midi cualquiera (tipo tono de móvil, etc&#8230;)</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-504">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">17/2/09 a las 19:57 | <a href="#comment-504">#7</a>  </small></div>
+
+			<div class="txtcom"><p>una consulta, cual es la diferencia ente .mid y .chart?? es ke me bajo las canciones y luego las modifico yo en el feedback, pero tengo la Back in Black &#8211; AC/DC en formato mid y no puedo ponerlo en el feedback. como lo hago?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-506">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">22/2/09 a las 18:37 | <a href="#comment-506">#8</a>  </small></div>
+
+			<div class="txtcom"><p>tengo el feedback 0.97 aperto ESC y apreto nuevo chart, y me dice error de .mid</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-507">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">23/2/09 a las 0:16 | <a href="#comment-507">#9</a>  </small></div>
+
+			<div class="txtcom"><p>Siempre puedes probar con otra versión de FeedBack, la verdad es que el problema es extraño, y no lo había visto hasta ahora. No se me ocurre ninguna solución.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-508">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/3/09 a las 5:18 | <a href="#comment-508">#10</a>  </small></div>
+
+			<div class="txtcom"><p>Cuando abro el feedback.exe me sale que ha ocuirrido un error y cuando abro el otro (feedback_openGl o algo asi) me corre, pero las letras son puros cuadrados y no se distingue bien las imagenes.<br />quise actualizar mi targeta de video pero parece ke mi kompu esta ya un poko antigua y cuando actualizo mi targeta de video no le puedo poner una resolucion mayor de 600*800 o una calidad de color mas alta que &#8220;la mas baja&#8221;.<br />Lo ams probable es ke sea la targetra de video pero como cambio eso para que me pueda dejar poner una resolusion mayor a 600*800 y una calidad de color mas alta que &#8220;la mas baja&#8221;.<br />ayuda pliss!!!<br />grax x too</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-509">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/3/09 a las 14:43 | <a href="#comment-509">#11</a>  </small></div>
+
+			<div class="txtcom"><p>Pues ya casi te has respondido tú mismo, podría ser perfectamente que no sea compatible con tu tarjeta gráfica al 100%, o algo así.</p>
+<p>Sobre lo de que no te deje cambiar la resolución, has instalado los drivers de tu tarjeta? Sabiendo el modelo, te pasaría un link para que los descargues. Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-510">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/3/09 a las 15:37 | <a href="#comment-510">#12</a>  </small></div>
+
+			<div class="txtcom"><p>es una S3 Graphics ProSavageDDR, que me vino incorporada con la pc.<br />la version del software es 6.14.10.0012-13.94.12</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-511">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/3/09 a las 16:39 | <a href="#comment-511">#13</a>  </small></div>
+
+			<div class="txtcom"><p>Aquí tienes el enlace a lo últimos drivers, versión 13.94.33, desde la web oficial. A ver si hay suerte y te arregla el problema, de lo contrario no se me ocurre ninguna otra solución&#8230; Salvo actualizar la gráfica, que podría ser el problema, tampoco es seguro que esté ahí el fallo.</p>
+<p><a href="http://www.viaarena.com/Driver/S3G_ProSavageDDR_winxp_v139433.zip" rel="nofollow">http://www.viaarena.com/Driver.....139433.zip</a></p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-512">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/3/09 a las 21:51 | <a href="#comment-512">#14</a>  </small></div>
+
+			<div class="txtcom"><p>Gracias x el link! pero cuando actualizo el controlador, despues de reiniciarlo, no me deja poner una resolucion mayor a 640 x 480 ni tampoco una calidad de colr de 16 o 32 bits,i todo se ve feo sin una buena resolucion, osea cuando pongo ke la resolucion sea de 1024 x 768 y con una calidad de color de 32 bits, se pone la pantalla en negro como si fuera a cambiar de resolucion y color, pero sige con la misma resolucion y color, y obiamente ahi sale que la resolucion es de 640 x 480 y la calidad de color &#8220;la mas baja&#8221;, asi ke tube que regresar a mi antiguo controlador.<br />como puedo arreglar esto? ( ya trate con el solucionador de problemas y no me ayudo mucho).<br />grax!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-513">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">29/3/09 a las 2:16 | <a href="#comment-513">#15</a>  </small></div>
+
+			<div class="txtcom"><p>Quizá me haya lanzado un poco, pero estás usando Windows XP?</p>
+<p>Si es así, algo falló durante la instalación. Si usas otro sistema operativo, miramos de instalar los drivers correctos.</p>
+<p>Para asegurarte de que los instalas bien, vas al Panel de Control, buscas cualquier programa relacionado con S3 Graphics, y lo desinstalas. Reinicias, y luego instalas los drivers nuevos. Según sea el caso, tendrás que reiniciar una o dos veces para que te los reconozca correctamente, y poder cambiar los ajustes.</p>
+<p>De todas formas, ya te digo que no es seguro que vaya a solucionar el problema con FeedBack, pero por probarlo no perdemos mucho (salvo un poquito de tiempo, jeje)</p>
+<p>Te dejo el enlace del fabricante de tarjetas de tu marca, con todos sus drivers.</p>
+<p><a href="http://www.s3graphics.com/en/resources/drivers/legacy/software_archive.jsp" rel="nofollow">http://www.s3graphics.com/en/r.....rchive.jsp</a></p>
+<p>Como verás, el último driver que tienen ahí colgado es el mismo que te puse antes, e indican que para drivers más recientes para la ProSavageDDR vayas a viaarena.com, pero no hay nada más reciente.</p>
+<p>Un saludo, para cualquier duda aquí estoy!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-515">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/4/09 a las 0:19 | <a href="#comment-515">#16</a>  </small></div>
+
+			<div class="txtcom"><p>El StarPower es pulsando la tecla 8 y arrastrando, como expliqué en el segundo comentario de <a HREF="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y.html" REL="nofollow" rel="nofollow">este artículo</a>.</p>
+<p>También tienes ahí como añadir algunos detalles más. </p>
+<p>Sobre las notas &#8220;iluminadas&#8221;, se activan automáticamente si están lo suficientemente próximas (lo cual varía en función de la velocidad de la canción).</p>
+<p>Fíjate bien, también en FeedBack aparecen diferentes, si hay que tocarlas todas con la barra aparecen con un cerco negro en la parte superior.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-514">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/4/09 a las 0:03 | <a href="#comment-514">#17</a>  </small></div>
+
+			<div class="txtcom"><p>Muy buen tutorial, es justo lo que estaba buscando. Pero, ¿no sabes como poner el StarPower o las notas iluminadas que se utilizan en la guitarra? Esas notas que hacen que no tengas que apretar la barra muchas veces, solo los botones de la guitarra. Y por lo general vienen en los solos. <br />Desde ya muchas gracias.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-517">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/4/09 a las 21:00 | <a href="#comment-517">#18</a>  </small></div>
+
+			<div class="txtcom"><p>Son las secciones que toca el jugador 1 y el 2 en el modo para dos jugadores. Se colocan manteniendo pulsado 6 (jugador 1) y 7 (jugador 2), y pulsando hacia arriba hasta el punto que se quiere que llegue la sección.</p>
+<p>Un saludo, y me alegro de que te fuera útil!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-516">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/4/09 a las 20:57 | <a href="#comment-516">#19</a>  </small></div>
+
+			<div class="txtcom"><p>muy buen tutorial, las franjas rojas y amarillas que estan a la derecha que aparece cuando esta en experto tiene importancia?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-519">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/5/09 a las 4:18 | <a href="#comment-519">#20</a>  </small></div>
+
+			<div class="txtcom"><p>Pues lo único que te puedo recomendar es que pruebes con otro mp3, no vaya a ser que esté currupto el que estás usando.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-518">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>felipe prieto</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/5/09 a las 3:53 | <a href="#comment-518">#21</a>  </small></div>
+
+			<div class="txtcom"><p>cuando creo un nuevo chart para comenzar a editar la cancion me sale archivo de audio no reconocido, siendo que es un mp3<br />espero que puedas ayudar</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-520">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">20/5/09 a las 6:04 | <a href="#comment-520">#22</a>  </small></div>
+
+			<div class="txtcom"><p>hola a todos <br />alguien tiene el cheart de monsoon- tokio hotel<br />el q lo tenga me lo puede enviar a <a href="mailto:death_gaara@hotmail.es">death_gaara@hotmail.es</a><br />gracias por su atencion<br />y muy buen tutorial</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-521">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Macintorge</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/5/09 a las 1:18 | <a href="#comment-521">#23</a>  </small></div>
+
+			<div class="txtcom"><p>El link de descarga en la pagina original no descarga, dice un error como este:</p>
+<p>Not Found</p>
+<p>The requested URL /feedback/FeedBack0.97b.zip was not found on this server.<br />Apache/2.0.54 Server at <a href="http://www.customhero.net" rel="nofollow">http://www.customhero.net</a> Port 80</p>
+<p>Aun no se cual es el problema y me urge, de veras el programa,por lo menos este que yo veo que es mas rapido que el GHexplorer (por lo menos para mi).</p>
+<p>Si tienes el programa, no lo podras subir, yo creo que varios se quedaron estancados con esto.</p>
+<p>Otra cosa ademas, mi sistema es Ubuntu 8.04</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-522">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/5/09 a las 11:10 | <a href="#comment-522">#24</a>  </small></div>
+
+			<div class="txtcom"><p>Pues parece que tienen problemas, porque es el hosting oficial del archivo. De todas formas, no acabo de entender lo de que te vaya más rápido que GHExplorer, no sirven para lo mismo los dos programas.</p>
+<p>En cuanto encuentre un link que funcione, actualizo, pero todo lo que veo son links a la web oficial.. xD</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-525">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">21/7/09 a las 19:00 | <a href="#comment-525">#25</a>  </small></div>
+
+			<div class="txtcom"><p>Pues tiene toda la pinta de ser un fallo en la instalación de DirectX, yo probaría a reinstalarlo y a ver que pasa. No te olvides de comentar los resultados <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>Por si no funcionara, que versión de Windows estás usando?</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-523">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Alex</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">21/7/09 a las 18:41 | <a href="#comment-523">#26</a>  </small></div>
+
+			<div class="txtcom"><p>man una ayuda : cuando abro el FeedBack.exe me sale error falta el componente d3dx9_37.Dll y cuando abro el FeedBack_OpenGL.exe me sale error falta el componente XINPUT1_3.dll. y en ambas me dicen la reinstalacion de la aplicacion puede solucionar el problema , pero cuando  el FeedBack.exe lo llevo al Escritorio con el componente d3dx9_37.Dll  lo ejecuto y aparece como si va a acrir FeddBack pero despues de unos segundos se cierra solo. <br />Man ayudame a abrir el FeedBack</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-524">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Alex</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">21/7/09 a las 18:58 | <a href="#comment-524">#27</a>  </small></div>
+
+			<div class="txtcom"><p>a me olvidava man un SALUDO!!!!!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1122">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/8981dab8ede2d94dfeb23e4d68b76857?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>GUITAR</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">30/12/09 a las 0:20 | <a href="#comment-1122">#28</a>  </small></div>
+
+			<div class="txtcom"><p>Estas canciones que se hacen las puedo pasar a el juego gitar hero del WII o no?????</p>
+<p>Un saludo¡</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1129">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">31/12/09 a las 5:36 | <a href="#comment-1129">#29</a>  </small></div>
+
+			<div class="txtcom"><p>En principio se podrían &#8220;adaptar&#8221;, aunque estas se preparan para el GH2 y puede haber algunos cambios en el formato de los archivos. Si el programa para crear el juego de Wii te permite importarlos sin problemas, lo más seguro es que funcionen.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1357">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/97d470e30d38711b21d111907fceffd0?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.simracingafull.net' rel='external nofollow' class='url'>LuKAs</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">18/2/10 a las 2:23 | <a href="#comment-1357">#30</a>  </small></div>
+
+			<div class="txtcom"><p>Hola estube leyendo el tutorial y resylta que no puedo solucionar un sector de las notas ya que no puedo modificar el offset para moverme. Con que teclas me muevo por el offset?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-1427">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/898e9cba9830a0e2fb7a2f743dd5ad33?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Andres Julian</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">22/3/10 a las 7:05 | <a href="#comment-1427">#31</a>  </small></div>
+
+			<div class="txtcom"><p>Muchas gracia loko!! tu post logro que pudiera hoy crear mi primer cancion para RB2.. y quedo muy buena!!!! Thks!!</p>
+</div>
+
+		</ul>
+         	
+
+	
+	</ol>
+
+ 
+
+<h3 id="respond">Escríbeme algo ;)</h3>
+
+
+<form action="http://www.elperroverde.net/elperroverde/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><strong>Nombre</strong> (obligatorio)</label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><strong>Mail</strong> (no será publicado) (obligatorio)</label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><strong>Sitio Web</strong> (opcional)</label></p>
+
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p class="enviar"><input name="submit" type="submit" id="submit" tabindex="5" value="Enviar Comentario" />
+<input type="hidden" name="comment_post_ID" value="140" />
+</p>
+
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notificarme nuevos comentarios vía e-mail.</label>
+	</p>
+
+
+
+</form>
+<pre>Pingbacks/Trackbacks:<br /></pre>
+
+	
+	  </div><!--/post -->
+		
+			
+  </div><!--/content -->
+
+<div id="sidebar">
+<ul>
+
+  <li id="text-3" class="widget widget_text"><h2 class="sidebartitle">RSS</h2>			<div class="textwidget"><center><a href="http://feeds2.feedburner.com/cosasDelPerroVerde" rel="alternate" title="RSS El Perro Verde" type="application/rss+xml"><img alt="" src="http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon.jpg"/></a></center>
+
+</div>
+		</li><li id="get-recent-comments" class="widget widget_get_recent_comments"><h2 class="sidebartitle">Se comenta...</h2><div id="get_recent_comments_wrap"><ul>	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=81e13a0c75438a7aa226ea6f5dcbe20c&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-1842" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 04/06/2010">marcuos</a>:<br/>quie quiere jugar a red alert 2 mi red: mar2co clave: 1234 me conecto seguido</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=76124fe492aab067a9db0652fdb429bc&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2007/10/ya-que-me-han-preguntado-hoy-por-l/#comment-1839" title ="En Tutorial IMBNes: Emulador de NES para PSX, 02/06/2010">evil_ultralisco</a>:<br/>no entiendo q qeres decir con: -Un método para cargarlo en nuestra ps2 o psx</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=7833f7042bcbf94324423b3af3a85e5e&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-1810" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 28/05/2010">Ale</a>:<br/>Funca en windows seven y vista?</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2cc90b51a364d6e07389f6229987d89b&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1809" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">agumatt</a>:<br/>gracias por responder</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=aafccc3a4f895d0720237fbe278b4107&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1807" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">perfecto</a>:<br/>Si, tienes que tener una clave solo del Section 8, no vale la de otro juego, como el Dirt 2. Hay webs que...</div>
+</ul></div></li><li id="execphp-2" class="widget widget_execphp"><h2 class="sidebartitle">Etiquetas</h2>			
+			<div class="execphpwidget"><!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/swfobject.js"></script><div id="wpcumuluscontent4875398"><p><a href='http://www.elperroverde.net/tag/analisis/' class='tag-link-5' title='8 temas' style='font-size: 13.027624309392pt;'>Análisis</a>
+<a href='http://www.elperroverde.net/tag/anime/' class='tag-link-6' title='4 temas' style='font-size: 11.093922651934pt;'>Anime</a>
+<a href='http://www.elperroverde.net/tag/articulos/' class='tag-link-67' title='2 temas' style='font-size: 9.3922651933702pt;'>Artículos</a>
+<a href='http://www.elperroverde.net/tag/blogueando/' class='tag-link-7' title='10 temas' style='font-size: 13.723756906077pt;'>Blogueando</a>
+<a href='http://www.elperroverde.net/tag/cabreos/' class='tag-link-77' title='12 temas' style='font-size: 14.265193370166pt;'>Cabreos</a>
+<a href='http://www.elperroverde.net/tag/chorradas/' class='tag-link-8' title='65 temas' style='font-size: 19.756906077348pt;'>Chorradas</a>
+<a href='http://www.elperroverde.net/tag/cine/' class='tag-link-9' title='6 temas' style='font-size: 12.254143646409pt;'>Cine</a>
+<a href='http://www.elperroverde.net/tag/citas/' class='tag-link-10' title='10 temas' style='font-size: 13.723756906077pt;'>Citas</a>
+<a href='http://www.elperroverde.net/tag/concursos/' class='tag-link-83' title='2 temas' style='font-size: 9.3922651933702pt;'>Concursos</a>
+<a href='http://www.elperroverde.net/tag/descargas/' class='tag-link-13' title='29 temas' style='font-size: 17.127071823204pt;'>Descargas</a>
+<a href='http://www.elperroverde.net/tag/dreamcast/' class='tag-link-66' title='6 temas' style='font-size: 12.254143646409pt;'>Dreamcast</a>
+<a href='http://www.elperroverde.net/tag/el-perro-verde/' class='tag-link-85' title='4 temas' style='font-size: 11.093922651934pt;'>El Perro Verde</a>
+<a href='http://www.elperroverde.net/tag/emuladores/' class='tag-link-14' title='9 temas' style='font-size: 13.414364640884pt;'>Emuladores</a>
+<a href='http://www.elperroverde.net/tag/epic-win/' class='tag-link-63' title='11 temas' style='font-size: 14.033149171271pt;'>Epic Win</a>
+<a href='http://www.elperroverde.net/tag/eventos/' class='tag-link-16' title='3 temas' style='font-size: 10.32044198895pt;'>Eventos</a>
+<a href='http://www.elperroverde.net/tag/flash/' class='tag-link-17' title='2 temas' style='font-size: 9.3922651933702pt;'>Flash</a>
+<a href='http://www.elperroverde.net/tag/guitar-hero/' class='tag-link-19' title='12 temas' style='font-size: 14.265193370166pt;'>Guitar Hero</a>
+<a href='http://www.elperroverde.net/tag/humor/' class='tag-link-59' title='32 temas' style='font-size: 17.436464088398pt;'>Humor</a>
+<a href='http://www.elperroverde.net/tag/imagenes/' class='tag-link-21' title='37 temas' style='font-size: 17.900552486188pt;'>Imagenes</a>
+<a href='http://www.elperroverde.net/tag/informatica/' class='tag-link-22' title='12 temas' style='font-size: 14.265193370166pt;'>Informática</a>
+<a href='http://www.elperroverde.net/tag/internet/' class='tag-link-23' title='32 temas' style='font-size: 17.436464088398pt;'>Internet</a>
+<a href='http://www.elperroverde.net/tag/kaos2k/' class='tag-link-84' title='8 temas' style='font-size: 13.027624309392pt;'>Kaos2K</a>
+<a href='http://www.elperroverde.net/tag/left-4-dead/' class='tag-link-70' title='4 temas' style='font-size: 11.093922651934pt;'>Left 4 Dead</a>
+<a href='http://www.elperroverde.net/tag/memes/' class='tag-link-25' title='3 temas' style='font-size: 10.32044198895pt;'>Memes</a>
+<a href='http://www.elperroverde.net/tag/mods/' class='tag-link-71' title='5 temas' style='font-size: 11.71270718232pt;'>Mods</a>
+<a href='http://www.elperroverde.net/tag/musica/' class='tag-link-27' title='41 temas' style='font-size: 18.209944751381pt;'>Musica</a>
+<a href='http://www.elperroverde.net/tag/nvidia/' class='tag-link-28' title='1 tema' style='font-size: 8pt;'>nVidia</a>
+<a href='http://www.elperroverde.net/tag/ofertas/' class='tag-link-75' title='4 temas' style='font-size: 11.093922651934pt;'>Ofertas</a>
+<a href='http://www.elperroverde.net/tag/only-japon/' class='tag-link-29' title='2 temas' style='font-size: 9.3922651933702pt;'>Only Japón</a>
+<a href='http://www.elperroverde.net/tag/opiniones/' class='tag-link-60' title='15 temas' style='font-size: 14.961325966851pt;'>Opiniones</a>
+<a href='http://www.elperroverde.net/tag/pc/' class='tag-link-30' title='34 temas' style='font-size: 17.591160220994pt;'>PC</a>
+<a href='http://www.elperroverde.net/tag/pensamientos/' class='tag-link-31' title='7 temas' style='font-size: 12.640883977901pt;'>Pensamientos</a>
+<a href='http://www.elperroverde.net/tag/proyectos/' class='tag-link-81' title='2 temas' style='font-size: 9.3922651933702pt;'>Proyectos</a>
+<a href='http://www.elperroverde.net/tag/redes/' class='tag-link-78' title='2 temas' style='font-size: 9.3922651933702pt;'>Redes</a>
+<a href='http://www.elperroverde.net/tag/retro/' class='tag-link-61' title='20 temas' style='font-size: 15.889502762431pt;'>Retro</a>
+<a href='http://www.elperroverde.net/tag/series/' class='tag-link-33' title='6 temas' style='font-size: 12.254143646409pt;'>Series</a>
+<a href='http://www.elperroverde.net/tag/street-fighter/' class='tag-link-34' title='7 temas' style='font-size: 12.640883977901pt;'>Street Fighter</a>
+<a href='http://www.elperroverde.net/tag/tetinas/' class='tag-link-80' title='5 temas' style='font-size: 11.71270718232pt;'>Tetiñas</a>
+<a href='http://www.elperroverde.net/tag/tutoriales/' class='tag-link-35' title='17 temas' style='font-size: 15.425414364641pt;'>Tutoriales</a>
+<a href='http://www.elperroverde.net/tag/vinetas/' class='tag-link-82' title='7 temas' style='font-size: 12.640883977901pt;'>Viñetas</a>
+<a href='http://www.elperroverde.net/tag/videojuegos/' class='tag-link-36' title='127 temas' style='font-size: 22pt;'>Videojuegos</a>
+<a href='http://www.elperroverde.net/tag/videos/' class='tag-link-37' title='58 temas' style='font-size: 19.370165745856pt;'>Videos</a>
+<a href='http://www.elperroverde.net/tag/wii/' class='tag-link-38' title='7 temas' style='font-size: 12.640883977901pt;'>Wii</a>
+<a href='http://www.elperroverde.net/tag/wtf/' class='tag-link-39' title='3 temas' style='font-size: 10.32044198895pt;'>WTF</a>
+<a href='http://www.elperroverde.net/tag/mm/' class='tag-link-110' title='2 temas' style='font-size: 9.3922651933702pt;'>[+-]</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com">Roy Tanck</a> and <a href="http://lukemorton.co.uk/">Luke Morton</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var so3533597 = new SWFObject("http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/tagcloud.swf?r=7561758", "tagcloudflash", "288", "250", "9", "#22201D");so3533597.addParam("wmode", "transparent");so3533597.addParam("allowScriptAccess", "always");so3533597.addVariable("tcolor", "0x7ACD23");so3533597.addVariable("tcolor2", "0x7ACD23");so3533597.addVariable("hicolor", "0x7ACD23");so3533597.addVariable("tspeed", "100");so3533597.addVariable("distr", "true");so3533597.addVariable("mode", "tags");so3533597.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanalisis%2F%27+class%3D%27tag-link-5%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EAn%C3%A1lisis%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanime%2F%27+class%3D%27tag-link-6%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EAnime%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Farticulos%2F%27+class%3D%27tag-link-67%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EArt%C3%ADculos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fblogueando%2F%27+class%3D%27tag-link-7%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3EBlogueando%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcabreos%2F%27+class%3D%27tag-link-77%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3ECabreos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fchorradas%2F%27+class%3D%27tag-link-8%27+title%3D%2765+temas%27+style%3D%27font-size%3A+19.756906077348pt%3B%27%3EChorradas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcine%2F%27+class%3D%27tag-link-9%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ECine%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcitas%2F%27+class%3D%27tag-link-10%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3ECitas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fconcursos%2F%27+class%3D%27tag-link-83%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EConcursos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdescargas%2F%27+class%3D%27tag-link-13%27+title%3D%2729+temas%27+style%3D%27font-size%3A+17.127071823204pt%3B%27%3EDescargas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdreamcast%2F%27+class%3D%27tag-link-66%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3EDreamcast%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fel-perro-verde%2F%27+class%3D%27tag-link-85%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EEl+Perro+Verde%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Femuladores%2F%27+class%3D%27tag-link-14%27+title%3D%279+temas%27+style%3D%27font-size%3A+13.414364640884pt%3B%27%3EEmuladores%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fepic-win%2F%27+class%3D%27tag-link-63%27+title%3D%2711+temas%27+style%3D%27font-size%3A+14.033149171271pt%3B%27%3EEpic+Win%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Feventos%2F%27+class%3D%27tag-link-16%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EEventos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fflash%2F%27+class%3D%27tag-link-17%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EFlash%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fguitar-hero%2F%27+class%3D%27tag-link-19%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EGuitar+Hero%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fhumor%2F%27+class%3D%27tag-link-59%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EHumor%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fimagenes%2F%27+class%3D%27tag-link-21%27+title%3D%2737+temas%27+style%3D%27font-size%3A+17.900552486188pt%3B%27%3EImagenes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finformatica%2F%27+class%3D%27tag-link-22%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EInform%C3%A1tica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finternet%2F%27+class%3D%27tag-link-23%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EInternet%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fkaos2k%2F%27+class%3D%27tag-link-84%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EKaos2K%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fleft-4-dead%2F%27+class%3D%27tag-link-70%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3ELeft+4+Dead%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmemes%2F%27+class%3D%27tag-link-25%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EMemes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmods%2F%27+class%3D%27tag-link-71%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3EMods%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmusica%2F%27+class%3D%27tag-link-27%27+title%3D%2741+temas%27+style%3D%27font-size%3A+18.209944751381pt%3B%27%3EMusica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fnvidia%2F%27+class%3D%27tag-link-28%27+title%3D%271+tema%27+style%3D%27font-size%3A+8pt%3B%27%3EnVidia%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fofertas%2F%27+class%3D%27tag-link-75%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EOfertas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fonly-japon%2F%27+class%3D%27tag-link-29%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EOnly+Jap%C3%B3n%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fopiniones%2F%27+class%3D%27tag-link-60%27+title%3D%2715+temas%27+style%3D%27font-size%3A+14.961325966851pt%3B%27%3EOpiniones%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpc%2F%27+class%3D%27tag-link-30%27+title%3D%2734+temas%27+style%3D%27font-size%3A+17.591160220994pt%3B%27%3EPC%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpensamientos%2F%27+class%3D%27tag-link-31%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EPensamientos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fproyectos%2F%27+class%3D%27tag-link-81%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EProyectos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fredes%2F%27+class%3D%27tag-link-78%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3ERedes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fretro%2F%27+class%3D%27tag-link-61%27+title%3D%2720+temas%27+style%3D%27font-size%3A+15.889502762431pt%3B%27%3ERetro%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fseries%2F%27+class%3D%27tag-link-33%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ESeries%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fstreet-fighter%2F%27+class%3D%27tag-link-34%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EStreet+Fighter%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftetinas%2F%27+class%3D%27tag-link-80%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3ETeti%C3%B1as%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftutoriales%2F%27+class%3D%27tag-link-35%27+title%3D%2717+temas%27+style%3D%27font-size%3A+15.425414364641pt%3B%27%3ETutoriales%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvinetas%2F%27+class%3D%27tag-link-82%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EVi%C3%B1etas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideojuegos%2F%27+class%3D%27tag-link-36%27+title%3D%27127+temas%27+style%3D%27font-size%3A+22pt%3B%27%3EVideojuegos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideos%2F%27+class%3D%27tag-link-37%27+title%3D%2758+temas%27+style%3D%27font-size%3A+19.370165745856pt%3B%27%3EVideos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwii%2F%27+class%3D%27tag-link-38%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EWii%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwtf%2F%27+class%3D%27tag-link-39%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EWTF%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmm%2F%27+class%3D%27tag-link-110%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3E%5B%2B-%5D%3C%2Fa%3E%3C%2Ftags%3E");so3533597.write("wpcumuluscontent4875398");</script></div>
+		</li><li id="linkcat-57" class="widget widget_links"><h2 class="sidebartitle">A veces me paso por...</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://akihabarablues.com/" target="_blank">Akihabara Blues</a></li>
+<li><a href="http://www.anaitgames.com/" target="_blank">AnaitGames</a></li>
+<li><a href="http://botafumeiroag.blogspot.com/" target="_blank">Botafumeiro AG</a></li>
+<li><a href="http://botafumeirovideojuegos.blogspot.com/" target="_blank">Botafumeiro Videojuegos</a></li>
+<li><a href="http://danteneverdies.wordpress.com/" target="_blank">Danteneverdies Gamerblog</a></li>
+<li><a href="http://elblogdemanu.com/" target="_blank">El Blog de Manu</a></li>
+<li><a href="http://www.topofarmer.com/" target="_blank">El Blog de Topofarmer</a></li>
+<li><a href="http://www.elpixelilustre.com/" target="_blank">El Pixel Ilustre</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er Blog der JuMaFaS</a></li>
+<li><a href="http://www.frostias.com/" target="_blank">Frostias</a></li>
+<li><a href="http://www.gamesajare.com/" target="_blank">GamesAjare</a></li>
+<li><a href="http://jueves13.com" target="_blank">Jueves13</a></li>
+<li><a href="http://www.kaos2k.com/" target="_blank">Kaos2K.com</a></li>
+<li><a href="http://www.nosologames.net" target="_blank">NoSoloGames</a></li>
+<li><a href="http://www.pixfans.com" target="_blank">PixFans</a></li>
+<li><a href="http://www.yonosoyfreak.com/" target="_blank">Yo no soy freak</a></li>
+
+	</ul>
+</li>
+<li id="archives-3" class="widget widget_archive"><h2 class="sidebartitle">Archivo del Blog</h2>		<ul>
+			<li><a href='http://www.elperroverde.net/2010/03/' title='Marzo 2010'>Marzo 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2010/02/' title='Febrero 2010'>Febrero 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2010/01/' title='Enero 2010'>Enero 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/12/' title='Diciembre 2009'>Diciembre 2009</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2009/11/' title='Noviembre 2009'>Noviembre 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/10/' title='Octubre 2009'>Octubre 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2009/09/' title='Septiembre 2009'>Septiembre 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/08/' title='Agosto 2009'>Agosto 2009</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2009/07/' title='Julio 2009'>Julio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/06/' title='Junio 2009'>Junio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/05/' title='Mayo 2009'>Mayo 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2009/04/' title='Abril 2009'>Abril 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/03/' title='Marzo 2009'>Marzo 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/02/' title='Febrero 2009'>Febrero 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2009/01/' title='Enero 2009'>Enero 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/12/' title='Diciembre 2008'>Diciembre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2008/11/' title='Noviembre 2008'>Noviembre 2008</a>&nbsp;(12)</li>
+	<li><a href='http://www.elperroverde.net/2008/10/' title='Octubre 2008'>Octubre 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.elperroverde.net/2008/09/' title='Septiembre 2008'>Septiembre 2008</a>&nbsp;(20)</li>
+	<li><a href='http://www.elperroverde.net/2008/08/' title='Agosto 2008'>Agosto 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/07/' title='Julio 2008'>Julio 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2008/06/' title='Junio 2008'>Junio 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/05/' title='Mayo 2008'>Mayo 2008</a>&nbsp;(11)</li>
+	<li><a href='http://www.elperroverde.net/2008/04/' title='Abril 2008'>Abril 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/03/' title='Marzo 2008'>Marzo 2008</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2008/02/' title='Febrero 2008'>Febrero 2008</a>&nbsp;(13)</li>
+	<li><a href='http://www.elperroverde.net/2008/01/' title='Enero 2008'>Enero 2008</a>&nbsp;(9)</li>
+	<li><a href='http://www.elperroverde.net/2007/12/' title='Diciembre 2007'>Diciembre 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2007/11/' title='Noviembre 2007'>Noviembre 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2007/10/' title='Octubre 2007'>Octubre 2007</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2007/09/' title='Septiembre 2007'>Septiembre 2007</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2007/08/' title='Agosto 2007'>Agosto 2007</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2007/07/' title='Julio 2007'>Julio 2007</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2007/06/' title='Junio 2007'>Junio 2007</a>&nbsp;(19)</li>
+		</ul>
+</li><li id="text-8" class="widget widget_text">			<div class="textwidget"><br/>&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed Completo</a><br/>
+
+&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde/Comentarios'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed de Comentarios</a><br/>
+
+<form action="http://feedburner.google.com/fb/a/mailverify" style="border:0px solid #ccc;padding:3px;text-align:center;" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=cosasDelPerroVerde', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>También te puedes suscribir por e-mail:</p><p><input style="width:140px" name="email" type="text"/></p><input value="cosasDelPerroVerde" name="uri" type="hidden"/><input value="es_ES" name="loc" type="hidden"/><input value="Suscribirse" type="submit"/></form>
+<br/></div>
+		</li><li id="text-6" class="widget widget_text">			<div class="textwidget"><br/>
+<center><a href="http://www.easycounter.com/es/">
+<img alt="Counter" src="http://www.easycounter.com/counter.php?tragy" 
+border="0"/></a><br/><br/>
+<center><p><a href="http://feeds.feedburner.com/cosasDelPerroVerde"><img src="http://feeds.feedburner.com/~fc/cosasDelPerroVerde?bg=4AAD13&amp;fg=FF5A00&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p></center>
+<center>
+<a href="http://bitacoras.com/bitacora/elperroverde.net" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png"/></a></center></center><br/></div>
+		</li>
+ </ul>
+</div>
+<!--/sidebar -->  
+ <div id="footer">
+<div class="center">El Perro Verde utiliza <a href="http://wordpress.org/">WordPress</a>, con una modificación personal de la plantilla <a href=http://wordpress.org/extend/themes/girl>girl</a>.
+Todos los contenidos publicados bajo <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">Creative Commons</a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">   <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png"/>
+</div></div>
+<script src="http://stats.wordpress.com/e-201023.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'9695869',v:'ext',post:'140'});
+var load_cmc = function(){linktracker_init(9695869,140,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+<!--Analytics-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2055026-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

@@ -1,0 +1,1067 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>[GH] Tutorial de FeedBack: Eventos y Secciones | El Perro Verde</title>
+
+<meta name="generator" content="WordPress 2.9.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.elperroverde.net/elperroverde/wp-content/themes/girl/style.css?1269122455" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde RSS Feed" href="http://www.elperroverde.net/feed/" />
+<link rel="pingback" href="http://www.elperroverde.net/elperroverde/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde &raquo; [GH] Tutorial de FeedBack: Eventos y Secciones RSS de los comentarios" href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.elperroverde.net/elperroverde/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.elperroverde.net/elperroverde/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='El Perro Verde' href='http://www.elperroverde.net' />
+<link rel='start' title='Pasando el rato &#8230;' href='http://www.elperroverde.net/2007/06/pasando-el-rato/' />
+<link rel='prev' title='ePSXe y el sonido CDDA' href='http://www.elperroverde.net/2008/10/epsxe-y-el-sonido-cdda/' />
+<link rel='next' title='Total Grade: A' href='http://www.elperroverde.net/2008/10/total-grade/' />
+<meta name="generator" content="WordPress 2.9.1" />
+
+<!-- All in One SEO Pack 1.6.10 by Michael Torbert of Semper Fi Web Design[284,384] -->
+<meta name="description" content="Después de un primer tutorial para principiantes, continúo con la creación de canciones personalizadas para Guitar Hero. Empezaré por los eventos, que" />
+<meta name="keywords" content="guitar hero,musica,tutoriales,videojuegos" />
+<link rel="canonical" href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y/" />
+<!-- /all in one seo pack -->
+<link rel="shortlink" href="http://wp.me/pEGkZ-2r" /><!-- wpscanner --></head>
+<body>
+<div id="main">
+  <div id="header">
+<form method="get" id="searchform" action="http://www.elperroverde.net/">
+<div><input type="text" size=50 value="Buscar en el Blog..." onblur="if(this.value == '') {this.value = 'Buscar en el Blog...';}" onfocus="if(this.value == 'Buscar en el Blog...') {this.value = '';}"name="s" id="s" />
+</div>
+</form>
+    <!--<div id="logo">
+	  <h1><a href="http://www.elperroverde.net/">El Perro Verde</a></h1>
+	  <div class="description">Videojuegos, música, y un poco de todo a partes desiguales.</div>
+	</div>-->
+	<ul id="menu">
+	  <li class="page_item"><a href="http://www.elperroverde.net/" title="Home"><img class='imageninicio' src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/home.png' alt='Página de Inicio' /></a></li>
+	  <li class="page_item page-item-944"><a href="http://www.elperroverde.net/mi-coleccion/" title="Mi colección">Mi colección</a></li>
+<li class="page_item page-item-2"><a href="http://www.elperroverde.net/contacto/" title="Contacto">Contacto</a></li>
+<li class="page_item page-item-925"><a href="http://www.elperroverde.net/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+	</ul>
+
+
+
+  </div>
+  <!--/header -->
+  <div id="content">
+  
+    
+    <div class="post" id="post-151">
+    <div class="post-date"><span class="post-month">Oct</span> <span class="post-day">06</span></div>
+<div class="title">
+	  <h2><a href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y/" rel="bookmark" title="Permalink a [GH] Tutorial de FeedBack: Eventos y Secciones">[GH] Tutorial de FeedBack: Eventos y Secciones</a></h2>
+		<small class="author">Por <b>Tragy</b>, publicado el <b>6 de Octubre, 2008 | <a href="http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y/#comments" title="Comentarios en [GH] Tutorial de FeedBack: Eventos y Secciones">36 comentarios </a></b><small class="date"></small></small></div>
+	  <div class="entry">
+		<p>Después de un <a href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html">primer tutorial</a> para principiantes, continúo con la creación de canciones personalizadas para Guitar Hero.</p>
+<p>Empezaré por los eventos, que sirven para manejar las animaciones de los personajes durante la canción, efectos varios de luces, y alguna que otra información necesaria para que todo funcione correctamente. Después secciones, útiles si queremos que nuestra canción sea medianamente compatible con el modo práctica, a la par que cómodas para desplazarse mientras creamos la canción.</p>
+<table border="3">
+<tbody>
+<tr>
+<td>
+<div style="text-align:center;"></div>
+<div style="text-align:center;"><span style="font-size:130%;"><span style="font-size:180%;">EVENTOS</span></span></div>
+<div style="text-align:center;"><span style="font-size:130%;"><span style="font-size:180%;"><br />
+</span></span></div>
+<div style="text-align:left;"><span style="font-size:100%;">En Guitar Hero existen dos tipos de eventos durante las canciones: Los que afectan a toda la canción en general, juegues en el modo que juegues, como pueden ser los efectos de luces; y las que afectan a un modo en concreto, por ejemplo que el guitarrista toque un solo.</span></div>
+<p><span style="font-weight:bold;"></p>
+<p>Por si no interesa mucho el tema de las animaciones, resalto que conviene echar un vistazo al evento <span style="font-style:italic;">end<span style="font-weight:bold;"> </span></span>, que es imprescindible en cualquier canción.</span></p>
+<p>Para colocar un evento, basta con desplazarse hasta el punto en que se quiere poner, y pulsar la tecla <span style="font-style:italic;">E</span> o <span style="font-style:italic;">W</span>, para colocar unos u otros respectivamente. Escribimos el nombre del evento, y pulsamos <span style="font-style:italic;">Intro</span>. Si todavía no tienes muy claro como desplazarte por el chart, quizá deberías echar un vistazo a <a href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html">lo más básico</a>.</p>
+<p>Si colocamos el evento con la letra <span style="font-style:italic;">E</span>, afectará a absolutamente toda la canción. Por ejemplo, si colocamos un efecto de luz en donde estamos poniendo las notas de la guitarra, afectará a todas las pistas por igual: cooperativo, bajo, el resto de las dificultades&#8230;</p>
+<p>Sin embargo, colocándolo con <span style="font-style:italic;">W</span>, afecta únicamente a la pista en donde está colocado. Sirven principalmente para controlar las animaciones de cada personaje por separado. Por ejemplo, podemos hacer que en el mismo momento el guitarrista y el bajo hagan cosas distintas, colocando los eventos en sus correspondientes pistas. Eso si, basta con ponerlos en una de las dificultades, que en el resto se aplicarán automáticamente.</p>
+<p>Vamos entonces con la lista de posibles eventos, y su efecto:</p>
+<p><span style="font-style:italic;font-weight:bold;">band_jump</span>:  Todo el grupo da un salto al unísono. Lo harán al principio del compás continuo al evento, y caerán 1/4 de compás después.</p>
+<p><span style="font-style:italic;font-weight:bold;">chorus</span>: Indica el comienzo del estribillo.</p>
+<p><span style="font-style:italic;font-weight:bold;">crowd_double_tempo</span>: El público se mueve al doble de la velocidad (que depende del BPM del momento)</p>
+<p><span style="font-weight:bold;font-style:italic;">crowd_half_tempo</span>: El público se mueve a la mitad de la velocidad.</p>
+<p><span style="font-weight:bold;font-style:italic;">crowd_lighters_fast</span>: El público agita sus mecheros rapidamente.</p>
+<p><span style="font-weight:bold;font-style:italic;">crowd_lighters_slow</span>: El público agita sus mecheros lentamente.</p>
+<p><span style="font-style:italic;font-weight:bold;">crowd_lighters_off</span>: Off=Apagado, Lighter=Mechero, os hacéis una idea, ¿no?</p>
+<p><span style="font-weight:bold;font-style:italic;">crowd_normal_tempo</span>: Devuelve al público a su ritmo normal.</p>
+<p><span style="font-weight:bold;font-style:italic;">end</span>: El más importante de todos, tiene que colocarse SIEMPRE al final de la canción, indicando el momento en el que termina. La canción debe terminar antes de que termine de reproducirse el audio que metamos al juego, de lo contrario se quedará colgado.</p>
+<p><span style="font-weight:bold;font-style:italic;">half_tempo</span>: El guitarrista/bajista se mueve a la mitad de velocidad.</p>
+<p><span style="font-style:italic;font-weight:bold;">idle</span>: El guitarrista/bajista deja de tocar.</p>
+<p><span style="font-weight:bold;font-style:italic;">lighting ()</span>: Enciende las luces del escenario.</p>
+<p><span style="font-style:italic;font-weight:bold;">lighting (blackout)</span>: Apaga las luces.</p>
+<p><span style="font-weight:bold;font-style:italic;">lighting (chase)</span>: Centra las luces sobre el guitarrista.</p>
+<p><span style="font-weight:bold;font-style:italic;">lighting (color1)</span> y <span style="font-style:italic;font-weight:bold;">lighting (color2)</span>: Cambia los colores de los focos. El color en concreto depende del local en que estés tocando.</p>
+<p><span style="font-style:italic;font-weight:bold;">lighting (flash)</span>: Efecto de luz, un flash en el escenario por nota.</p>
+<p><span style="font-style:italic;font-weight:bold;">lighting (flare)</span>: Efecto de luz, una llamarada desde el escenario por nota.</p>
+<p><span style="font-weight:bold;font-style:italic;">lighting (strobe)</span>: Otro efecto de luces, con varios flashes por cada nota (Gracias a quien dejó el comentario confirmando estos dos últimos <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  )</p>
+<p><span style="font-weight:bold;font-style:italic;">lighting (sweep)</span>: Barrido de luces por el escenario.</p>
+<p><span style="font-weight:bold;font-style:italic;">music_start</span>: Se usa para indicar que el grupo empieza a tocar.</p>
+<p><span style="font-weight:bold;font-style:italic;">normal_tempo</span>: El guitarrista/bajista vuelve a moverse a velocidad normal.</p>
+<p><span style="font-style:italic;font-weight:bold;">ow_face_on</span>: Cambia el gesto de la cara del guitarrista.</p>
+<p><span style="font-style:italic;font-weight:bold;">ow_face_off</span>: El guitarrista vuelve a poner su cara de siempre (obvio, ¿no?)</p>
+<p><span style="font-weight:bold;font-style:italic;">play</span>: El personaje toca la guitarra. Se alterna con <span style="font-weight:bold;font-style:italic;">idle</span> para indicar cuando toca y cuando no.</p>
+<p><span style="font-weight:bold;font-style:italic;">solo</span>: Indica el comienzo de un solo</p>
+<p><span style="font-weight:bold;font-style:italic;">solo_on</span>: Hace que empiece la animación de cada personaje para los solos.</p>
+<p><span style="font-weight:bold;font-style:italic;">solo_off</span>: Termina la animación de los solos.</p>
+<p><span style="font-weight:bold;font-style:italic;">sync_head_bang</span>: Todo el grupo agita la cabeza al unísono. Dura 4 compases.</p>
+<p><span style="font-weight:bold;font-style:italic;">sync_wag</span>: Como el anterior, pero agitando la cabeza hacia los lados.</p>
+<p><span style="font-weight:bold;font-style:italic;">verse</span>: Indica el comienzo de una estrofa.</p>
+<p><span style="font-weight:bold;font-style:italic;">wail_on</span>: Otra animación del guitarrista.</p>
+<p><span style="font-weight:bold;font-style:italic;">wail_off</span>: Desactiva la animación anterior.</p>
+<p>**Nota**</p>
+<p>Sobre los efectos de iluminación: antes de usar cualquiera de esos efectos, debe haber colocado un evento <span style="font-style:italic;font-weight:bold;">music_start</span>. Además, los efectos se comportarán de manera distinta dependiendo del último evento <span style="font-style:italic;font-weight:bold;">verse</span>/<span style="font-style:italic;font-weight:bold;">chorus</span>/<span style="font-style:italic;font-weight:bold;">solo</span> que hayamos puesto.</p>
+<p>Existen algunos eventos más, aunque estos son los que FeedBack incluye por defecto, y son</p>
+<p>más que suficiente. Si queremos eliminar un evento, basta con ponernos sobre el evento que queramos eliminar, y pulsar <span style="font-style:italic;">Suprimir</span>.</td>
+</tr>
+</tbody>
+</table>
+<p><span class="fullpost"> </span></p>
+<table border="3">
+<tbody>
+<tr>
+<td>
+<div style="text-align:center;"></div>
+<div style="text-align:center;"><span style="font-size:130%;"><span style="font-size:180%;">SECCIONES</span></span></div>
+<div style="text-align:center;"><span style="font-size:130%;"><span style="font-size:180%;"><br />
+</span></span></div>
+<p>Las secciones sirven para dividir nuestra canción en tramos. Esto nos servirá para dos cosas: hacerlas compatibles con el modo práctica del juego, y permitirnos un desplazamiento más cómodo mientras creamos las canciones.</p>
+<p>Para colocar una sección, nos desplazamos hasta el punto donde queremos que empiece, y pulsamos <span style="font-style:italic;">R</span>. En el recuadro, escribimos el nombre de nuestra sección, y pulsamos <span style="font-style:italic;">Intro</span>.</p>
+<p>Así de simple, ya tenemos creada una sección. Podemos desplazarnos de una sección a otra pulsando <span style="font-style:italic;">Alt</span>+<span style="font-style:italic;">Arriba</span>, o <span style="font-style:italic;">Alt</span>+<span style="font-style:italic;">Abajo</span>, lo cual es muy cómodo para no tener que ir compás por compás hasta que lleguemos al punto en el que queramos cambiar algo.</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/YSiKIFEw6Uvi11hDufJxCA?feat=embedwebsite"><img class="aligncenter" src="http://lh4.ggpht.com/_4Ori_yu5PJU/SOo6gQXwH2I/AAAAAAAAAUE/Q6NY10uoOSY/s400/EvSecc.jpg" alt="" /></a><span style="font-style:italic;">Dos eventos, y una sección.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Y hasta aquí la segunda parte. Para cualquier duda, podéis dejar un comentario que os contestaré en el menor tiempo posible.</p>
+<h3  class="related_post_title">También te puede interesar...</h3><ul class="related_post"><li><a href="http://www.elperroverde.net/2008/10/gh-cambiar-los-nombres-de-las-canciones/" title="[GH] Cambiar los nombres de las canciones">[GH] Cambiar los nombres de las canciones</a></li><li><a href="http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados/" title="[GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero">[GH] Tutorial: Crear &#8216;charts&#8217; personalizados para Guitar Hero</a></li><li><a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas/" title="[GH] Insertar canciones personalizadas en Guitar Hero 2 (PS2)">[GH] Insertar canciones personalizadas en Guitar Hero 2 (PS2)</a></li><li><a href="http://www.elperroverde.net/2008/08/gh-pack-de-3-canciones-platero-y-t/" title="[GH] Pack de 3 canciones: Platero y Tú">[GH] Pack de 3 canciones: Platero y Tú</a></li><li><a href="http://www.elperroverde.net/2008/06/gh-canciones-exclusivas-de-xbox-360/" title="[GH] Canciones exclusivas de Xbox 360 para PS2">[GH] Canciones exclusivas de Xbox 360 para PS2</a></li></ul>				
+			  </div>		
+
+		
+<!-- You can start editing here. -->
+
+	<hr><h5 id="comments">36 respuestas a &#8220;[GH] Tutorial de FeedBack: Eventos y Secciones&#8221;</h5> 
+
+	<ol class="commentlist">
+                
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-533">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/10/08 a las 19:39 | <a href="#comment-533">#1</a>  </small></div>
+
+			<div class="txtcom"><p>Hola, muy bueno tu aporte y queria preguntar :<br />¡como se pone el Star Power en las notas ???<br />eso era</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-534">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/10/08 a las 12:55 | <a href="#comment-534">#2</a>  </small></div>
+
+			<div class="txtcom"><p>Así en breve, y de memoria, creo recordar que era con la tecla 8. La mantienes pulsada, y le das hacia arriba hasta el punto en el que quieres que dure la sección. A ver si por la tarde me pongo con la siguiente parte del tutorial, y ya doy algunos detalles más.</p>
+<p>Y gracias por leerme!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-535">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">19/12/08 a las 13:32 | <a href="#comment-535">#3</a>  </small></div>
+
+			<div class="txtcom"><p>muchas gracias por el tutorial, gracias a estos me la paso haciendos canciones custom, pero me queda una duda. vos sabes que no se si se puede poner los poderes, no se si me explico: los que se juengan en multiplayer/ guerra  que son como las batallas contra torello o slash.<br />si hay alguna forma de ponerlos me lo prodias decir.</p>
+<p>desde ya muchas gracias<br />S@7U2</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-536">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">19/12/08 a las 20:24 | <a href="#comment-536">#4</a>  </small></div>
+
+			<div class="txtcom"><p>Pues que yo sepa, todavía no se puede, o al menos no encuentro la opción en FeedBack, y no han salido versiones nuevas. Quizá sea algo que se pueda editar manualmente, pero tampoco lo encontré por scorehero. En cuanto me entere de algo aviso, pero ya digo que creo que no hay nada por ahora.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-537">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/12/08 a las 19:15 | <a href="#comment-537">#5</a>  </small></div>
+
+			<div class="txtcom"><p>buenisimo de aqui en adelante he encontrado canciones pero la mayoria son en experto ahora grax a esto continuo el trabajo q los demas no hicieron en las demas dificultades.</p>
+<p>muchisimas gracias^^</p>
+<p>P.D: che men como hace uno para crear un hammer on en las notas?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-538">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/12/08 a las 17:28 | <a href="#comment-538">#6</a>  </small></div>
+
+			<div class="txtcom"><p>Pues simplemente al colocar las notas a poca distancia, automáticamente las reconoce como Hammer-on o Pull-off. Fíjate que en FeedBack, las notas que quedan listas para hacer un Hammer-on aparecen sin un cirtulito negro alrededor, <a HREF="http://www.fileden.com/files/2006/7/16/134012/Hammon.JPG" REL="nofollow" rel="nofollow">como en esta imagen</a></p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-540">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">16/2/09 a las 20:16 | <a href="#comment-540">#7</a>  </small></div>
+
+			<div class="txtcom"><p>Si te refieres a las secciones para el modo práctica, que recuerde se pueden poner de cualquiera de las dos maneras, y con el nombre que tu quieras. Cuando cargues la canción en el GH Explorer, deberían aparecerte los nombres de las secciones sobre el &#8220;pentagrama&#8221;.</p>
+<p>Si te refieres al evento &#8220;chorus&#8221;, este debe ponerse tal cual, pues es para que empiecen las animaciones correspondientes al estribillo.</p>
+<p>Me alegro de que te sirviera el tutorial, para cualquier cosa, por aquí estoy! <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-539">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">16/2/09 a las 19:49 | <a href="#comment-539">#8</a>  </small></div>
+
+			<div class="txtcom"><p>man! muchas gracias me has salvado, no tenia idea de los eventos, sin ti mis canciones se kedarian colgadas, las he probado en mi GH 2 y funcionan perfectamente, eres muy recomendable men, gracias, pero una consulta: las secciones deben ser escritas separadas por guionbajos o simplemente con la barra de espacio? Ej: se debe escribir &#8220;Chorus 1a&#8221; o &#8220;Chorus_1a&#8221;???</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-541">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">21/2/09 a las 21:28 | <a href="#comment-541">#9</a>  </small></div>
+
+			<div class="txtcom"><p>OK! me sirvio demasiado eres grande! em&#8230;.entonces no es necesario separalos por guion bajo, tambien se puede con la barra espaciadora? y una cosa mas&#8230;.para ke le salgan chispitas en los dedos al guitarrista en el solo debo colocar el evento [solo_on]?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-542">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">21/2/09 a las 21:37 | <a href="#comment-542">#10</a>  </small></div>
+
+			<div class="txtcom"><p>hola! soy el de la duda del Chorus&#8230;.em&#8230;.te keria comentar ke descubri ke el lighting (strobe) hace que las luces parapadeen muy rapidamente por cada nota&#8230;.a diferencia del flash que es un solo flash por nota&#8230;pues nada mas lo decia para que actualizaras tu tutorial nuevamente gracias por el turorial <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-543">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">22/2/09 a las 22:58 | <a href="#comment-543">#11</a>  </small></div>
+
+			<div class="txtcom"><p>Muchas gracias, ya lo he actualizado con tu información <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Sobre lo de las secciones, yo diría que si, puedes usar la barra espaciadora. Hace tiempo que no preparo un custom, pero es lo que me parece recordar.</p>
+<p>Y lo de las chispas en las manos del guitarrista, pues puede ser perfectamente el &#8220;solo_on&#8221;. Aún así seguro que hay más eventos, quizá alguno sirva para eso, los que he puesto en la lista son los que conozco.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-544">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/2/09 a las 15:31 | <a href="#comment-544">#12</a>  </small></div>
+
+			<div class="txtcom"><p>OK Gracias&#8230;..me di cuenta que te confundiste en el flare! xDD LOL, el flash manda un flashaso por todo el estadio por cada nota, mientras que el flare (como decias tu antes) lanza una llamarada desde el escenario por cada nota&#8230;ahi corrige tu man&#8230;errar es de humanos y eso es lo que somos todos <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' />  </p>
+<p>lighting (flash): un flash en el estadio por nota</p>
+<p>lighting (flare): una llamrada desde el escenario por nota</p>
+<p>gracias de nuevo</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-545">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">28/2/09 a las 14:21 | <a href="#comment-545">#13</a>  </small></div>
+
+			<div class="txtcom"><p>Ya no se si me lié al hacer la edición, si me lié con lo que tenía en la cabeza, o con que me lié.. xDD Espero que ahora esté todo bien.</p>
+<p>Muchas gracias de nuevo, ojalá todos los comentarios que me dejan fueran tan útiles!</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-546">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Juanma</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">3/3/09 a las 19:52 | <a href="#comment-546">#14</a>  </small></div>
+
+			<div class="txtcom"><p>Hola! muy buenos los tutoriales pero tengo un problemita XD, no me salen los efectos de luces, por ejemplo, en una parte de la canción (The day that never comes) la bateria hace 4 toques (cuando recien empieza la cancion, para que te guies..) y yo quiero que las luces se prendan y se apaguen esas 4 veces al ritmo de la bateria, yo puse el evento &#8220;lighting()&#8221; esas 4 veces donde correspondía, pero cuando pongo el juego no pasa nada =(, esta puesto el music_start al comienzo de la cancion y tambien el end al final, asi que no se que problema es, si me puedes ayudar te agradeceria un monton =) suerte!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-547">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">4/3/09 a las 15:24 | <a href="#comment-547">#15</a>  </small></div>
+
+			<div class="txtcom"><p>En teoría con lighting() las enciendes, y con lighting(blackout) las apagas. Supongo que deberías alternar uno con otro para ver algún efecto, de lo contrario se mantendrían encendidas todo el rato. Fíjate por lo menos si cuando tienes colocado el primer lighting(), se encienden las luces. Si es así, los tienes bien colocados, pero te falta poner los eventos para apagarlas.</p>
+<p>De todas formas estoy hablando de memoria, tampoco se con seguridad si es así, hace bastante tiempo que no miro estas cosas. Si quisieras seguir las notas de la guitarra, podría utilizar los lighting(flare) o lighting(strobe), pero al seguir la batería diría que encendiendo y apagando las luces es la única manera. </p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-550">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/6/09 a las 18:26 | <a href="#comment-550">#16</a>  </small></div>
+
+			<div class="txtcom"><p>En el primer comentario al que contesté en este mismo artículo tienes lo de la energía estrella, y para cambiar el resto de detalles, puedes utilizar el programa del que hablo en <a href="http://www.elperroverde.net/2008/10/gh-cambiar-los-nombres-de-las-canciones.html" rel="nofollow">este otro</a></p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-548">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/6/09 a las 18:03 | <a href="#comment-548">#17</a>  </small></div>
+
+			<div class="txtcom"><p>como se hace para ponerle las estrellas a las notas? <br />y para hacer que cante un hombre o una mujer y cuando empieza a cantar y todo eso?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-549">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/6/09 a las 18:05 | <a href="#comment-549">#18</a>  </small></div>
+
+			<div class="txtcom"><p>Hola, muy bueno tu aporte y queria preguntar :<br />como se hace para cuando empieza a cantar y cuando para de cantar y si canta un hombre o una mujer en la cancion?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-551">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">3/7/09 a las 4:55 | <a href="#comment-551">#19</a>  </small></div>
+
+			<div class="txtcom"><p>buenas muy bueno tu tutorial XD</p>
+<p>solo me queda una duda, esos eventos mencionados sirven igualmente al GH3 como al GH2, osea es decir funcionan en los dos por igual??????????????</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-552">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">3/7/09 a las 9:54 | <a href="#comment-552">#20</a>  </small></div>
+
+			<div class="txtcom"><p>Pues la verdad es que no lo se seguro, pero por intuición, diría que no sirven los mismos.</p>
+<p>Si encuentro algo, lo pondré por aquí.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-553">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">4/7/09 a las 2:58 | <a href="#comment-553">#21</a>  </small></div>
+
+			<div class="txtcom"><p>mira ya pudiste encontrar algo para poder colocar los poderes en las batallas contra slash y tom morello? y las de multiplayer ??????????????</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-707">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">16/8/09 a las 4:12 | <a href="#comment-707">#22</a>  </small></div>
+
+			<div class="txtcom"><p>Como se hace para forzar que algunas notas sean HOPOS, es decir, tocarlas sin rasguear, ya que el feedback pone solo algunas notas blancas que son las que cumplen un requisito de proximidad, pero he visto canciones que tienen HOPOS donde no corresponde segun el feddback, supongo que los autores forzaron esas notas,yo no se como hacerlo,espero me puedas ayudar, de antemano muchas gracias, esta excelente el tutorial.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-708">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">16/8/09 a las 16:05 | <a href="#comment-708">#23</a>  </small></div>
+
+			<div class="txtcom"><p>Lo más parecido que he encontrado es en el Guitar Hero 3 de PC, en el que con un programa se puede seleccionar a partir de qué proximidad se convierten las notas en HO-PO. Echa un vistazo <a href="http://todoguitarhero.blogspot.com/2009/01/tutorial-guitar-hero-panel.html" rel="nofollow">aquí</a> por si te sirve de ayuda, pero para PS2 no tengo ni idea de como se podría hacer.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-711">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">18/8/09 a las 19:56 | <a href="#comment-711">#24</a>  </small></div>
+
+			<div class="txtcom"><p>Primero q todo te felicito por el exelente tutorial q has puesto es el mejor q he visto hasta ahora. Me gustaria sabr si vas a poner mas informacion q pueda faltar como lo de las notas q son estrellas o mas efectos.<br />
+Por cierto esta el efecto normal_tempo pero no vi uno q haga q el guitarrista se mueva mas rapido solo sale para q se mueva a la mitad. No tiemes uno para eso?<br />
+Saludos y nuevamente felicitaciones!!!!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-713">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">19/8/09 a las 17:49 | <a href="#comment-713">#25</a>  </small></div>
+
+			<div class="txtcom"><p>Sobre las notas que dan energía estrella, tienes la respuesta un par de comentarios más arriba. Es manteniendo pulsada la tecla 8 y arrastrando hacia arriba, para seleccinoar el tramo que quieras.</p>
+<p>Por ahora no tengo pensado añadir más información, aunque hay algunos artículos más en el blog sobre el tema, puedes ver todo lo que tenga que ver con Guitar Hero haciendo click <a href=http://www.elperroverde.net/search/label/Guitar%20Hero rel="nofollow">aquí</a>.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-716">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">23/8/09 a las 20:14 | <a href="#comment-716">#26</a>  </small></div>
+
+			<div class="txtcom"><p>gracias por la respuesta de las estrellas pero ahora tengo otra duda (disculpa la ignorancia). Lo q pasa es q cree el disco como sale en tu tutorial y lo puse en el play pero me dice q no es compatible o algo asi. Lo otro es q en los eventos q tu creastes para la cancion del pirata estaban entre corchetes ejemplo [evento] se tienen q poner asi porq yo le puse eventos a varias canciones pero no asi solo escribi el nombre de evento nada mas. Gracias de antemano por la ayuda</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-717">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">24/8/09 a las 11:12 | <a href="#comment-717">#27</a>  </small></div>
+
+			<div class="txtcom"><p>Acabo de revisarlo, y NO hay que poner los corchetes. Si en mi canción están así tendré que cambiarlos, a ver si algún día me pongo a ello. Rectificar es de sabios, dicen&#8230; <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>Sobre lo de que no lo lee la PS2, ¿qué método usas para cargarlo? ¿Swap Magic, chip? Sino no podrás usarlo&#8230;</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-718">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/8/09 a las 21:33 | <a href="#comment-718">#28</a>  </small></div>
+
+			<div class="txtcom"><p>mmmmm&#8230;.. me dejastes marcando ocupado. La verdad es q no se de q me hablas cuando dices eso de metodo para cargar. Si me pudieras explicar mas te lo agradeceria. Si tienes informacion de eso tambien me gustaria saber para poder crear mis canciones con mis propios efectos XDD</p>
+<p>de antemano&#8230; Gracias por la ayuda!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-719">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/8/09 a las 22:12 | <a href="#comment-719">#29</a>  </small></div>
+
+			<div class="txtcom"><p>A ver, la PS2 no lee copias de juegos por defecto, así que algo tendrás que tenerle para poder jugar a copias (como el caso de los Guitar Hero con canciones personalizadas) ya sea un chip, discos para cargar juegos, o lo que sea. Vamos, lo que se conoce como tenerla pirateada.. <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>Te pregunto qué tienes porque según el tipo de chip o discos que se usen, puede cambiar algún detalle. Si no tienes nada, es normal que te salga el mensaje ese.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-721">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/8/09 a las 19:04 | <a href="#comment-721">#30</a>  </small></div>
+
+			<div class="txtcom"><p>aaaa si mi ps2 esta desbloqueada asi q puedo usar las &#8220;copias de seguridad de mis juegos&#8221; (por si alguien me quisiera arrestar XD). Pero solo se q esta desbloqueda nada mas.<br />
+Si tienes mas informacion al respecto me dices porfa.<br />
+PD: la marca de los dvd es CURSOR. No se si influya en algo ya qun amigo lo pudo hacer pero solo tomo las canciones de scorehero y las reemplazo sin ponerle mas dificultades ni cambiar los nombres de las caniones ni tampoco poniendo efectos.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-722">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/8/09 a las 22:53 | <a href="#comment-722">#31</a>  </small></div>
+
+			<div class="txtcom"><p>Si tienes más juegos en DVDs de esa marca y te funcionan, descartaría que ese sea el problema. Sobre lo de cambiar las dificultades y efectos, en principio no debería de afectar al arranque del juego. Si falla una canción, se atasca al cargar esa canción, pero podrías llegar a los menús del juego y seleccionar la canción que quieres jugar.</p>
+<p>Revisa que hayas hecho bien el paso 6 de <a href="http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas.html" rel="nofollow">este tutorial</a>, está más que comprobado que si se hace bien, funciona <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1011">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/4df3a90e995b1370331cfa7030d591e5?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>alan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">7/12/09 a las 4:59 | <a href="#comment-1011">#32</a>  </small></div>
+
+			<div class="txtcom"><p>Hola MUY BUEN TUTORIAL. UNA PREGUNTA CUAL ES EL EVENTO PARA QUE EL VOCALISTA CANTE CUANDO EN LA CANCION SE CANTA?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-1204">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/fbbfe83901ecab83bb82035e5f857c13?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Shiner</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">2/1/10 a las 11:11 | <a href="#comment-1204">#33</a>  </small></div>
+
+			<div class="txtcom"><p>Gracias por el tutorial&#8230; la verdad es ke no tengo mucho tiempo usando este progama (2 semanas aprox.) Pero pues me gustaría crear muchos temas. Yo no utilizo Guitar Hero, sino ke utilizo otro parecido ke se llama &#8220;Guitar Zero&#8221; 2 o &#8220;Guitar Star&#8221;. Creo ke los eventos no tiene nda ke ver con ese juego (guitar zero) ya ke no contiene los mismos rasgos ke Guitar hero. Pero mi Duda es&#8230;<br />
+Se puede poner una nota larga y después poner otra nota larga sin ke la primera haya finalizado&#8230;?? Me explico, en guitar hero (Metallica, SH, World tour, y en todas las versinos nuevas) se puede hacer eso, tokar una nota larga y sin soltar poner otra seguida. Se puede hacer eso? ¿Cómo?<br />
+otra pregunta, es con los de los hammer ons y esas notas sin rasguear, Se puede poner una nota de este tipo pero sin ke este pegada a otra? ejemplo, una nota larga, seguida de un hammer on. lo he intentado pero es en vano. Me podría ayuda? Gracias <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1206">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">2/1/10 a las 15:22 | <a href="#comment-1206">#34</a>  </small></div>
+
+			<div class="txtcom"><p>Muy buenas!</p>
+<p>Veamos, sobre lo primero me parece que no se pueden poner las notas cortas en medio de las largas&#8230; Hace tiempo que el programa no se actualiza, y aún no habían salido los GH en los que empezaron a meter ese tipo de notas&#8230; Por lo que me da que no hay manera.</p>
+<p>Sobre forzar los hammer-on hay un programita que permite hacerlo, pero solo sirve para Guitar Hero 3 de PS2. Te dejo <a href="http://www.scorehero.com/forum/viewtopic.php?t=57361&amp;highlight=force+hopo" rel="nofollow">el enlace</a> por si te sirve.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1293">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/fbbfe83901ecab83bb82035e5f857c13?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Shiner</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/2/10 a las 11:43 | <a href="#comment-1293">#35</a>  </small></div>
+
+			<div class="txtcom"><p>Gracias por contestar, ya encontre una forma de haceer las notas &#8220;sustains&#8221;. y el enlace ke me dejaste no me carga, no sé porké. De todos modos estaré al pendiente</p>
+<p>Saludoss</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-1327">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/fbbfe83901ecab83bb82035e5f857c13?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Shiner</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">9/2/10 a las 10:44 | <a href="#comment-1327">#36</a>  </small></div>
+
+			<div class="txtcom"><p>Una pregunta.. xD<br />
+cómo puedo mejorar la calidad de mis canciones creadas? cómo puedo hacerle para ke kuándo estes tokando la guitarra y te ekivokes, no suene la parte de la guitarra en esa parte y ke la voz, bateria y el bajo sigan sonando?<br />
+hay algun porgrama o algo para separar los instrumentos en las canciones?<br />
+he visto algunas canciones creadas ke estan echas así, me podrían ayudar <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /><br />
+Gracias</p>
+</div>
+
+		</ul>
+         	
+
+	
+	</ol>
+
+ 
+
+<h3 id="respond">Escríbeme algo ;)</h3>
+
+
+<form action="http://www.elperroverde.net/elperroverde/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><strong>Nombre</strong> (obligatorio)</label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><strong>Mail</strong> (no será publicado) (obligatorio)</label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><strong>Sitio Web</strong> (opcional)</label></p>
+
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p class="enviar"><input name="submit" type="submit" id="submit" tabindex="5" value="Enviar Comentario" />
+<input type="hidden" name="comment_post_ID" value="151" />
+</p>
+
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notificarme nuevos comentarios vía e-mail.</label>
+	</p>
+
+
+
+</form>
+<pre>Pingbacks/Trackbacks:<br /></pre>
+
+	
+	  </div><!--/post -->
+		
+			
+  </div><!--/content -->
+
+<div id="sidebar">
+<ul>
+
+  <li id="text-3" class="widget widget_text"><h2 class="sidebartitle">RSS</h2>			<div class="textwidget"><center><a href="http://feeds2.feedburner.com/cosasDelPerroVerde" rel="alternate" title="RSS El Perro Verde" type="application/rss+xml"><img alt="" src="http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon.jpg"/></a></center>
+
+</div>
+		</li><li id="get-recent-comments" class="widget widget_get_recent_comments"><h2 class="sidebartitle">Se comenta...</h2><div id="get_recent_comments_wrap"><ul>	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=81e13a0c75438a7aa226ea6f5dcbe20c&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-1842" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 04/06/2010">marcuos</a>:<br/>quie quiere jugar a red alert 2 mi red: mar2co clave: 1234 me conecto seguido</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=76124fe492aab067a9db0652fdb429bc&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2007/10/ya-que-me-han-preguntado-hoy-por-l/#comment-1839" title ="En Tutorial IMBNes: Emulador de NES para PSX, 02/06/2010">evil_ultralisco</a>:<br/>no entiendo q qeres decir con: -Un método para cargarlo en nuestra ps2 o psx</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=7833f7042bcbf94324423b3af3a85e5e&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-1810" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 28/05/2010">Ale</a>:<br/>Funca en windows seven y vista?</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2cc90b51a364d6e07389f6229987d89b&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1809" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">agumatt</a>:<br/>gracias por responder</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=aafccc3a4f895d0720237fbe278b4107&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1807" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">perfecto</a>:<br/>Si, tienes que tener una clave solo del Section 8, no vale la de otro juego, como el Dirt 2. Hay webs que...</div>
+</ul></div></li><li id="execphp-2" class="widget widget_execphp"><h2 class="sidebartitle">Etiquetas</h2>			
+			<div class="execphpwidget"><!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/swfobject.js"></script><div id="wpcumuluscontent1790607"><p><a href='http://www.elperroverde.net/tag/analisis/' class='tag-link-5' title='8 temas' style='font-size: 13.027624309392pt;'>Análisis</a>
+<a href='http://www.elperroverde.net/tag/anime/' class='tag-link-6' title='4 temas' style='font-size: 11.093922651934pt;'>Anime</a>
+<a href='http://www.elperroverde.net/tag/articulos/' class='tag-link-67' title='2 temas' style='font-size: 9.3922651933702pt;'>Artículos</a>
+<a href='http://www.elperroverde.net/tag/blogueando/' class='tag-link-7' title='10 temas' style='font-size: 13.723756906077pt;'>Blogueando</a>
+<a href='http://www.elperroverde.net/tag/cabreos/' class='tag-link-77' title='12 temas' style='font-size: 14.265193370166pt;'>Cabreos</a>
+<a href='http://www.elperroverde.net/tag/chorradas/' class='tag-link-8' title='65 temas' style='font-size: 19.756906077348pt;'>Chorradas</a>
+<a href='http://www.elperroverde.net/tag/cine/' class='tag-link-9' title='6 temas' style='font-size: 12.254143646409pt;'>Cine</a>
+<a href='http://www.elperroverde.net/tag/citas/' class='tag-link-10' title='10 temas' style='font-size: 13.723756906077pt;'>Citas</a>
+<a href='http://www.elperroverde.net/tag/concursos/' class='tag-link-83' title='2 temas' style='font-size: 9.3922651933702pt;'>Concursos</a>
+<a href='http://www.elperroverde.net/tag/descargas/' class='tag-link-13' title='29 temas' style='font-size: 17.127071823204pt;'>Descargas</a>
+<a href='http://www.elperroverde.net/tag/dreamcast/' class='tag-link-66' title='6 temas' style='font-size: 12.254143646409pt;'>Dreamcast</a>
+<a href='http://www.elperroverde.net/tag/el-perro-verde/' class='tag-link-85' title='4 temas' style='font-size: 11.093922651934pt;'>El Perro Verde</a>
+<a href='http://www.elperroverde.net/tag/emuladores/' class='tag-link-14' title='9 temas' style='font-size: 13.414364640884pt;'>Emuladores</a>
+<a href='http://www.elperroverde.net/tag/epic-win/' class='tag-link-63' title='11 temas' style='font-size: 14.033149171271pt;'>Epic Win</a>
+<a href='http://www.elperroverde.net/tag/eventos/' class='tag-link-16' title='3 temas' style='font-size: 10.32044198895pt;'>Eventos</a>
+<a href='http://www.elperroverde.net/tag/flash/' class='tag-link-17' title='2 temas' style='font-size: 9.3922651933702pt;'>Flash</a>
+<a href='http://www.elperroverde.net/tag/guitar-hero/' class='tag-link-19' title='12 temas' style='font-size: 14.265193370166pt;'>Guitar Hero</a>
+<a href='http://www.elperroverde.net/tag/humor/' class='tag-link-59' title='32 temas' style='font-size: 17.436464088398pt;'>Humor</a>
+<a href='http://www.elperroverde.net/tag/imagenes/' class='tag-link-21' title='37 temas' style='font-size: 17.900552486188pt;'>Imagenes</a>
+<a href='http://www.elperroverde.net/tag/informatica/' class='tag-link-22' title='12 temas' style='font-size: 14.265193370166pt;'>Informática</a>
+<a href='http://www.elperroverde.net/tag/internet/' class='tag-link-23' title='32 temas' style='font-size: 17.436464088398pt;'>Internet</a>
+<a href='http://www.elperroverde.net/tag/kaos2k/' class='tag-link-84' title='8 temas' style='font-size: 13.027624309392pt;'>Kaos2K</a>
+<a href='http://www.elperroverde.net/tag/left-4-dead/' class='tag-link-70' title='4 temas' style='font-size: 11.093922651934pt;'>Left 4 Dead</a>
+<a href='http://www.elperroverde.net/tag/memes/' class='tag-link-25' title='3 temas' style='font-size: 10.32044198895pt;'>Memes</a>
+<a href='http://www.elperroverde.net/tag/mods/' class='tag-link-71' title='5 temas' style='font-size: 11.71270718232pt;'>Mods</a>
+<a href='http://www.elperroverde.net/tag/musica/' class='tag-link-27' title='41 temas' style='font-size: 18.209944751381pt;'>Musica</a>
+<a href='http://www.elperroverde.net/tag/nvidia/' class='tag-link-28' title='1 tema' style='font-size: 8pt;'>nVidia</a>
+<a href='http://www.elperroverde.net/tag/ofertas/' class='tag-link-75' title='4 temas' style='font-size: 11.093922651934pt;'>Ofertas</a>
+<a href='http://www.elperroverde.net/tag/only-japon/' class='tag-link-29' title='2 temas' style='font-size: 9.3922651933702pt;'>Only Japón</a>
+<a href='http://www.elperroverde.net/tag/opiniones/' class='tag-link-60' title='15 temas' style='font-size: 14.961325966851pt;'>Opiniones</a>
+<a href='http://www.elperroverde.net/tag/pc/' class='tag-link-30' title='34 temas' style='font-size: 17.591160220994pt;'>PC</a>
+<a href='http://www.elperroverde.net/tag/pensamientos/' class='tag-link-31' title='7 temas' style='font-size: 12.640883977901pt;'>Pensamientos</a>
+<a href='http://www.elperroverde.net/tag/proyectos/' class='tag-link-81' title='2 temas' style='font-size: 9.3922651933702pt;'>Proyectos</a>
+<a href='http://www.elperroverde.net/tag/redes/' class='tag-link-78' title='2 temas' style='font-size: 9.3922651933702pt;'>Redes</a>
+<a href='http://www.elperroverde.net/tag/retro/' class='tag-link-61' title='20 temas' style='font-size: 15.889502762431pt;'>Retro</a>
+<a href='http://www.elperroverde.net/tag/series/' class='tag-link-33' title='6 temas' style='font-size: 12.254143646409pt;'>Series</a>
+<a href='http://www.elperroverde.net/tag/street-fighter/' class='tag-link-34' title='7 temas' style='font-size: 12.640883977901pt;'>Street Fighter</a>
+<a href='http://www.elperroverde.net/tag/tetinas/' class='tag-link-80' title='5 temas' style='font-size: 11.71270718232pt;'>Tetiñas</a>
+<a href='http://www.elperroverde.net/tag/tutoriales/' class='tag-link-35' title='17 temas' style='font-size: 15.425414364641pt;'>Tutoriales</a>
+<a href='http://www.elperroverde.net/tag/vinetas/' class='tag-link-82' title='7 temas' style='font-size: 12.640883977901pt;'>Viñetas</a>
+<a href='http://www.elperroverde.net/tag/videojuegos/' class='tag-link-36' title='127 temas' style='font-size: 22pt;'>Videojuegos</a>
+<a href='http://www.elperroverde.net/tag/videos/' class='tag-link-37' title='58 temas' style='font-size: 19.370165745856pt;'>Videos</a>
+<a href='http://www.elperroverde.net/tag/wii/' class='tag-link-38' title='7 temas' style='font-size: 12.640883977901pt;'>Wii</a>
+<a href='http://www.elperroverde.net/tag/wtf/' class='tag-link-39' title='3 temas' style='font-size: 10.32044198895pt;'>WTF</a>
+<a href='http://www.elperroverde.net/tag/mm/' class='tag-link-110' title='2 temas' style='font-size: 9.3922651933702pt;'>[+-]</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com">Roy Tanck</a> and <a href="http://lukemorton.co.uk/">Luke Morton</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var so6160577 = new SWFObject("http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/tagcloud.swf?r=1331776", "tagcloudflash", "288", "250", "9", "#22201D");so6160577.addParam("wmode", "transparent");so6160577.addParam("allowScriptAccess", "always");so6160577.addVariable("tcolor", "0x7ACD23");so6160577.addVariable("tcolor2", "0x7ACD23");so6160577.addVariable("hicolor", "0x7ACD23");so6160577.addVariable("tspeed", "100");so6160577.addVariable("distr", "true");so6160577.addVariable("mode", "tags");so6160577.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanalisis%2F%27+class%3D%27tag-link-5%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EAn%C3%A1lisis%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanime%2F%27+class%3D%27tag-link-6%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EAnime%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Farticulos%2F%27+class%3D%27tag-link-67%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EArt%C3%ADculos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fblogueando%2F%27+class%3D%27tag-link-7%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3EBlogueando%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcabreos%2F%27+class%3D%27tag-link-77%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3ECabreos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fchorradas%2F%27+class%3D%27tag-link-8%27+title%3D%2765+temas%27+style%3D%27font-size%3A+19.756906077348pt%3B%27%3EChorradas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcine%2F%27+class%3D%27tag-link-9%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ECine%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcitas%2F%27+class%3D%27tag-link-10%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3ECitas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fconcursos%2F%27+class%3D%27tag-link-83%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EConcursos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdescargas%2F%27+class%3D%27tag-link-13%27+title%3D%2729+temas%27+style%3D%27font-size%3A+17.127071823204pt%3B%27%3EDescargas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdreamcast%2F%27+class%3D%27tag-link-66%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3EDreamcast%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fel-perro-verde%2F%27+class%3D%27tag-link-85%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EEl+Perro+Verde%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Femuladores%2F%27+class%3D%27tag-link-14%27+title%3D%279+temas%27+style%3D%27font-size%3A+13.414364640884pt%3B%27%3EEmuladores%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fepic-win%2F%27+class%3D%27tag-link-63%27+title%3D%2711+temas%27+style%3D%27font-size%3A+14.033149171271pt%3B%27%3EEpic+Win%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Feventos%2F%27+class%3D%27tag-link-16%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EEventos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fflash%2F%27+class%3D%27tag-link-17%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EFlash%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fguitar-hero%2F%27+class%3D%27tag-link-19%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EGuitar+Hero%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fhumor%2F%27+class%3D%27tag-link-59%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EHumor%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fimagenes%2F%27+class%3D%27tag-link-21%27+title%3D%2737+temas%27+style%3D%27font-size%3A+17.900552486188pt%3B%27%3EImagenes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finformatica%2F%27+class%3D%27tag-link-22%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EInform%C3%A1tica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finternet%2F%27+class%3D%27tag-link-23%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EInternet%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fkaos2k%2F%27+class%3D%27tag-link-84%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EKaos2K%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fleft-4-dead%2F%27+class%3D%27tag-link-70%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3ELeft+4+Dead%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmemes%2F%27+class%3D%27tag-link-25%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EMemes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmods%2F%27+class%3D%27tag-link-71%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3EMods%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmusica%2F%27+class%3D%27tag-link-27%27+title%3D%2741+temas%27+style%3D%27font-size%3A+18.209944751381pt%3B%27%3EMusica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fnvidia%2F%27+class%3D%27tag-link-28%27+title%3D%271+tema%27+style%3D%27font-size%3A+8pt%3B%27%3EnVidia%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fofertas%2F%27+class%3D%27tag-link-75%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EOfertas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fonly-japon%2F%27+class%3D%27tag-link-29%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EOnly+Jap%C3%B3n%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fopiniones%2F%27+class%3D%27tag-link-60%27+title%3D%2715+temas%27+style%3D%27font-size%3A+14.961325966851pt%3B%27%3EOpiniones%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpc%2F%27+class%3D%27tag-link-30%27+title%3D%2734+temas%27+style%3D%27font-size%3A+17.591160220994pt%3B%27%3EPC%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpensamientos%2F%27+class%3D%27tag-link-31%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EPensamientos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fproyectos%2F%27+class%3D%27tag-link-81%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EProyectos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fredes%2F%27+class%3D%27tag-link-78%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3ERedes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fretro%2F%27+class%3D%27tag-link-61%27+title%3D%2720+temas%27+style%3D%27font-size%3A+15.889502762431pt%3B%27%3ERetro%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fseries%2F%27+class%3D%27tag-link-33%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ESeries%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fstreet-fighter%2F%27+class%3D%27tag-link-34%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EStreet+Fighter%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftetinas%2F%27+class%3D%27tag-link-80%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3ETeti%C3%B1as%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftutoriales%2F%27+class%3D%27tag-link-35%27+title%3D%2717+temas%27+style%3D%27font-size%3A+15.425414364641pt%3B%27%3ETutoriales%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvinetas%2F%27+class%3D%27tag-link-82%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EVi%C3%B1etas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideojuegos%2F%27+class%3D%27tag-link-36%27+title%3D%27127+temas%27+style%3D%27font-size%3A+22pt%3B%27%3EVideojuegos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideos%2F%27+class%3D%27tag-link-37%27+title%3D%2758+temas%27+style%3D%27font-size%3A+19.370165745856pt%3B%27%3EVideos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwii%2F%27+class%3D%27tag-link-38%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EWii%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwtf%2F%27+class%3D%27tag-link-39%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EWTF%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmm%2F%27+class%3D%27tag-link-110%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3E%5B%2B-%5D%3C%2Fa%3E%3C%2Ftags%3E");so6160577.write("wpcumuluscontent1790607");</script></div>
+		</li><li id="linkcat-57" class="widget widget_links"><h2 class="sidebartitle">A veces me paso por...</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://akihabarablues.com/" target="_blank">Akihabara Blues</a></li>
+<li><a href="http://www.anaitgames.com/" target="_blank">AnaitGames</a></li>
+<li><a href="http://botafumeiroag.blogspot.com/" target="_blank">Botafumeiro AG</a></li>
+<li><a href="http://botafumeirovideojuegos.blogspot.com/" target="_blank">Botafumeiro Videojuegos</a></li>
+<li><a href="http://danteneverdies.wordpress.com/" target="_blank">Danteneverdies Gamerblog</a></li>
+<li><a href="http://elblogdemanu.com/" target="_blank">El Blog de Manu</a></li>
+<li><a href="http://www.topofarmer.com/" target="_blank">El Blog de Topofarmer</a></li>
+<li><a href="http://www.elpixelilustre.com/" target="_blank">El Pixel Ilustre</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er Blog der JuMaFaS</a></li>
+<li><a href="http://www.frostias.com/" target="_blank">Frostias</a></li>
+<li><a href="http://www.gamesajare.com/" target="_blank">GamesAjare</a></li>
+<li><a href="http://jueves13.com" target="_blank">Jueves13</a></li>
+<li><a href="http://www.kaos2k.com/" target="_blank">Kaos2K.com</a></li>
+<li><a href="http://www.nosologames.net" target="_blank">NoSoloGames</a></li>
+<li><a href="http://www.pixfans.com" target="_blank">PixFans</a></li>
+<li><a href="http://www.yonosoyfreak.com/" target="_blank">Yo no soy freak</a></li>
+
+	</ul>
+</li>
+<li id="archives-3" class="widget widget_archive"><h2 class="sidebartitle">Archivo del Blog</h2>		<ul>
+			<li><a href='http://www.elperroverde.net/2010/03/' title='Marzo 2010'>Marzo 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2010/02/' title='Febrero 2010'>Febrero 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2010/01/' title='Enero 2010'>Enero 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/12/' title='Diciembre 2009'>Diciembre 2009</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2009/11/' title='Noviembre 2009'>Noviembre 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/10/' title='Octubre 2009'>Octubre 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2009/09/' title='Septiembre 2009'>Septiembre 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/08/' title='Agosto 2009'>Agosto 2009</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2009/07/' title='Julio 2009'>Julio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/06/' title='Junio 2009'>Junio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/05/' title='Mayo 2009'>Mayo 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2009/04/' title='Abril 2009'>Abril 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/03/' title='Marzo 2009'>Marzo 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/02/' title='Febrero 2009'>Febrero 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2009/01/' title='Enero 2009'>Enero 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/12/' title='Diciembre 2008'>Diciembre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2008/11/' title='Noviembre 2008'>Noviembre 2008</a>&nbsp;(12)</li>
+	<li><a href='http://www.elperroverde.net/2008/10/' title='Octubre 2008'>Octubre 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.elperroverde.net/2008/09/' title='Septiembre 2008'>Septiembre 2008</a>&nbsp;(20)</li>
+	<li><a href='http://www.elperroverde.net/2008/08/' title='Agosto 2008'>Agosto 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/07/' title='Julio 2008'>Julio 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2008/06/' title='Junio 2008'>Junio 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/05/' title='Mayo 2008'>Mayo 2008</a>&nbsp;(11)</li>
+	<li><a href='http://www.elperroverde.net/2008/04/' title='Abril 2008'>Abril 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/03/' title='Marzo 2008'>Marzo 2008</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2008/02/' title='Febrero 2008'>Febrero 2008</a>&nbsp;(13)</li>
+	<li><a href='http://www.elperroverde.net/2008/01/' title='Enero 2008'>Enero 2008</a>&nbsp;(9)</li>
+	<li><a href='http://www.elperroverde.net/2007/12/' title='Diciembre 2007'>Diciembre 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2007/11/' title='Noviembre 2007'>Noviembre 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2007/10/' title='Octubre 2007'>Octubre 2007</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2007/09/' title='Septiembre 2007'>Septiembre 2007</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2007/08/' title='Agosto 2007'>Agosto 2007</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2007/07/' title='Julio 2007'>Julio 2007</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2007/06/' title='Junio 2007'>Junio 2007</a>&nbsp;(19)</li>
+		</ul>
+</li><li id="text-8" class="widget widget_text">			<div class="textwidget"><br/>&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed Completo</a><br/>
+
+&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde/Comentarios'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed de Comentarios</a><br/>
+
+<form action="http://feedburner.google.com/fb/a/mailverify" style="border:0px solid #ccc;padding:3px;text-align:center;" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=cosasDelPerroVerde', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>También te puedes suscribir por e-mail:</p><p><input style="width:140px" name="email" type="text"/></p><input value="cosasDelPerroVerde" name="uri" type="hidden"/><input value="es_ES" name="loc" type="hidden"/><input value="Suscribirse" type="submit"/></form>
+<br/></div>
+		</li><li id="text-6" class="widget widget_text">			<div class="textwidget"><br/>
+<center><a href="http://www.easycounter.com/es/">
+<img alt="Counter" src="http://www.easycounter.com/counter.php?tragy" 
+border="0"/></a><br/><br/>
+<center><p><a href="http://feeds.feedburner.com/cosasDelPerroVerde"><img src="http://feeds.feedburner.com/~fc/cosasDelPerroVerde?bg=4AAD13&amp;fg=FF5A00&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p></center>
+<center>
+<a href="http://bitacoras.com/bitacora/elperroverde.net" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png"/></a></center></center><br/></div>
+		</li>
+ </ul>
+</div>
+<!--/sidebar -->  
+ <div id="footer">
+<div class="center">El Perro Verde utiliza <a href="http://wordpress.org/">WordPress</a>, con una modificación personal de la plantilla <a href=http://wordpress.org/extend/themes/girl>girl</a>.
+Todos los contenidos publicados bajo <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">Creative Commons</a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">   <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png"/>
+</div></div>
+<script src="http://stats.wordpress.com/e-201023.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'9695869',v:'ext',post:'151'});
+var load_cmc = function(){linktracker_init(9695869,151,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+<!--Analytics-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2055026-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

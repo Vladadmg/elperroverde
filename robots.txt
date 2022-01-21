@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /otros/
+Sitemap: http://www.elperroverde.net/sitemap.xml

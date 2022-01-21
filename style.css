@@ -1,0 +1,175 @@
+.newsheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.newsdate {
+	FONT-WEIGHT: lighter; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.newscontent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.morelink {
+	FONT-WEIGHT: bold; FONT-SIZE: 8px; COLOR: #ff3300; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.bannerslink {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #e73842; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.bannerscontent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.jumpmenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #000000; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.skinmenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.menuextra {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.footertext {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.galleryCaption {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.bandtext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.bandstats {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #cc9900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.bandequipment {
+	COLOR: #a57900; LIST-STYLE-TYPE: disc
+}
+.copyrightFAQ {
+	COLOR: #a57900; LIST-STYLE-TYPE: disc
+}
+.newsbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.copy {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #d6d6d6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.smallwhite {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.stangerorange {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #e73842; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.redBOLD {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; TEXT-TRANSFORM: lowercase; COLOR: #b90000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.form-orange {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.ornagebold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.GrayBOLD {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d6d6d6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.bluebold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #5380a6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.link {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; size: 1
+}
+.link:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #aaaaaa; TEXT-DECORATION: none; size: 1; face: Arial, Helvetica, sans-serif
+}
+.text {
+	FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial; TEXT-DECORATION: none; size: 10pt; face: Arial, Helvetica, sans-serif
+}
+.intFrame {
+	FONT-SIZE: 9pt; COLOR: #ff0000; FONT-FAMILY: Arial; TEXT-DECORATION: none; size: 10pt; face: Arial, Helvetica, sans-serif
+}
+.copylink {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #d6d6d6; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: underline
+}
+.copyorange {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.copyorangelink {
+	FONT-WEIGHT: lighter; FONT-SIZE: 11px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: underline
+}
+.emailTxt {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #660000; FONT-FAMILY: Arial; TEXT-DECORATION: none; size: 10pt; face: Arial, Helvetica, sans-serif
+}
+.linecolor {
+	COLOR: #666666
+}
+.postusername {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0b0659; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: underline
+}
+.postdate {
+	FONT-SIZE: 10px; COLOR: #0b0659; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal
+}
+.postmessage {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #660000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.ratetext {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.outerpixels {
+	BACKGROUND-COLOR: #666666
+}
+.sidepixels {
+	BACKGROUND-COLOR: #666666
+}
+.headerbkgcolor {
+	BACKGROUND-COLOR: #000000
+}
+.contentbkgcolor {
+	BACKGROUND-COLOR: #000000
+}
+.bannerbkgcolor {
+	BACKGROUND-COLOR: #000000
+}
+.footerbkgcolor {
+	BACKGROUND-COLOR: #000000
+}
+.bandbkgcolor {
+	BACKGROUND-COLOR: #1a1a1a
+}
+.mainbkgcolor {
+	BACKGROUND-COLOR: transparent
+}
+.bodylink {
+	COLOR: #666666
+}
+.bodyvlink {
+	COLOR: #666666
+}
+.bodyalink {
+	COLOR: #666666
+}
+.Price {
+	FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: line-through
+}
+.salePrice {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #b2832e; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.txtDetail {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.storeCatLink {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #b2832e; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: underline
+}
+.txtErrorMessage {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ff0000; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.StoreHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #a57900; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+texto {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #CCCCCC;
+	text-decoration: none;
+}

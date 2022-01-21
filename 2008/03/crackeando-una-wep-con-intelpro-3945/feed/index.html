@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comentarios en: Crackeando una wep con Intel/Pro 3945 &#8230;</title>
+	<atom:link href="http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/</link>
+	<description>Videojuegos, música, y un poco de todo a partes desiguales.</description>
+	<lastBuildDate>Sun, 29 Nov 2009 16:47:56 -0700</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.5</generator>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<item>
+		<title>Por: Tragy</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-730</link>
+		<dc:creator>Tragy</dc:creator>
+		<pubDate>Sat, 12 Sep 2009 14:50:52 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-730</guid>
+		<description>Muy buenas!
+
+Pues el cuelgue podría venir porque el módulo se esté usando en ese momento, podrías probar a poner antes del rmmod:
+
+sudo ifconfig wifi down
+
+En lugar de &quot;wifi&quot;, debes poner el nombre que tenga tu interfaz (puedes verlo poniendo un ifconfig en la consola)
+
+Para descargar el módulo y sus dependencias, la sintaxis del comando sería:
+
+sudo rmmod -r iwl3945
+
+Si se te sigue colgando, prueba con:
+
+sudo modprobe -r iwl3945
+
+Juraría que modprobe no requiere que los módulos estén en desuso, ya me dirás si alguna de las soluciones te sirvió.
+
+Un saludo!</description>
+		<content:encoded><![CDATA[<p>Muy buenas!</p>
+<p>Pues el cuelgue podría venir porque el módulo se esté usando en ese momento, podrías probar a poner antes del rmmod:</p>
+<p>sudo ifconfig wifi down</p>
+<p>En lugar de &#8220;wifi&#8221;, debes poner el nombre que tenga tu interfaz (puedes verlo poniendo un ifconfig en la consola)</p>
+<p>Para descargar el módulo y sus dependencias, la sintaxis del comando sería:</p>
+<p>sudo rmmod -r iwl3945</p>
+<p>Si se te sigue colgando, prueba con:</p>
+<p>sudo modprobe -r iwl3945</p>
+<p>Juraría que modprobe no requiere que los módulos estén en desuso, ya me dirás si alguna de las soluciones te sirvió.</p>
+<p>Un saludo!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Anonymous</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-729</link>
+		<dc:creator>Anonymous</dc:creator>
+		<pubDate>Sat, 12 Sep 2009 14:27:21 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-729</guid>
+		<description>Hola amigazo, sabes he leido bastante, estoy capturando paquetes y todo, pero coo se que para disminuir los tiempos debo inyectar trafico en el Ap, lo he querido hacer dando d ebaja los driver que no me lo permiten y subiendo el ipraw, pero es ahi donde tengo el problema, cada vez que intento hacerlo del siguiente modo &quot;rmmod iwl3945&quot;, el pc se me congela, comenzando a parpadear el led que me indicaa el uso de mayusculas, de ahi en adelante no me queda mas que apagar por la fuerza la maquina, sabes o tienes una idea de porque se me congela cuando intento bajar iwl4935? de antemano gracias compadre
+
+Atte Weisstras</description>
+		<content:encoded><![CDATA[<p>Hola amigazo, sabes he leido bastante, estoy capturando paquetes y todo, pero coo se que para disminuir los tiempos debo inyectar trafico en el Ap, lo he querido hacer dando d ebaja los driver que no me lo permiten y subiendo el ipraw, pero es ahi donde tengo el problema, cada vez que intento hacerlo del siguiente modo &#8220;rmmod iwl3945&#8243;, el pc se me congela, comenzando a parpadear el led que me indicaa el uso de mayusculas, de ahi en adelante no me queda mas que apagar por la fuerza la maquina, sabes o tienes una idea de porque se me congela cuando intento bajar iwl4935? de antemano gracias compadre</p>
+<p>Atte Weisstras</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Tragy</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-450</link>
+		<dc:creator>Tragy</dc:creator>
+		<pubDate>Wed, 14 Jan 2009 00:45:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-450</guid>
+		<description>Como ya dije, echa un vistazo a un manual básico de linux, con los principales comandos, y como usarlos.&lt;br/&gt;&lt;br/&gt;Los drivers sabes que los tienes bien instalados cuando ves que funcionan, si haces el modprobe ipwraw y no da ningún error, es que se cargó correctamente el driver ipwraw.&lt;br/&gt;&lt;br/&gt;De lo contrario, o te has saltado algún paso, o ejecutaste mal alguno de los comandos...</description>
+		<content:encoded><![CDATA[<p>Como ya dije, echa un vistazo a un manual básico de linux, con los principales comandos, y como usarlos.</p>
+<p>Los drivers sabes que los tienes bien instalados cuando ves que funcionan, si haces el modprobe ipwraw y no da ningún error, es que se cargó correctamente el driver ipwraw.</p>
+<p>De lo contrario, o te has saltado algún paso, o ejecutaste mal alguno de los comandos&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: gonzaloko</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-449</link>
+		<dc:creator>gonzaloko</dc:creator>
+		<pubDate>Tue, 13 Jan 2009 04:03:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-449</guid>
+		<description>y amigo otra cosa como revizo si mis drivers estan todos correctamente ???</description>
+		<content:encoded><![CDATA[<p>y amigo otra cosa como revizo si mis drivers estan todos correctamente ???</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: gonzaloko</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-448</link>
+		<dc:creator>gonzaloko</dc:creator>
+		<pubDate>Tue, 13 Jan 2009 04:01:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-448</guid>
+		<description>si lo intente amigo pero no me resulta no sabes si es ke puede ser por algun repositorio o otra cosa ayuda por favor man gracias</description>
+		<content:encoded><![CDATA[<p>si lo intente amigo pero no me resulta no sabes si es ke puede ser por algun repositorio o otra cosa ayuda por favor man gracias</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: gonza</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-446</link>
+		<dc:creator>gonza</dc:creator>
+		<pubDate>Mon, 12 Jan 2009 23:59:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-446</guid>
+		<description>amigo mira yo lo coloco en &quot;cd ipwraw-ng /home/gonzalo/drivers/&quot; y probe tambien asi &quot;cd ipwraw-ng /home/gonzalo/drivers&quot; y no pasa nada me dice que el fichero no existe no se que hacer amigo ayuda por favor lo estoy haciendo en ubuntu 8.04</description>
+		<content:encoded><![CDATA[<p>amigo mira yo lo coloco en &#8220;cd ipwraw-ng /home/gonzalo/drivers/&#8221; y probe tambien asi &#8220;cd ipwraw-ng /home/gonzalo/drivers&#8221; y no pasa nada me dice que el fichero no existe no se que hacer amigo ayuda por favor lo estoy haciendo en ubuntu 8.04</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Tragy</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-447</link>
+		<dc:creator>Tragy</dc:creator>
+		<pubDate>Mon, 12 Jan 2009 23:07:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-447</guid>
+		<description>Prueba &quot;cd /home/gonzalo/drivers/ipwraw-ng/&quot;, no te vendría nada mal echar un vistazo a un manual con cosas básicas sobre linux. Para cualquier otro problema, aquí estamos.</description>
+		<content:encoded><![CDATA[<p>Prueba &#8220;cd /home/gonzalo/drivers/ipwraw-ng/&#8221;, no te vendría nada mal echar un vistazo a un manual con cosas básicas sobre linux. Para cualquier otro problema, aquí estamos.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Tragy</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-445</link>
+		<dc:creator>Tragy</dc:creator>
+		<pubDate>Fri, 11 Jul 2008 06:11:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-445</guid>
+		<description>Muy buenas! Has probado a hacer el iwconfig antes de tocar nada? Si te sale alguna extensión, es que tienes los drivers para tu tarjeta bien configurados. Despues es cuando debes usar modprobe para descargar los &quot;oficiales&quot; y cargar los ipwraw. Si es al cargar los ipwraw cuando te dice que no hay &quot;wireless extensions&quot;, puede que no tengas la tarjeta de red adecuada, seguro que tienes exactamente la misma?&lt;br/&gt;&lt;br/&gt;Un saludo!</description>
+		<content:encoded><![CDATA[<p>Muy buenas! Has probado a hacer el iwconfig antes de tocar nada? Si te sale alguna extensión, es que tienes los drivers para tu tarjeta bien configurados. Despues es cuando debes usar modprobe para descargar los &#8220;oficiales&#8221; y cargar los ipwraw. Si es al cargar los ipwraw cuando te dice que no hay &#8220;wireless extensions&#8221;, puede que no tengas la tarjeta de red adecuada, seguro que tienes exactamente la misma?</p>
+<p>Un saludo!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Anonymous</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-444</link>
+		<dc:creator>Anonymous</dc:creator>
+		<pubDate>Fri, 04 Jul 2008 04:33:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-444</guid>
+		<description>hola creo que no tengo bien instalado esto&lt;br/&gt;cuando pongo iwconfig&lt;br/&gt;me sale algo asi&lt;br/&gt;lo                 no wireless extensions.&lt;br/&gt;eth0               no wireless extension&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;sabes a que se debe esto¿?</description>
+		<content:encoded><![CDATA[<p>hola creo que no tengo bien instalado esto<br />cuando pongo iwconfig<br />me sale algo asi<br />lo                 no wireless extensions.<br />eth0               no wireless extension</p>
+<p>sabes a que se debe esto¿?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: juan plablo</title>
+		<link>http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/comment-page-1/#comment-442</link>
+		<dc:creator>juan plablo</dc:creator>
+		<pubDate>Thu, 01 May 2008 21:35:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cosasdelperroverde.wordpress.com/2008/03/29/crackeando-una-wep-con-intelpro-3945/#comment-442</guid>
+		<description>logre solucoinar ese prblema .ahora si q no e podido sacar la clave..tengo como 400000 ded datos y no me funciona el comando con la &quot;z&quot; (el otro lo prbe pero lleva 30 min y aun no dea respuesta) tengo la versiuon 0.6.2 de aircrack.ojala me ayudes y gracias de antemano&lt;br/&gt;&lt;br/&gt;SALUDOS::</description>
+		<content:encoded><![CDATA[<p>logre solucoinar ese prblema .ahora si q no e podido sacar la clave..tengo como 400000 ded datos y no me funciona el comando con la &#8220;z&#8221; (el otro lo prbe pero lleva 30 min y aun no dea respuesta) tengo la versiuon 0.6.2 de aircrack.ojala me ayudes y gracias de antemano</p>
+<p>SALUDOS::</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

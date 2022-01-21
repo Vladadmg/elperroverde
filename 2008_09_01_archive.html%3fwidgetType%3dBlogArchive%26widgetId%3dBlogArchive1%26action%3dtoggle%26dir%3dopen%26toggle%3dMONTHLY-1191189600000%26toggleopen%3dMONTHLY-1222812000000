@@ -1,0 +1,2470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='OxS6dflHVfU5I5/ipsTplvsM7U5kWfLWUqgUs8sUr6U=' name='verify-v1'/>
+<meta content='1FDC7868EF5C447F943B7A50241CE394' name='msvalidate.01'/>
+<META content='e15bdc5c3fec8aff' name='y_key'></META>
+<meta content='N6v6/s5kTgW6bSfclV5TnSP/8JnfnsfP2XDq9lHbUNY=' name='verify-v1'/>
+<!-- favicon -->
+<link href='http://www.fileden.com/files/2006/7/16/134012/favicon.ico' rel='shortcut icon'/>
+<link href='http://openid.blogs.es/index.php/serve' rel='openid.server'/>
+<link href='http://openid.blogs.es/tragy' rel='openid.delegate'/>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link rel="alternate" type="application/atom+xml" title="Cosas del Perro Verde - Atom" href="http://www.elperroverde.net/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Cosas del Perro Verde - RSS" href="http://www.elperroverde.net/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Cosas del Perro Verde - Atom" href="http://www.blogger.com/feeds/5333776754091265298/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=5333776754091265298" />
+<title>septiembre 2008 | Cosas del Perro Verde</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+* -----------------------------------------------------
+* Blogger Template Style
+* Name:     Snapshot: Tequila
+* Designer: Dave Shea
+* URL:      mezzoblue.com / brightcreative.com
+* Date:     27 Feb 2004
+* Updated by: Blogger Team
+* ------------------------------------------------------ */
+/* Variable definitions
+====================
+<Variable name="textcolor" description="Text Color"
+type="color" default="#474B4E">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#7B8186">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#7C78B5">
+<Variable name="footercolor" description="Post Footer Color"
+type="color" default="#B4BABE">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#7B8186">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#93DB04">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#839D07">
+<Variable name="bodyfont" description="Text Font"
+type="font"
+default="normal normal 100% Helvetica, Arial, sans-serif">
+*/
+/* -- basic html elements -- */
+body {
+height:100%;  /* overflow: auto; Para fijar la imagen de fondo.&#8220;hack&#8221; necesario para transformar position absolute o relative en fixed */
+padding: 0;
+margin: 0;
+font-size: small;
+color: #cc0000;
+background: transparent url(http://eltragy.googlepages.com/bg189.gif) top left repeat;
+text-align: center;
+}
+a {
+color: #003366;
+font-weight: bold;
+text-decoration: none;
+}
+a:visited {
+color: #2D8930;
+}
+a:hover {
+text-decoration: underline;
+color: #6C65D5;
+}
+h1 {
+margin: 0;
+color: #cc0000;
+font-size: 1.5em;
+text-transform: lowercase;
+}
+h1 a, h1 a:link, h1 a:visited {
+color: #cc0000;
+}
+h2, #comments h4 {
+font-size: 1em;
+margin: 10px 0 0 0;
+color: #cc0000;
+background: transparent url(http://eltragy.googlepages.com/bg-header1.gif) bottom right no-repeat;
+padding-bottom: 2px;
+}
+h3 {
+font-size: 1em;
+margin: 2em 0 0 0;
+background: transparent url(http://www.blogblog.com/snapshot_tequila/bg-header1.gif) bottom right no-repeat;
+padding-bottom: 2px;
+}
+h4, h5 {
+font-size: 0.9em;
+text-transform: lowercase;
+letter-spacing: 2px;
+}
+h5 {
+color: #7B8186;
+}
+h6 {
+font-size: 0.8em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+p {
+margin: 0 0 1em 0;
+}
+img, form {
+border: 0; margin: 0;
+}
+/* -- layout -- */
+#outer-wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: left;
+font: normal normal 89% Verdana, sans-serif;
+background: #000000
+url(http://eltragy.googlepages.com/VNegro.png) 0 0 repeat-y;
+}
+}
+#header-wrapper {
+background: #D8DADC url(http://eltragy.googlepages.com/bg-headerdiv.gif) 0 0 repeat-y;
+}
+.descriptionwrapper {
+float: right;
+width: 264px;
+padding: 0 0 0 8px;
+margin: 0px 0 0px 0;
+height:0px
+}
+.description {
+padding: 10px 0 10px 7px;
+margin: 0px 0 0 0px;
+color: #CC0000;
+font-weight: bold;
+}
+#header-inner {
+}
+#main-wrapper {
+line-height: 1.4;
+float: left;
+padding: 10px 12px;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+/* Tantek hack - http://www.tantek.com/CSS/Examples/boxmodelhack.html */
+voice-family: "\"}\"";
+voice-family: inherit;
+width: 610px;
+}
+/* IE5 hack */
+#main {}
+#sidebar {
+float:center;
+border-top: solid 0px #000;
+padding: 0px 0 0 0px;
+width: 260px;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#footer {
+clear: both;
+background: #000000  url(http://eltragy.googlepages.com/footpnegro.png) bottom left repeat-x;
+min-height: 75px;
+}
+/* -- header style -- */
+#header h1 {
+padding: 12px 0 92px 4px;
+width: 557px;
+line-height: 1;
+}
+/* -- content area style -- */
+#main {
+line-height: 1.4;
+}
+.post h3 {
+font-size: 1.2em;
+margin-bottom: 0;
+color: #cc0000;
+}
+.post h3 a {
+color: #cc0000;
+}
+.post {
+clear: both;
+margin-bottom: 4em;
+}
+.post-footer .post-author,
+.post-footer .post-timestamp {
+color: #cc0000;
+}
+.uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp {
+float: left;
+margin-right: 4px;
+}
+.uncustomized-post-template .post-footer .comment-link {
+float: right;
+margin-left: 4px;
+}
+.post img {
+border: 1px solid #E3E4E4;
+padding: 2px;
+background: #fff;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.comment-footer {
+margin-bottom: 10px;
+}
+/* -- sidebar style -- */
+.sidebar .widget {
+margin: 0em 0 0em 0;
+}
+.sidebar h2 {
+font-size: 1.3em;
+}
+.sidebar dl {
+margin: 0 0 0px 0;
+}
+.sidebar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.sidebar li {
+padding-bottom: 5px;
+line-height: 1
+}
+.main .widget .clear {
+clear: both;
+}
+/* -- sidebar style -- */
+#footer p {
+margin: 0;
+padding: 12px 8px;
+font-size: 0.9em;
+}
+.profile-textblock {
+margin-left: 0;
+clear: both;
+}
+.profile-img {
+float: left;
+margin: 0 10px 5px 0;
+border: 1px solid #7C78B5;
+padding: 4px;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #header-wrapper {
+margin-top: 0;
+}
+body#layout #main-wrapper {
+padding:0;
+}
+.cita {
+background: url(http://eltragy.googlepages.com/blockquote_top.jpg) no-repeat 0 3px;
+color: #666;
+padding-left: 45px;
+font-size : 15pt;
+font-style: italic;
+margin-bottom: 1px;
+display:block;
+padding-top:15px;
+}
+.dropcaps {
+float:left;
+color:#cc0000;
+font-size:40px;
+line-height:80px;
+padding-top:1px;
+padding-right:5px;
+}
+/* Label Cloud Styles
+----------------------------------------------- */
+#labelCloud {text-align:center;font-family:arial,sans-serif;}
+#labelCloud .label-cloud li{display:inline;background-image:none
+!important;padding:0 5px;margin:0;vertical-align:baseline
+!important;border:0 !important;}
+#labelCloud ul{list-style-type:none;margin:0 auto;padding:0;}
+#labelCloud a img{border:0;display:inline;margin:0 0 0
+3px;padding:0}
+#labelCloud a{text-decoration:none}
+#labelCloud a:hover{text-decoration:underline}
+#labelCloud li a{}
+#labelCloud .label-cloud {}
+#labelCloud .label-count
+{padding-left:0.2em;font-size:9px;color:#000}
+#labelCloud .label-cloud li:before{content:"" !important}
+
+--></style>
+<script type='text/javascript'>
+
+// Label Cloud User Variables
+
+var lcBlogURL = 'http://www.elperroverde.net';
+
+var maxFontSize = 20;
+
+var maxColor = [255,0,0];
+
+var minFontSize = 10;
+
+var minColor = [150,0,0];
+
+var lcShowCount = false;
+
+
+</script>
+<!--Script para abrir cosas en ventana nueva (desactivado) <script language='javascript'> var dominio = &quot;www.cosasdelperroverde.blogspot.com&quot;; var dominio1 = &quot;cosasdelperroverde.blogspot.com&quot;; var script = &quot;javascript:void(0);&quot;; var imagenesblogger0 = &quot;bp0.blogger.com&quot;; var imagenesblogger1 = &quot;bp1.blogger.com&quot;; var imagenesblogger2 = &quot;bp2.blogger.com&quot;; var imagenesblogger3 = &quot;bp3.blogger.com&quot;; var blogger1 = &quot;www.blogger.com&quot;; var blogger2 = &quot;www2.blogger.com&quot;; var publicidad = &quot;pagead2.googlesyndication.com&quot;; function LinksExternos() { var Externo; if (document.getElementsByTagName(&#39;a&#39;)) { for (var i = 0; (Externo = document.getElementsByTagName(&#39;a&#39;)[i]); i++) { if ( Externo.href.indexOf(dominio) == -1 &amp;&amp; Externo.href.indexOf(dominio1) == -1 &amp;&amp; Externo.href.indexOf(script) == -1 &amp;&amp; Externo.href.indexOf(imagenesblogger0) == -1 &amp;&amp; Externo.href.indexOf(imagenesblogger1) == -1 &amp;&amp; Externo.href.indexOf(imagenesblogger2) == -1 &amp;&amp; Externo.href.indexOf(imagenesblogger3) == -1 &amp;&amp; Externo.href.indexOf(publicidad) == -1 &amp;&amp; Externo.href.indexOf(blogger1) == -1 &amp;&amp; Externo.href.indexOf(blogger2) == -1 ) { Externo.setAttribute(&#39;target&#39;, &#39;_blank&#39;); //Externo.setAttribute(&#39;class&#39;, &#39;linkexterno&#39;); } } } } window.onload = function() { LinksExternos(); } </script> Fin del script-->
+<script src='http://eltragy.googlepages.com/corner.js' type='text/javascript'></script>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/widgets/2765946379-widget_css_bundle.css' /> <link rel="stylesheet" type="text/css" href="http://www.blogger.com/v-css/3727950723-blog_controls.css"/>
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=5333776754091265298&zx=14c1539b-2ad4-49a9-8e28-e8287f97c724"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=5333776754091265298&amp;blogName=Cosas+del+Perro+Verde&amp;publishMode=PUBLISH_MODE_HOSTED&amp;navbarType=BLACK&amp;layoutType=LAYOUTS&amp;homepageUrl=http%3A%2F%2Fwww.elperroverde.net%2F&amp;searchRoot=http%3A%2F%2Fwww.elperroverde.net%2Fsearch" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" title="Blogger Navigation and Search"></iframe>
+<div></div></div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- Imagen para la esquina <div style='position:fixed;left:0;bottom:0;'><img src="http://images.wikia.com/inciclopedia/images/4/4a/Pedobearembarrased.jpg" /></div> -->
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://www.elperroverde.net/' style='display: block'>
+<img alt='Cosas del Perro Verde' height='248' id='Header1_headerimg' src='http://2.bp.blogspot.com/_4Ori_yu5PJU/SNKUh3aCnoI/AAAAAAAAAPc/AAGGhEPQg7E/S1600-R/Logo+Final+copy.jpg' style='display: block' width='900'/>
+</a>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<center><script type="text/javascript"><!--
+google_ad_client = "pub-6805585736179554";
+google_ad_host = "pub-1556223355139109";
+/* Banner superior */
+google_ad_slot = "2351564316";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script 
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML4&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start -->
+<h2 class='date-header'>martes 30 de septiembre de 2008</h2>
+<div class='post'>
+<a name='462900720452726121'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/no-es-lo-mismo.html'>No es lo mismo...</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><center><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOJ3Heq5WAI/AAAAAAAAASk/lXnWFXo0gbg/s1600-h/Untitled-1.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOJ3Heq5WAI/AAAAAAAAASk/lXnWFXo0gbg/s400/Untitled-1.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5251891085843191810" /></a><span style="font-style:italic;">...'La duplicación, enano' que 'La duplicación en ano'</span></center><br><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/no-es-lo-mismo.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/no-es-lo-mismo.html' title='permanent link'>21:05</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=462900720452726121&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=462900720452726121' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/462900720452726121/' onclick='HaloScanTB("462900720452726121");return false;'>
+<script type='text/javascript'>postCountTB('462900720452726121');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/462900720452726121/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/no-es-lo-mismo.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=462900720452726121' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Chorradas' rel='tag'>Chorradas</a>,
+<a href='http://www.elperroverde.net/search/label/Internet' rel='tag'>Internet</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<div class='post'>
+<a name='2965436060908940392'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/nuevo-trailer-de-max-payne-movie.html'>Nuevo Trailer de Max Payne: The Movie</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Está en la red desde hace ya unos días, y no hace más que cosechar buenas críticas.<br /><center><embed src='http://videomedia.ign.com/ev/ev.swf' flashvars='object_ID=150748&downloadURL=http://moviesmovies.ign.com/movies/video/article/912/912540/maxpayne_livecomic_092308_flvlowwide.flv&allownetworking="all%"' type='application/x-shockwave-flash' width='433' height='360'></embed></center><br />Parece que va cojiendo algo de forma... Me gusta como han adaptado la ambientación del juego... Me gusta la <a href="http://www.youtube.com/watch?v=ZY-QjUl6Swo">música</a>... Si, me gusta Max Payne.<br><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/nuevo-trailer-de-max-payne-movie.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/nuevo-trailer-de-max-payne-movie.html' title='permanent link'>19:47</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=2965436060908940392&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=2965436060908940392' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/2965436060908940392/' onclick='HaloScanTB("2965436060908940392");return false;'>
+<script type='text/javascript'>postCountTB('2965436060908940392');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/2965436060908940392/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/nuevo-trailer-de-max-payne-movie.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=2965436060908940392' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Cine' rel='tag'>Cine</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>,
+<a href='http://www.elperroverde.net/search/label/Videos' rel='tag'>Videos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>lunes 29 de septiembre de 2008</h2>
+<div class='post'>
+<a name='6450898432778059744'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html'>Broken Sword 2.5: El Retorno de los Templarios</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>En el artículo anterior, hablaba de la salida de <a href="http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html">Broken Sword 2.5</a>. Unas horas después puedo decir que ya lo he terminado, y que, aún siendo un proyecto independiente, me ha parecido una maravilla.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOFBwXxiUgI/AAAAAAAAASE/MK4D-cOrrLE/s1600-h/Dibujo6.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOFBwXxiUgI/AAAAAAAAASE/MK4D-cOrrLE/s400/Dibujo6.jpg" alt="" id="BLOGGER_PHOTO_ID_5251550939762020866" border="0" /></a><br /><span class="linkleermas">Para ver el análisis completo del juego, <a href='http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html'> haz click aquí</a>.</span><span class="fullpost"><br />La pantalla que veis sobre estas lineas se nos presenta tras una carga que casi ni da tiempo a ver. En resumen, mola. Fuego, una calavera con capucha, letras bonitas, y una coletilla tremenda. Y una calavera con capucha no se ve todos los días, no señor.<br /><br />El apartado gráfico es bastante similar a los dos primeros juegos de la saga, pero tremendamente mejorado. Para recuperar este look clásico, los chicos de Mindfactory han creado un motor completamente nuevo, aunque imitando en todo momento al original. Las animaciones de los personajes lucen bastante mejor, y los escenarios son mucho más coloridos y detallados. Quizá pequen un poco de falta de movimiento en algunas partes, se echan en falta personajes que se muevan por la pantalla, sin tener que ir nosotros a hablar con ellos para que entren en acción. De todas formas, no le resta entretenimiento al asunto, así que tampoco es tan importante.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SOFRHBFshfI/AAAAAAAAASM/gGVEezMDyC0/s1600-h/Dibujo2.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SOFRHBFshfI/AAAAAAAAASM/gGVEezMDyC0/s400/Dibujo2.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5251567821483967986" /></a><center><span style="font-style:italic;">Nicole, tan linda como de costumbre</span></center><br /><br />Sobre los vídeos durante el juego, han decidido hacer uso de las 3D. Me hubiese gustado más que mantuvieran las animaciones estilo "toon", encajan mejor con el resto del juego. Pero bueno, otra vez será. El look 3D de los personajes en los vídeos está perfectamente cuidado, aunque por momentos en algunas parece como si se ralentizara un poco la imagen. De nuevo, nada importante. Quizá sea yo que soy muy caprichoso con estos detalles.<br /><br />El sonido se mantiene fiel a la saga, con unas melodías de fondo apropiadas en cada momento, y unos efectos de sonido discretillos, pero eficientes. Sobre el doblaje, personalmente el alemán no me parece un idioma agradable al oido. Aún así el resultado, por amateur que sea, es bastante positivo. Alguna voz, como las de Duane y Pearl (en la foto de arriba, seguro que os resultan conocidos) desentonan un poco con el resto. Por lo demás, acabas haciendo más caso a los subtítulos en inglés que a las voces, salvo que entiendas alemán, que eso ya no lo se.<br /><br />Si ninguno de los dos idiomas es de tu gusto, siempre puedes esperar a la <a href="http://www.brokensword.es">traducción y doblaje al castellano</a>, aunque está claro que hasta dentro de un buen tiempo no estará terminado.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SOFWLHLJuzI/AAAAAAAAASU/TyIdkHPNyhY/s1600-h/Dibujo4.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SOFWLHLJuzI/AAAAAAAAASU/TyIdkHPNyhY/s400/Dibujo4.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5251573389395082034" /></a><span style="font-style:italic;"><center>Ojalá os hubieran dejado así</center></span><br /><br />Pero si hay algo que llama la atención, es el espíritu graciosete de George Stobbart que han sabido mantener y adaptar a cada situación. Sus comentarios sobre lo que le mandas hacer, conversaciones consigo mismo, pensamientos durante las conversaciones... Incluso un par de comentarios meta-videojueguiles sin desperdicio.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOFXZ4xEToI/AAAAAAAAASc/7Sd5P4zT4sU/s1600-h/Dibujo3.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SOFXZ4xEToI/AAAAAAAAASc/7Sd5P4zT4sU/s400/Dibujo3.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5251574742737243778" /></a><span style="font-style:italic;"><center>El impulso "George, necesitas este objeto solo<br> porque existe" no entró en acción en este momento...</center></span><br /><br />En resumen, un auténtico juegazo. Si hay algo que le voy a criticar, es su duración. En 4 o 5 horas, si estás acostumbrado a jugar aventuras gráficas, podrás terminarlo. El argumento intriga desde el primer momento, lo que hace que se vuelva más adictivo según avanzas, quedándote esa sensación de "mataría por más..." una vez lo termines.<br />De todas formas, si te quieres entretener un ratillo, podrás acceder a la sección de contenidos adicionales en la web con el código que te regalan al terminar el juego.<br /><br />De todas formas, aplico el criterio de que todo producto independiente, libre, y/o sin ánimo de lucro que aparece en este mundo, es bueno. Así que por mi, como si hubiera durado 15 minutos. <br /><br />8 años de trabajo se merecen un señor homenaje.<br /><br />Gracias a Mindfactory, y a todos los que hayan hecho posible <a href="http://www.brokensword25.com/news/news.htm">Broken Sword 2.5</a><br><br></span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html' title='permanent link'>20:46</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=6450898432778059744&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>3
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=6450898432778059744' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/6450898432778059744/' onclick='HaloScanTB("6450898432778059744");return false;'>
+<script type='text/javascript'>postCountTB('6450898432778059744');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/6450898432778059744/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=6450898432778059744' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/An%C3%A1lisis' rel='tag'>Análisis</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>domingo 28 de septiembre de 2008</h2>
+<div class='post'>
+<a name='912059754984698800'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html'>Broken Sword 2.5 ya está disponible</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Desde hace unas... &#191;horas?... &#191;minutos?... está disponible para descargar libremente Baphomets Fluch 2.5, que dicho así parece que estés masticando conguitos mientras dices algo, pero que en realidad quiere decir Broken Sword 2.5.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SOAFH2PLLVI/AAAAAAAAAR4/7EMGlOEV8C8/s1600-h/Broken25.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SOAFH2PLLVI/AAAAAAAAAR4/7EMGlOEV8C8/s400/Broken25.jpg" alt="" id="BLOGGER_PHOTO_ID_5251202797890383186" border="0" /></a>A finales del 2000, en una mente alemana comenzó la idea de crear un nuevo <a href="http://es.wikipedia.org/wiki/Broken_Sword">Broken Sword</a>, desarrollado por aficionados a la saga. El proyecto avanzaba despacio, aunque tras la salida de Broken Sword 3 en el 2003, surgieron muchos mas interesados en participar en el desarrollo del juego independiente, disgustados por el nuevo look de la saga. La clave de la polémica fue la eliminación del sistema Point&amp;Click, un clásico de las aventuras gráficas. Además, la incorporación de las 3D tampoco le sentó demasiado bien a <a href="http://es.wikipedia.org/wiki/George_Stobbart">George</a>...<br /><br />Tras unos cuantos años de trabajo,  imágenes, trailers, una demo, y un par de retrasos, hoy por fin han terminado su trabajo. Por ahora el juego está disponible en completo alemán, con subtítulos opcionales en inglés. Existe también un <a href="http://www.brokensword.es/">proyecto de traducción/doblaje</a> al castellano, en el que quien quiera puede colaborar.<br /><br />Más información, <a href="http://www.brokensword25.com/downloads/vollversion.htm">links de descarga</a> incluídos, en la <a href="http://www.brokensword25.com/">web oficial del proyecto</a>.<br /><br />Si lo que quieres es ir directo al grano, te recomiendo que lo descargues desde este enlace: <a href="http://www.gamedemos.de/index.php?show=fullgames&action=details&did=61">Broken Sword 2.5</a><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html' title='permanent link'>23:47</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=912059754984698800&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=912059754984698800' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/912059754984698800/' onclick='HaloScanTB("912059754984698800");return false;'>
+<script type='text/javascript'>postCountTB('912059754984698800');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/912059754984698800/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=912059754984698800' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Descargas' rel='tag'>Descargas</a>,
+<a href='http://www.elperroverde.net/search/label/PC' rel='tag'>PC</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>sábado 27 de septiembre de 2008</h2>
+<div class='post'>
+<a name='6796499152412101762'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/mi-primer-meme-japiness.html'>Mi primer meme: the japiness</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Como para <a href="http://orichalcumblog.blogspot.com/2008/09/meme-felicidad.html">GuyBrush</a>, para mi este también es mi primer meme... En fin, porque me lo manda, y porque estoy de resaca, os dejo con el original y nunca visto Meme de la Felicidad [/ironic]<br /><br />(.......visitas... cof, cof... links... cof, cof.... en fin, el mundo de los <a href="http://www.ecuaderno.com/2006/02/16/memes-los-virus-de-la-mente/">memes</a>...)<br /><br /><br />Reglas:<br /><div style="text-align: justify;"><ul><li>Escribir seis cosas sin importancia que nos hagan felices.</li><li>Poner el enlace de la persona que nos ha elegido.</li><li>Poner las reglas en el blog.</li><li>Elegir seis personas para continuar el desafío.</li><li>Avisar a esas personas y dejar un comentario en sus blogs.</li></ul></div><br /><br /><br />Punto 2, hecho... Punto 3, hecho... Chorradas que me hacen feliz, vamos allá...<br /><ul><li>Exclamar "What??" en cualquier momento y/o situación posible.</li><li>Un pitillito y un café por la mañana mientras toca ponerse al día con los feeds.</li><li>Los gamusinos.</li><li>El botón <a href="http://www.frikipedia.es/friki/Especial:Random">"Página Aleatoria"</a> de la Frikipedia.</li><li>Ver una serie por temporadas, en lugar de por capítulos (si, señora, del tirón.)</li><li>El Guitar Hero</li></ul><br />Ale, queda escoger quienes pringan ahora.... Continuarán este desafío (ejem...)<br /><a href="http://quegrande.org/blogs/luso/">Uncle Luso</a>, <a href="http://quegrande.org/blogs/chusky/">El último reducto</a>, <a href="http://www.darkma.net/blog/">Darkma</a>, <a href="http://naemem.blogspot.com/">Tu También eres rar@</a>, <a href="http://thanmoreseries.wordpress.com/">Than More Series</a> y <a href="http://akae.blogspot.com/">Yo también quiero tener un estúpido blog</a>.<br><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/mi-primer-meme-japiness.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/mi-primer-meme-japiness.html' title='permanent link'>18:22</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=6796499152412101762&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>2
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=6796499152412101762' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/6796499152412101762/' onclick='HaloScanTB("6796499152412101762");return false;'>
+<script type='text/javascript'>postCountTB('6796499152412101762');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/6796499152412101762/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/mi-primer-meme-japiness.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=6796499152412101762' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Blogueando' rel='tag'>Blogueando</a>,
+<a href='http://www.elperroverde.net/search/label/Memes' rel='tag'>Memes</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>miércoles 24 de septiembre de 2008</h2>
+<div class='post'>
+<a name='5041147483850587252'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/publicidad-impresionante-wario-land.html'>Publicidad impresionante - Wario Land: Shake It</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><div style="text-align: center;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SNlwxqeRbWI/AAAAAAAAARI/3WapgwlCJmc/s1600-h/boxartwariolandshakeit.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SNlwxqeRbWI/AAAAAAAAARI/3WapgwlCJmc/s400/boxartwariolandshakeit.jpg" alt="" id="BLOGGER_PHOTO_ID_5249350839194185058" border="0" /></a><a href="http://www.youtube.com/experiencewii"><span style="font-style: italic;">Una promo de lo mas normal... O no...</span></a><br /><br /><div style="text-align: right;">Visto en <a href="http://kotaku.com/5053598/wario-land-marketing-shakes-up-youtube">Kotaku</a><br /></div></div><a href="http://www.youtube.com/experiencewii"><br /></a></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/publicidad-impresionante-wario-land.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/publicidad-impresionante-wario-land.html' title='permanent link'>0:37</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=5041147483850587252&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>1 comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=5041147483850587252' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/5041147483850587252/' onclick='HaloScanTB("5041147483850587252");return false;'>
+<script type='text/javascript'>postCountTB('5041147483850587252');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/5041147483850587252/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/publicidad-impresionante-wario-land.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=5041147483850587252' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>,
+<a href='http://www.elperroverde.net/search/label/Videos' rel='tag'>Videos</a>,
+<a href='http://www.elperroverde.net/search/label/Wii' rel='tag'>Wii</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>martes 23 de septiembre de 2008</h2>
+<div class='post'>
+<a name='7081875621093000111'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g.html'>Piedra vs iPhone 3G</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><div style="text-align: center;"></div><div style="text-align: center;"><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNjiPxXY-0I/AAAAAAAAARA/wHEg-chH2wA/s1600-h/3509.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNjiPxXY-0I/AAAAAAAAARA/wHEg-chH2wA/s400/3509.jpg" alt="" id="BLOGGER_PHOTO_ID_5249194126277671746" border="0" /></a><span style="font-style: italic;">Definitivamente, me compraré una piedra</span><br /></div><br /><br /><div style="text-align: right;">Visto en <a href="http://www.eatliver.com/i.php?n=3509">Eatliver</a> vía <a href="http://www.eatliver.com/i.php?n=3509">Meneame</a></div><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g.html' title='permanent link'>14:32</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=7081875621093000111&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=7081875621093000111' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/7081875621093000111/' onclick='HaloScanTB("7081875621093000111");return false;'>
+<script type='text/javascript'>postCountTB('7081875621093000111');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/7081875621093000111/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=7081875621093000111' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Chorradas' rel='tag'>Chorradas</a>,
+<a href='http://www.elperroverde.net/search/label/Frikadas' rel='tag'>Frikadas</a>,
+<a href='http://www.elperroverde.net/search/label/Imagenes' rel='tag'>Imagenes</a>,
+<a href='http://www.elperroverde.net/search/label/Internet' rel='tag'>Internet</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>lunes 22 de septiembre de 2008</h2>
+<div class='post'>
+<a name='3622643102716377582'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html'>Tutorial: Crear 'charts' personalizados para Guitar Hero</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>En Guitar Hero, cada canción del juego está compuesta básicamente por dos archivos: un .mid, y un .vgs. Si ya habéis echado un vistazo al tutorial que publiqué hace un tiempo <a href="http://cosasdelperroverde.blogspot.com/2008/05/tuto-insertar-canciones-personalizadas.html">en este mismo blog</a>, ya sabréis que el .vgs contiene el audio dividido en 4 o 5 pistas, así como un mp3 común tiene dos, una para el altavoz izquierdo y otra para el derecho.<br /><br />El .mid, debe estar creado expresamente para ser introducido en el juego. No sirven los típicos politonos en formato <span style="font-style: italic;">midi</span>, ya que no tienen datos que el juego pueda reconocer.<br /><br />En este tutorial, vamos a usar un programa llamado <a href="http://www.scorehero.com/forum/viewtopic.php?t=7466">FeedBack</a>. Los archivos que se obtienen con él son .chart, aunque cumplirán la misma función que el .mid del juego: contendrán la posición de cada nota, las animaciones de los personajes en cada momento de la canción, efectos de luces, secciones para el modo práctica... Resumiendo, lo que hace falta para la canción.<br /><br />Una vez creado el .chart, podremos ponerlo en el juego <a href="http://cosasdelperroverde.blogspot.com/2008/05/tuto-insertar-canciones-personalizadas.html">usando el Guitar Hero Explorer</a>, o convertirlo a otros formatos para usarlo en Guitar Zero, o Frets on Fire.<br /><br />En fin, tras una breve y aburrida introducción, vamos a lo que interesa. Habrá mucho texto, pero es necesario para analizar a fondo este fantástico programa.<span class="linkleermas"><br /><br />Click en <a href="http://cosasdelperroverde.blogspot.com/2008/09/tutorial-crear-charts-personalizados.html">Seguir leyendo</a> para ver el post completo.<br /></span><br /><span class="fullpost"><span style="font-size:180%;"><br /></span><div style="text-align: center;"><span style="font-size:130%;"><span style="font-size:130%;">CREAR CANCIONES PARA GUITAR HERO USANDO FEEDBACK</span><br /></span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SNgOW05fsCI/AAAAAAAAAQY/TgDo1ewwykc/s1600-h/MarcaAgua.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SNgOW05fsCI/AAAAAAAAAQY/TgDo1ewwykc/s320/MarcaAgua.jpg" alt="" id="BLOGGER_PHOTO_ID_5248961151020019746" border="0" /></a><br />Con este programa, podremos crear archivos .chart, que ya contendrán todo lo necesario para poder meterlos en el juego. Sobre estas lineas, hay una captura del aspecto del programa, con la interfaz sobre la que se crean las canciones. Bastante parecido a Guitar Hero, digamos. De ahí que resulte tan intuitivo colocar las notas que luego tocaremos en el juego.<br /><br />Lo primero es <a href="http://www.dotblip.com/feedback/index.php?page=download">descargar el programa</a> en cuestión y descomprimirlo en una carpeta, a nuestro gusto. Echando un vistazo, vemos que dentro de la carpeta, hay un par de ejecutables, y la carpeta <span style="font-style: italic;">Songs</span>, entre otras cosas. Nos interesa <span style="font-style: italic;">FeedBack.exe</span> (o <span style="font-style: italic;">FeedBack_OpenGL.exe</span>, si conoces la diferencia sabrás cual es el que mas te conviene). Al hacer doble clic en este archivo, nos llevará a la pantalla de selección de idioma, y tras una pequeña pantalla de ayuda, de la que saldremos pulsando <span style="font-style: italic;">Esc</span>, encontramos una pantalla similar a la que comentaba antes.<br /><br />Antes de empezar, si queréis echad un vistazo a las opciones que tiene el programa. Lo básico, es pulsar <span style="font-style: italic;">Esc</span> para acceder al menú, e ir navegando por las opciones con las flechas hacia arriba o abajo, pulsando <span style="font-style: italic;">Intro</span> para seleccionar una opción.<br /><br />Si por error, tocamos alguna opción que modifique el comportamiento del programa en general, podemos borrar el archivo <span style="font-style: italic;">Config.ini</span> que está en la carpeta principal, que al abrir el programa de nuevo se generará solito como si fuera la primera vez que lo ejecutamos.<br /><br />El siguiente paso, será crear un archivo nuevo para empezar una canción.<br /><br /><br /><div style="text-align: center;"><span style="font-size:130%;">CREAR UNA CANCIÓN NUEVA</span><br /></div><br />Vamos a crear una canción empezando de cero. Para ello, colocamos la canción en si dentro de la carpeta <span style="font-style: italic;">Songs</span>, ya sea en formato <span style="font-style: italic;">mp3</span> o <span style="font-style: italic;">ogg</span>. Hecho esto, abrimos FeedBack y pulsamos <span style="font-style: italic;">Esc </span>para ir al menú, para seleccionar <span style="font-style: italic;">Nuevo Chart</span>. En el menú que aparece, seleccionamos el audio que acabamos de copiar, y nos permitirá cambiar unos cuantos ajustes del .chart que se va a crear.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNga1Ab7xOI/AAAAAAAAAQo/btgfSnn72t4/s1600-h/CancionNueva.JPG"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNga1Ab7xOI/AAAAAAAAAQo/btgfSnn72t4/s320/CancionNueva.JPG" alt="" id="BLOGGER_PHOTO_ID_5248974863652865250" border="0" /></a><br />Podemos poner nuestro nombre, el tipo de canción que es, y varios ajustes más, o pulsar <span style="font-style: italic;">Esc</span> para dejarlo todo por defecto y empezar lo interesante: crear la canción.<br /><br />Ahora, lo que tenemos que escoger es en que sección del .chart irán colocadas las notas. Para ello, podemos usar las teclas desde <span style="font-style: italic;">F1</span> a <span style="font-style: italic;">F11</span>. Cada una de estas secciones puede contener notas distintas para la misma canción. Veo que en esta última versión incluyen pistas para batería, voz, etc... Por lo que intuyo que tiene funciones para Rock Band, aunque todavía me tengo que informar bien sobre esto, tras lo cual actualizaré esta información.<br /><br />Además, dentro de cada sección, podemos pulsar <span style="font-style: italic;">Shift</span> + <span style="font-style: italic;">F1</span> a <span style="font-style: italic;">F4</span>, para escoger la dificultad en la que vamos a trabajar. De nuevo, se pueden colocar notas distintas en cada dificultad, y así aparecerán luego en el juego.<br /><br />Dicho esto, pasamos un poco a la acción, que es lo interesante.<br /><br /><br /><div style="text-align: center;"><span style="font-size:130%;">COLOCAR NOTAS Y CAMBIAR BPM<br /><br /></span></div>Lo más básico a la hora de crear el .chart, será colocar las notas en la plantilla, y cambiar la velocidad a la que transcurren por la pantalla. Vamos primero con las notas.<br /><br />Para movernos por la plantilla,  pulsamos arriba y abajo. Con izquierda y derecha cambiamos el parámetro <span style="font-style: italic;">Paso</span>, que viene a ser la distancia que nos movemos cada vez que pulsamos arriba (o abajo). 1/1 equivale a un compás, y si entendemos un mínimo de fracciones (que ya no digo de música), no habrá problemas con esto.<br /><br />Para colocar o quitar una nota, pulsamos <span style="font-style: italic;">1  2  3  4  5</span>. Cada tecla corresponde a una nota, 1 al verde, 2 al rojo... Se entiende, &#191;no? Pues pulsando izquierda, derecha, arriba, abajo, y colocando notas, ya sabemos lo básico para ir colocándolas.<br />Además, para poner notas sostenidas, podemos hacerlo manteniendo pulsada la tecla de la nota que queramos colocar, y sin soltarla, pulsamos hacia arriba las veces necesarias hasta que cubra el espacio suficiente. Si cubre mas espacio del que necesitamos, podemos acortar el espacio recorrido con cada pulsación pulsando derecha o izquierda, siempre sin soltar la tecla de la nota.<br /><br />Vamos ahora con el BPM (<a href="http://es.wikipedia.org/wiki/Beats_per_minute">Beats Per Minute</a>, o 'Pulsos' por minuto). Cuanto mas grande sea este número, mas rápido transcurren las notas. Podemos cambiarlo pulsando <span style="font-style: italic;">?</span> o <span style="font-style: italic;">&#191;</span>, en cualquier momento de la plantilla que estamos creando. Por ejemplo, establecemos un BPM al principio de la canción, pulsamos arriba un par de veces, y cambiamos el BPM. Hasta el segundo cambio, la canción transcurre con el primer BPM que pusimos. Aprender a jugar con este parámetro es muy importante, para poder sincronizar las notas y ajustarlas al sonido de la canción.<br /><br />Para mas precisión, podemos pulsar:<br /><span style="font-style: italic;">Shift</span> + <span style="font-style: italic;">?/&#191;</span>                Para cambiar el BPM en décimas.<br /><span style="font-style: italic;">Ctrl</span> + <span style="font-style: italic;">?/&#191;</span>                  Para cambiarlo en centésimas.<br /><span style="font-style: italic;">Ctrl</span> + <span style="font-style: italic;">Shift</span> + <span style="font-style: italic;">?/&#191;</span>     O en milésimas.<br /><br />Mas adelante, veremos que se puede utilizar una técnica llamada Anchors (o 'puntos de ancla'), con la cual marcaremos la primera nota de una sección, y la última. Después, con sincronizar solamente esas dos notas, FeedBack se encargará de colocar los BPM necesarios en esa sección para que lleve un ritmo constante. De todas formas, para poder comprender bien como funciona este método, lo mejor es aprender primero a manejarse con el cambio manual de BPM.<br /><br /><br /><div style="text-align: center;"><span style="font-size:130%;"> PREVISUALIZAR NUESTRO TRABAJO</span><br /><br /><div style="text-align: left;">Está muy bien colocar notas a ojo de buen cubero, pero FeedBack incluye la opción de previsualizar la canción. Ésta es la opción más útil que tiene el programa, ya que nos permitirá reproducir nuestra plantilla al mismo tiempo que la música, y así podemos ver si las notas están bien colocadas.<br /><br />Para empezar la previsualización, pulsamos <span style="font-style: italic;">Espacio</span>, y empezará a desplazarse la plantilla tal cual lo vemos en Guitar Hero. Pulsando de nuevo <span style="font-style: italic;">Espacio</span>, paramos, y podemos volver a editar la pista. Si queremos reproducir desde el principio la canción, podemos hacerlo con <span style="font-style: italic;">Shift</span> + <span style="font-style: italic;">Espacio</span>.<br /><br />Además, hay un par de opciones muy útiles durante la previsualización, que nos ayudarán a sincronizar mejor las notas.<br /><br />Pulsando <span style="font-style: italic;">M</span> activamos/desactivamos un metrónomo, con el que podemos asegurarnos de que estamos haciendo nuestra pista al ritmo real de la canción. No es necesario seguirlo al 100%, pero si que hará que las notas queden mucho mejor distribuidas.<br /><br />Con <span style="font-style: italic;">N</span> activamos las 'palmadas', que hará que suene una 'palmada' cada vez que una nota que hemos colocado pase por la linea, es decir, justo cuando tendríamos que tocarla en el juego. Está bastante claro que se sincroniza mejor de oído que visualmente, y activando esta opción durante la previsualización será mas fácil saber que notas están fuera de lugar.<br /><br />Como pequeño inciso, podemos cambiar el volumen de estos dos efectos pulsando V, y moviendo la correspondiente barra con izquierda o derecha. Por si no oímos la canción con tanto efecto, vamos.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SNgqVkIzoaI/AAAAAAAAAQw/A0zBik2fiSs/s1600-h/Vol.JPG"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SNgqVkIzoaI/AAAAAAAAAQw/A0zBik2fiSs/s320/Vol.JPG" alt="" id="BLOGGER_PHOTO_ID_5248991915666547106" border="0" /></a><br />Bueno, y hasta aquí la primera parte del tutorial. Podemos pulsar <span style="font-style: italic;">S </span>para guardar el .chart en cualquier momento, y cargarlo de nuevo cuando queramos (en lugar de pulsar en Nuevo Chart, pulsamos en Cargar Chart)<br /><br />Id trasteando un poco, que pronto pondré más información sobre como usar el programa: animar los personajes, colocar la energía estrella, secciones para el jugador uno y dos, y mas trucos para hacer más fácil la creación de canciones.<br /><br />Si queréis algunas canciones, podéis descargarlas <a href="http://cosasdelperroverde.blogspot.com/search/label/Guitar%20Hero">aquí mismo</a>. Además, si aún no sabéis como ponerlas en el juego, tenéis <a href="http://cosasdelperroverde.blogspot.com/2008/05/tuto-insertar-canciones-personalizadas.html">este fantástico tutorial</a> (cof, cof...) para insertarlas en Guitar Hero 2 de PS2.<br /><br />Un saludo, y nos vemos!<br /></div></div></span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html' title='permanent link'>0:33</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=3622643102716377582&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=3622643102716377582' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/3622643102716377582/' onclick='HaloScanTB("3622643102716377582");return false;'>
+<script type='text/javascript'>postCountTB('3622643102716377582');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/3622643102716377582/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=3622643102716377582' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Guitar%20Hero' rel='tag'>Guitar Hero</a>,
+<a href='http://www.elperroverde.net/search/label/Musica' rel='tag'>Musica</a>,
+<a href='http://www.elperroverde.net/search/label/Tutoriales' rel='tag'>Tutoriales</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>sábado 20 de septiembre de 2008</h2>
+<div class='post'>
+<a name='194909076953418214'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo.html'>La visión subjetiva</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><span class="cita">Ese esta bien, pero me gustaria mas algo que no fuera ni en primera ni tercera persona, sino mas vision subjetiva. &#191;entendeis a lo que me refiero?</span><br /><br /><div style="text-align: right;"><span style="font-style: italic;">Entendido, <a href="http://www.elotrolado.net/hilo_consejo-juego-rpg_1083697#p1713165054">vibes</a>, entendido...</span></div><br /><br /><span style="font-size:78%;">PD: Finálmente resultó buscar algo en perspectiva isométrica...<br /><br /></span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo.html' title='permanent link'>13:36</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=194909076953418214&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=194909076953418214' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/194909076953418214/' onclick='HaloScanTB("194909076953418214");return false;'>
+<script type='text/javascript'>postCountTB('194909076953418214');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/194909076953418214/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=194909076953418214' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Chorradas' rel='tag'>Chorradas</a>,
+<a href='http://www.elperroverde.net/search/label/Citas' rel='tag'>Citas</a>,
+<a href='http://www.elperroverde.net/search/label/EOL' rel='tag'>EOL</a>,
+<a href='http://www.elperroverde.net/search/label/Internet' rel='tag'>Internet</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<div class='post'>
+<a name='2706493459820115204'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/la-del-hombre-que-quera-un-ordenador.html'>La del hombre que quería un ordenador, pero que no quería un ordenador</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p>Historias raras se leen en muchos sitios, aunque esta en especial me ha hecho perder la poca fe que me quedaba en la humanidad.<br /><br /><br /><span style="font-style: italic;">- Buenos Días, &#191;qué desea?<br /><br />- Yo odio la tecnología, no me gustan las máquinas, por mí las rompía todas&#8230; pero el sistema me obliga a comprarme un portátil&#8230;<br /><br />- Bueno, &#191;para qué va a usarlo?<br /><br />- No si a mi no me gustan los ordenadores, si no tengo ni teléfono móvil, y el fijo, porque me obligaron a ponérmelo, que yo no quería (pero llegó a la tienda en un moderno cuatroxcuatro&#8230; que no era una máquina está claro).<br /><br />- Ya, pero &#191;qué uso le va a dar al PC?<br /><br />- No, yo he pensado, que ya que me obligan a comprarme uno, solo voy a claudicar una vez. Que yo por esto de buscar un portátil, no voy a pasar más. Así que he pensado que este portátil va a ser el único ordenador que me compre en mi vida. Me tiene que durar hasta que me muera.</span>[...]<br /><br />El resto de la historia en <a href="http://changlonet.com/blog/2008/el-ludita-comprando-un-pc/">'Al otro lado del mostrador'</a>, junto con otra gran cantidad de contenido de calidad.</p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/la-del-hombre-que-quera-un-ordenador.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/la-del-hombre-que-quera-un-ordenador.html' title='permanent link'>2:52</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=2706493459820115204&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=2706493459820115204' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/2706493459820115204/' onclick='HaloScanTB("2706493459820115204");return false;'>
+<script type='text/javascript'>postCountTB('2706493459820115204');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/2706493459820115204/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/la-del-hombre-que-quera-un-ordenador.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=2706493459820115204' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Blogueando' rel='tag'>Blogueando</a>,
+<a href='http://www.elperroverde.net/search/label/Chorradas' rel='tag'>Chorradas</a>,
+<a href='http://www.elperroverde.net/search/label/Inform%C3%A1tica' rel='tag'>Informática</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>viernes 19 de septiembre de 2008</h2>
+<div class='post'>
+<a name='2793065460052181399'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/se-acerca-el-fin-del-mundo.html'>Se acerca el fin del mundo</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p>Estimados compañeros: leo en VidaExtra una triste noticia. Uwe Boll ha decidido expandir sus horizontes, y no se le ha ocurrido mejor manera de hacerlo que producir 'Tunnel Rats 1968' (por supuesto, con su correspondiente película a rastras...)<br /><br />Mas información, trailer incluido, <a href="http://www.vidaextra.com/2008/09/19-primera-senal-del-apocalipsis-el-videojuego-de-uwe-boll-ve-la-luz" target="_blank">aquí</a>.<br /><br />Así que ya sabéis. A terminar todos esos juegos pendientes, lavaos el sobaquillo un poco, y rezad las oraciones que sepais... Se acerca el apocalipsis.<br /><center><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SNPGIn_sakI/AAAAAAAAAP4/jHKn_enct30/s1600-h/uwe_boll_finger.jpg"><img style="margin: 0px auto 10px; display: block; text-align: center; cursor: pointer;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SNPGIn_sakI/AAAAAAAAAP4/jHKn_enct30/s320/uwe_boll_finger.jpg" alt="" id="BLOGGER_PHOTO_ID_5247755842294147650" border="0" /></a><span style="font-style: italic;">Jódete LHC, yo acabaré con el mundo.</span><br /></center></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/se-acerca-el-fin-del-mundo.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/se-acerca-el-fin-del-mundo.html' title='permanent link'>17:00</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=2793065460052181399&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=2793065460052181399' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/2793065460052181399/' onclick='HaloScanTB("2793065460052181399");return false;'>
+<script type='text/javascript'>postCountTB('2793065460052181399');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/2793065460052181399/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/se-acerca-el-fin-del-mundo.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=2793065460052181399' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Cine' rel='tag'>Cine</a>,
+<a href='http://www.elperroverde.net/search/label/Citas' rel='tag'>Citas</a>,
+<a href='http://www.elperroverde.net/search/label/Mitos' rel='tag'>Mitos</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<div class='post'>
+<a name='8362573463224602355'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente.html'>Web 2.0, mejorando lo ya hecho</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Curiosa la web que enlazan en <a href="http://www.pisitoenmadrid.com/blog/2008/09/webs-curiosas-v/">Pisito en Madrid</a>. <br /><br /><a href="http://www.nihilogic.dk/labs/wolfenflickr/">WolfenFlickr</a> consiste en una aplicación Javascript, que con el único uso del navegador, permite acceder a las fotos del usuario que elijamos de Flicker como si estuviéramos jugando a Wolfestein 3D. Para redondearlo, funciona también con búsquedas de fotos, para los mas vagos.<br /><br /><center><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SNOfmIn5F5I/AAAAAAAAAPo/9l5ufyRvOkk/s1600-h/wolf.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SNOfmIn5F5I/AAAAAAAAAPo/9l5ufyRvOkk/s320/wolf.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5247713468315408274" /></a></center><br /><br />Y para no dejar la entrada tan sosa, una gran cita desde el blog de <a href="http://blogderandy.wordpress.com/2008/09/19/%c2%a1%c2%a1la-xbox-360-la-estamos-dando-la-estamos-regalando-noticias-y-tetash/" target>Randy</a><br /><br /><span class="cita">&#191;Qué otras aberraciones contra la música popular nos esperan? &#191;Singstar: Eskorbuto? &#191;Guitar hero: Sex pistols? &#191;Rock band: Mamá ladilla?</span><br /><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente.html' title='permanent link'>14:35</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=8362573463224602355&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=8362573463224602355' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/8362573463224602355/' onclick='HaloScanTB("8362573463224602355");return false;'>
+<script type='text/javascript'>postCountTB('8362573463224602355');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/8362573463224602355/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=8362573463224602355' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Blogueando' rel='tag'>Blogueando</a>,
+<a href='http://www.elperroverde.net/search/label/Chorradas' rel='tag'>Chorradas</a>,
+<a href='http://www.elperroverde.net/search/label/Inform%C3%A1tica' rel='tag'>Informática</a>,
+<a href='http://www.elperroverde.net/search/label/Internet' rel='tag'>Internet</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>jueves 18 de septiembre de 2008</h2>
+<div class='post'>
+<a name='6264145920653918501'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/max-payne-movie-vs-payne-redemption.html'>Max Payne: The Movie vs Payne & Redemption</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p>Si a algo aspiro en esta vida es a hacer algo grande, lo que sea, para que luego venga una multinacional y me robe la idea. Así de puta es la vida, y poco puede hacer para cambiarse.<br /><br />Esto es lo que les ha pasado a los productores de <a href="http://www.payneandredemption.com/" target="_blank">Max Payne: Payne & Redemption</a>, película independiente de la que <a href="http://cosasdelperroverde.blogspot.com/2007/06/max-payne-payne-redemption.html" target="_blank">ya hablé</a> un poco <a href="http://cosasdelperroverde.blogspot.com/2007/09/payne-redemption-teaser-trailer-2.html" target="_blank">hace un tiempo</a>.<br /><br />Tras unos cuantos años de trabajo, llega Fox con toda su fuerza, y no solo se dedica a empañar todo lo hecho con una producción cuyo capital sobrepasa con creces al del film independiente, sino que encima restringe los derechos de uso del nombre de Max Payne, de su historia, de su abuela, y de todo lo relacionado con él. <br /><br />Para no dejarlo en el tintero, podéis ver lo que fue el tercer teaser de la película independiente <a href="http://www.payneandredemption.com/blog/index.php?entry=entry080314-211412" target="_blank" >en su blog oficial</a>, o descargar la versión en HD <a href="http://www.payneandredemption.com/trailerspot720x368.zip">aquí</a>.<br /><br />Oficialmente, no habrá un cuarto teaser. No se publicará la película tal y como estaba montada. Si, montada. Casi lista para su publicación, con todas las escenas rodadas, salvo un par de cortes extras que faltaban por añadir. <br /><br />De todas formas, las últimas noticias apuntan a que seguirán adelante con el proyecto. Todavía no tienen muy claro el por qué la Fox ha cargado de tal manera contra ellos (ya me diréis que competencia le pueden hacer...), pero no piensan tirar el trabajo por la borda, o eso dice su director en la última entrada publicada.... Mayo de 2008... desde entonces sin actualizaciones... &#191;habrá mandado la Fox a sus sicarios ya? <br /><br />En fin, esperemos que sigan adelante, renazcan de sus cenizas, y se tomen la venganza por su cuenta al mas puro estilo Max Payne.<br /><br />Cambiando un poco de bando, Fox tiene planeado el estreno de su película, <a href="http://www.maxpaynethemovie.com/">Max Payne: The Movie</a>, para el 17 de Octubre. Para que babeéis un poco a gusto, os dejo con un par de trailers de lo que promete esta película. Mas acción, mas explosiones, mas bullet time... Mas dinerillo, en general.<br /><br />Aclaro que no estoy en contra de la producción de Fox, de hecho me parece cojonudo que se haga una película de Max Payne en condiciones. Pero no veo motivo para eliminar del mapa todo el empeño que se dejó en Payne & Redemption.<br /><br />En fin... A lo que ibamos... <br /><br /><center><a href="http://63.250.192.34/st0104r12/012/yahoomovies/8/69830659.mov?StreamID=69830659&pl_auth=f0e17318c9f18ed4cac1107f30234853&ht=30&b=450utvd44svqg48d22c98">Primer trailer</a> en HD<br /><br />Y el segundo, aquí queda:<br /><br /><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/zphHc9MpAKI&hl=en&fs=1&color1=0x5d1719&color2=0xcd311b"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/zphHc9MpAKI&hl=en&fs=1&color1=0x5d1719&color2=0xcd311b" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object><br /></center><br /><br />Nos vemos!<br /><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/max-payne-movie-vs-payne-redemption.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/max-payne-movie-vs-payne-redemption.html' title='permanent link'>12:33</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=6264145920653918501&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=6264145920653918501' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/6264145920653918501/' onclick='HaloScanTB("6264145920653918501");return false;'>
+<script type='text/javascript'>postCountTB('6264145920653918501');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/6264145920653918501/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/max-payne-movie-vs-payne-redemption.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=6264145920653918501' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Cine' rel='tag'>Cine</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>,
+<a href='http://www.elperroverde.net/search/label/Videos' rel='tag'>Videos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>miércoles 17 de septiembre de 2008</h2>
+<div class='post'>
+<a name='4402829163363609307'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/fear-extraction-point.html'>F.E.A.R. Extraction Point</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Después del <a href="http://cosasdelperroverde.blogspot.com/2008/09/fear.html">análisis</a> que dediqué a F.E.A.R., no veo necesario volver a hablar de los mismo aspectos tras haber jugado su expansión, Extraction Point. <br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNE9FwQjmDI/AAAAAAAAAOE/Y_yHBBKevUs/s1600-h/extractionxh0.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SNE9FwQjmDI/AAAAAAAAAOE/Y_yHBBKevUs/s320/extractionxh0.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5247042209926322226" /></a><br /><br />Gracias a dios, continúa con la historia justo en el punto donde termina el primer juego. A lo largo de 6 nuevos capítulos (frente a los 11 del juego original) tendremos que abrirnos paso entre soldados, espectros, y entes varios, para poder llegar al punto de extracción en el que nos esperan nuestros compañeros. Un par de bicharracos nuevos a los que enfrentarse, y otro par de armas nuevas para compensar, es lo que mayormente aporta la expansión. Además de desvelar algunos puntos de la trama, aunque quizá menos de lo que esperaba.<br /><br />Me queda por jugar la segunda expansión, Perseus Mandate, que por lo que llevo leído cuenta una historia paralela a la que nos ofrecieron en los dos primeros episodios. Espero que por fin aclare todos los detalles del dichoso Proyecto Origen.<br /><br />En conclusión: una vez jugado F.E.A.R., no hará falta que obligue a nadie a jugar Extraction Point. Supera con creces el factor miedo de su predecesor, incluidas un par de escenas tremendas que consiguieron ese escalofrío (que no susto) que llevaba esperando desde que empecé a jugar. <br /><br />Esperemos que la tercera parte no decepcione. Un saludo!</p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/fear-extraction-point.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/fear-extraction-point.html' title='permanent link'>19:19</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=4402829163363609307&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=4402829163363609307' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/4402829163363609307/' onclick='HaloScanTB("4402829163363609307");return false;'>
+<script type='text/javascript'>postCountTB('4402829163363609307');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/4402829163363609307/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/fear-extraction-point.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=4402829163363609307' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/An%C3%A1lisis' rel='tag'>Análisis</a>,
+<a href='http://www.elperroverde.net/search/label/PC' rel='tag'>PC</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>martes 16 de septiembre de 2008</h2>
+<div class='post'>
+<a name='8564468364834665230'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/fear.html'>F.E.A.R.</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br><center>Jugadlo. Dicho esto, solo me queda decir... Jugadlo!</center><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM_Csfufg7I/AAAAAAAAANs/Mmzohb9pV_g/s1600-h/FEAR+2008-09-16+16-16-32-09.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM_Csfufg7I/AAAAAAAAANs/Mmzohb9pV_g/s320/FEAR+2008-09-16+16-16-32-09.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5246626160596452274" /></a><br /><br /><a href="http://es.wikipedia.org/wiki/F.E.A.R.">F.E.A.R.</a> es quizá el mejor FPS con toques de Survival Horror que he visto hasta la fecha. Se que no es el mejor del mundo, se que muchos juegos lo superan en todos los sentidos, pero tiene ese 'no se que' que hace que quieras más y más juego.<br /><br /><span class="linkleermas">Si quereis ver una breve reseña, solo teneis que hacer click en <a href='http://cosasdelperroverde.blogspot.com/2008/09/fear.html'>seguir leyendo...</a><br></span><br /><span class="fullpost">Vayamos por partes, que sino se va a hacer muy lioso.<br /><br /><span style="font-weight:bold;"><br />Argumento:</span> Quizá el punto mas fuerte del juego, aunque ser original hoy en día está complicado. Acabamos de entrar en las filas de F.E.A.R. como "hombre punta", con todo lo que conlleva. Sin contarnos exactamente que es lo que ocurre, nuestro principal objetivo será acabar con Paxton Fettel, un hombre-proyecto militar capaz de manejar telepáticamente a miles de soldados. Por supuesto, esto es solo el principio. Poco a poco iremos descubriendo de que va todo eso del Proyecto Origen, de la pequeña <strike>hachedepé</strike> niñita "Alma" que no hace mas que pegarnos unos sustillos de infarto... <br /><br />Quizá el hecho de que el argumento se vaya contando en trozos sueltos, en mensajes que encontramos en los teléfonos ajenos, y en sueños/alucinaciones, haga que muchos se pierdan alguna frase clave en el desarrollo. De todas formas, como ocurre siempre, discutir sobre el argumento en algún foro ayuda a aclarar mucho las cosas...<br /><br /><span style="font-weight:bold;"><br />Gráficos:</span> Impresionantes. Actualmente quedan un poco desfasados al lado de otros títulos, pero los efectos de luces y sombras del juego son sencillamente indescriptibles. Cada foco está situado en el sitio exacto para que te gires y acabes disparando contra tu propia sombra. Solo por esos detalles, ya merece la pena jugarlo. Aún así, la falta de variedad en los escenarios hace que el juego se vuelva un poco repetitivo por momentos. Idem para los enemigos, debe haber como 7 u 8 tipos a lo largo de todo el juego... De todas formas, hay algo muy cuidado en ellos, y es las reacciones al recibir disparos, al morir, al caer. Unas animaciones muy logradas, o eso me ha parecido.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM_TW7qPZiI/AAAAAAAAAN8/FRI47m_z9a0/s1600-h/FEAR+2008-09-16+16-17-59-76.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM_TW7qPZiI/AAAAAAAAAN8/FRI47m_z9a0/s320/FEAR+2008-09-16+16-17-59-76.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5246644481835361826" /></a><br /><br /><span style="font-weight:bold;">Sonido:</span> Otro puntazo. Pese a los problemas que tiene con muchos sistemas de sonido, siempre habrá algún buen parche que lo remedie. Jugando con las luces apagadas y unos auriculares, tirar un bote o patear una lata mientras caminas puede resultar en un sustazo tremendo. El sonido de las armas podría ser bastante mejorable, pero teniendo en cuenta que no pretende ser realista en este aspecto, puede ser perdonable. Sobre las música, perfecta para cada situación. Aquí es donde mas se nota esa ambientación a lo Survival Horror, con esa musiquilla de fondo que te saca de quicio. <br /><br /><br /><span style="font-weight:bold;">Jugabilidad:</span> Diría que la curva de dificultad en nivel normal (lo siento, no soy un matado, y me gusta disfrutar los juegos) está bastante equilibrada. La IA del enemigo está mas que lograda, se parapetan tras cajas, lanzan granadas si te quedas escondido, reculan si se la lanzas tu a ellos. Incluso se esconden una vez sus compañeros han muerto para intentar pillarte por sorpresa, lo cual resulta bastante estresante. Y no digo que eso sea malo...<br /><br />Quizá lo que mas afecta al desarrollo del juego es el "tiempo bala", al mas puro estilo Max Payne. Al pulsar un botón durante el juego, podemos activar por tiempo limitado un modo a cámara lenta, en el que podremos apuntar con mas calma a la cabeza del enemigo. Los efectos de las balas en el aire cuando entramos en este modo, son de lo mejorcito del juego.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM_TNf8fR3I/AAAAAAAAAN0/TZJU4PzVP9Q/s1600-h/FEAR+2008-09-16+16-20-14-51.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM_TNf8fR3I/AAAAAAAAAN0/TZJU4PzVP9Q/s320/FEAR+2008-09-16+16-20-14-51.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5246644319776884594" /></a><br /><br />Por último, y no se bien donde englobarlo, están los "sueños" en los que entramos durante el transcurso del juego. De nuevo, si jugasteis a Max Payne, os sonará de que va el asunto... Los efectos de fuego, la sangre chorreando por las paredes, la distorsión de la cámara, movimientos a cámara lenta... Estresante es la palabra que mejor define esta situación. <br /><br />Y poco mas queda por contar... Un final bestial (que no sorprendente) que hará que quieras jugar a sus dos expansiones...<br /><br />Y a eso voy ahora mismito, le toca el turno a F.E.A.R. Extraction Point, que se está instalando en este momento... Espero que explique unos cuantos cabos sueltos que quedan en el argumento del primer juego... Ya os contaré!<br><br /></span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/fear.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/fear.html' title='permanent link'>16:04</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=8564468364834665230&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=8564468364834665230' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/8564468364834665230/' onclick='HaloScanTB("8564468364834665230");return false;'>
+<script type='text/javascript'>postCountTB('8564468364834665230');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/8564468364834665230/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/fear.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=8564468364834665230' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/An%C3%A1lisis' rel='tag'>Análisis</a>,
+<a href='http://www.elperroverde.net/search/label/PC' rel='tag'>PC</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>lunes 15 de septiembre de 2008</h2>
+<div class='post'>
+<a name='5883126261258076908'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/consigue-una-llave-abre-la-puerta.html'>Consigue una llave... Abre la puerta...</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><center><object width="550" height="400"><param name="movie" value="somefilename.swf"><embed src="http://escape-game.com/common/og/dak.swf?lang=en" width="550" height="400"></embed></object><br />Así de simple (o no...)</center><br><br /><br />Editado: <a href="http://escape-game.com/dak.html">Un linkito</a> por si deja de funcionar aquí...<br><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/consigue-una-llave-abre-la-puerta.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/consigue-una-llave-abre-la-puerta.html' title='permanent link'>12:35</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=5883126261258076908&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=5883126261258076908' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/5883126261258076908/' onclick='HaloScanTB("5883126261258076908");return false;'>
+<script type='text/javascript'>postCountTB('5883126261258076908');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/5883126261258076908/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/consigue-una-llave-abre-la-puerta.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=5883126261258076908' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Flash' rel='tag'>Flash</a>,
+<a href='http://www.elperroverde.net/search/label/Frikadas' rel='tag'>Frikadas</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>domingo 14 de septiembre de 2008</h2>
+<div class='post'>
+<a name='3234716568111153586'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/una-de-tearing-v-sync-y-triple.html'>Una de Tearing, V-Sync, y Triple Buffering, por favor ...</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br>Una de las pequeñas putadas de tener un monitor de mierda para jugar, es que por mucho que tu tarjeta gráfica genere frames y frames, no todos pasaran por la pantalla. En mi caso, la LCD del portátil funciona a 60Hz, por lo que no podrá mostrar mas de 60 imágenes en pantalla por segundo, por muchas mas que la tarjeta gráfica genere, lo cual puede dar lugar a cosas como esta:<br /><br /><center><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SM48kvVSyoI/AAAAAAAAANk/7nxXDqp7wpg/s1600-h/GGDSG_19.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SM48kvVSyoI/AAAAAAAAANk/7nxXDqp7wpg/s320/GGDSG_19.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5246197217811942018" /></a></center><br />Por suerte, todo tiene su solución, con sus pros y contras, pero solución al fin y al cabo. <br /><br /><span class="linkleermas"><a href='http://cosasdelperroverde.blogspot.com/2008/09/una-de-tearing-v-sync-y-triple.html'>Seguir leyendo...</a><br></span><br /><span class="fullpost">Este efecto se conoce como <a href="http://www.tweakguides.com/Graphics_9.html">Tearing</a>, y ocurre cuando se pierde la sincronía entre la tarjeta gráfica y el monitor. En el <a href="http://es.wikipedia.org/wiki/Buffer">buffer</a>, donde se encuentran los <a href="http://es.wikipedia.org/wiki/Frame">frames</a>, se acumulan mas frames de los que el monitor puede mostrar, y terminan por mostrarse "solapados" unos sobre otros. Ocurre especialmente cuando la acción ocurre a gran velocidad, aunque la forma mas común de encontrarse con este molesto efecto es en cualquier <a href="http://es.wikipedia.org/wiki/Acci%C3%B3n_en_primera_persona">FPS</a>, al mover la cámara rápidamente hacia los lados.<br /><br />Pese al distinto funcionamiento en general de monitores CRT y LCD, afecta a ambos por igual, ya que por cuestiones de compatibilidad, en este aspecto ambos monitores se comportan igual.<br /><br />Para acabar con este efecto, gran parte de los juegos traen consigo la opción de activar la <a href="http://en.wikipedia.org/wiki/Vsync">V-Sync</a>, o sincronización vertical. Al activarla, la tarjeta gráfica queda "limitada", y no enviará un nuevo frame al monitor hasta que el anterior se haya mostrado. Para juegos que no tengan esta opción, si tenemos una gráfica nVidia, podemos forzarla desde el "Panel de Control de nVidia" para la aplicación en concreto que queramos.<br /><br /><center><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SM1xUKvNc4I/AAAAAAAAAM8/0-aEcCmZGJE/s1600-h/Panel+Control.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SM1xUKvNc4I/AAAAAAAAAM8/0-aEcCmZGJE/s320/Panel+Control.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5245973732250186626" /></a></center><br /><br />El problema es que el V-Sync afecta enormemente al rendimiento, desaparecerá el Tearing, pero probablemente aparecerán ralentizaciones que antes no estaban presentes. A partir de aquí, dos opciones: o bajar la resolución, gráficos, etc... Que en realidad no es solución, sino una mierda... O activar el <a href="http://en.wikipedia.org/wiki/Triple_buffering">Triple Buffering</a> a ver si se arregla algo.<br /><br />Si el juego funciona bajo OpenGL, podremos forzarlo igualmente desde el panel de control de nVidia, poco mas abajo de donde estaba el V-Sync.<br /><br />En caso de que queramos hacerlo para un juego que use D3D, podremos con un pequeño programa que viene adjunto con <a href="http://downloads.guru3d.com/download.php?det=163">RivaTuner</a>.<br /><br />En la carpeta que creará en el menú de inicio, encontramos el D3DOverrider.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SM10flBFIJI/AAAAAAAAANE/XXX6K-U6svI/s1600-h/D3d.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SM10flBFIJI/AAAAAAAAANE/XXX6K-U6svI/s320/D3d.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5245977226817904786" /></a><br /><br />Bastante sencillito y claro, según las opciones que estén marcadas forzará una cosa u otra. Por defecto viene así, y no es necesario tocarle nada. Al ejecutar un juego teniendo este programa funcionando, se activarán las opciones marcadas, es decir, V-Sync y Triple Buffering, que es lo que queremos.<br /><br />Para comprobar la diferencia, he aquí unas capturas de la prueba de rendimiento que incluye F.E.A.R. (por cierto, recomendadísimo, a ver si hablo algo de él). El equipo en el que hice las pruebas es el que aparece <a href="http://www.blogger.com/profile/02863286717959738665">aquí</a>, y cabe decir que la frecuencia de actualización de la pantalla es de 60 Hz (por tanto, con el V-Sync activado, se enviarán como máximo 60 frames por segundo a la pantalla)<br /><br /><center>Sin V-Sync<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM178mdKIBI/AAAAAAAAANM/O80bXeHneYs/s1600-h/sin+nada.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM178mdKIBI/AAAAAAAAANM/O80bXeHneYs/s320/sin+nada.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5245985422001709074" /></a></center><br /><br /><center>Con V-Sync<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM18P4S9pqI/AAAAAAAAANU/7oT6nzQAPIA/s1600-h/vs.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SM18P4S9pqI/AAAAAAAAANU/7oT6nzQAPIA/s320/vs.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5245985753208301218" /></a></center><br /><br /><center>Con V-Sync y Triple Buffering<br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM18aYEVqQI/AAAAAAAAANc/T2U6zekddOg/s1600-h/vs%2Btb.JPG"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SM18aYEVqQI/AAAAAAAAANc/T2U6zekddOg/s320/vs%2Btb.JPG" border="0" alt=""id="BLOGGER_PHOTO_ID_5245985933535586562" /></a></center><br /><br /><br />Como vemos, al activar el Triple Buffering se recupera prácticamente el rendimiento que teníamos con todo desactivado, y eliminamos el dichoso Tearing de la pantalla.<br /><br />Sin embargo, el Triple Buffering es un arma de doble filo, pues en algunos casos puede crear "Input Lag", es decir, una pequeña diferencia entre que pulsamos una tecla, y se ve reflejada en pantalla. <br />Además, puede dar lugar a distintos problemas, desde pequeños fallos visuales, a cuelgues completos. Todo es cuestión de probar, y ver que es lo que mas nos convence.<br /><br />Espero que haya sido útil. Para cualquier duda, no dudéis en dejar un comentario!<br /><br /><br /></span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/una-de-tearing-v-sync-y-triple.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/una-de-tearing-v-sync-y-triple.html' title='permanent link'>21:18</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=3234716568111153586&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=3234716568111153586' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/3234716568111153586/' onclick='HaloScanTB("3234716568111153586");return false;'>
+<script type='text/javascript'>postCountTB('3234716568111153586');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/3234716568111153586/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/una-de-tearing-v-sync-y-triple.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=3234716568111153586' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Inform%C3%A1tica' rel='tag'>Informática</a>,
+<a href='http://www.elperroverde.net/search/label/nVidia' rel='tag'>nVidia</a>,
+<a href='http://www.elperroverde.net/search/label/PC' rel='tag'>PC</a>,
+<a href='http://www.elperroverde.net/search/label/Tutoriales' rel='tag'>Tutoriales</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>viernes 12 de septiembre de 2008</h2>
+<div class='post'>
+<a name='2866901417308038029'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/nios-escondeos-pedobear-inside.html'>Niños, escondeos !! [PedoBear inside]</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br><center><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" id="gtembed" width="480" height="392"> <param name="allowScriptAccess" value="sameDomain" /> <param name="allowFullScreen" value="true" /> <param name="movie" value="http://www.gametrailers.com/remote_wrap.php?umid=238308"/> <param name="quality" value="high" /> <embed src="http://www.gametrailers.com/remote_wrap.php?umid=238308" swLiveConnect="true" name="gtembed" align="middle" allowScriptAccess="sameDomain" allowFullScreen="true" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="480" height="392"></embed> </object><br /><br>OMG!!</center></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/nios-escondeos-pedobear-inside.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/nios-escondeos-pedobear-inside.html' title='permanent link'>16:46</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=2866901417308038029&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=2866901417308038029' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/2866901417308038029/' onclick='HaloScanTB("2866901417308038029");return false;'>
+<script type='text/javascript'>postCountTB('2866901417308038029');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/2866901417308038029/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/nios-escondeos-pedobear-inside.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=2866901417308038029' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Frikadas' rel='tag'>Frikadas</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>,
+<a href='http://www.elperroverde.net/search/label/Videos' rel='tag'>Videos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<div class='post'>
+<a name='1421691452152727717'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/how-about-kiss.html'>How about the kiss ?</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br><center><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/xGE34VAqYTk&hl=en&fs=1&color1=0x5d1719&color2=0xcd311b"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/xGE34VAqYTk&hl=en&fs=1&color1=0x5d1719&color2=0xcd311b" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object></center><br /><br />Peach: &#161;Mario! &#161;Lo hiciste! &#161;Estoy salvada! &#161;Gracias! &#161;Muchas gracias!<br />Mario: Sí, princesa, eres libre. &#161;Tu pesadilla ha terminado!<br />Peach: &#161;Oh, soy tan feliz!<br />Mario: Sí, sí... &#191;Qué tal un beso?<br />Peach: &#191;Qué?<br />Mario: He dicho &#191;Qué tal un beso? &#191;Sí?<br />Peach: Por&#8230; &#191;Por qué haría eso?<br />Mario: &#191;P.. Por qué? Acabo de salvarte la vida<br />Peach: Sí pero&#8230; ni siquiera te conozco<br />Mario: &#161;Te he rescatado!<br />Peach: Sí pero &#191;Tu esperab&#8230;? &#191;Qué clase de samaritano eres? &#191;Me rescatas solo para liarte conmigo?<br />Mario: [censurado] no tienes que tener sexo conmigo &#161;Todo lo que quiero es un beso! &#191;Sabes por lo que he pasado para llegar hasta aquí?<br />Peach: Uuuuuh pateaste a un puñado de champiñones &#161;Estoy impresionada!<br />Mario: &#161;Es a ti a quien capturaron los champiñones!<br />Peach: &#161;No le des la vuelta!<br />Mario: &#161;Fuiste capturada por algo que va en las ensaladas!<br />Peach: Eh, es un poco más complica&#8230;<br />Mario: Y, por cierto, por cieeeerto. No sólo me libré de un montón de champiñones, también estaban esas cosas con caparazón de tortuga encima de las que tuve que saltar y fue&#8230; &#161;fue muy duro! Y la única ayuda que tuve fue, de vez en cuando, una estrella dorada y tenía que saltar y tocarla e iba como &#8220;Ta ta ta, to lat lat to lat lat, ta ta ta, to lat lat to lat lat&#8221; y sólo ayudaba un poco, y me siento&#8230; &#161;Pero fue muy duro! &#161;Todo fue muy duro!<br />Peach: No voy a besarte<br />Mario: Ok, que le den a esto. Que le den. &#161;Eh! &#161;Dragón! Es toda tuya.<br /><br />Vía <a href="http://www.vidaextra.com/2008/09/10-super-mario-rescata-a-la-princesa">VidaExtra</a> (y gracias por la cutre-traducción!)<br><br></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/how-about-kiss.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/how-about-kiss.html' title='permanent link'>1:03</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=1421691452152727717&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=1421691452152727717' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/1421691452152727717/' onclick='HaloScanTB("1421691452152727717");return false;'>
+<script type='text/javascript'>postCountTB('1421691452152727717');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/1421691452152727717/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/how-about-kiss.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=1421691452152727717' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/Series' rel='tag'>Series</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>,
+<a href='http://www.elperroverde.net/search/label/Videos' rel='tag'>Videos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<h2 class='date-header'>martes 2 de septiembre de 2008</h2>
+<div class='post'>
+<a name='2333752196895119361'></a>
+<h3 class='post-title'>
+<a href='http://www.elperroverde.net/2008/09/condemned-criminal-origins.html'>Condemned: Criminal Origins ...</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body'>
+<style>.fullpost{display:none;}</style>
+<p><br><br />Hola. Me llamo Ethan Thomas, trabajo para el SCU (Serial Crime Unit), y tengo cara de pringao.<br><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_4Ori_yu5PJU/SLz1xKqZVMI/AAAAAAAAAMM/dsdDEDpu1uY/s1600-h/Con1.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://4.bp.blogspot.com/_4Ori_yu5PJU/SLz1xKqZVMI/AAAAAAAAAMM/dsdDEDpu1uY/s320/Con1.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5241334291376985282" /></a><br />Vale que no es la mejor primera impresión que te puede dar un juego, pero es lo que hay. Podría estar escribiendo sobre Bioshock, Half-Life 2, o Quake 4... Bueno, sobre Quake 4 mejor no. Pero el caso es que ya hay bastante escrito sobre los otros, y <span style="font-style:italic;">Condemned:Criminal Origins</span> tiene ese "algo" que engancha, y que hace que quieras más, y más...<br /><span class="linkleermas"><br />Clic en <a href='http://cosasdelperroverde.blogspot.com/2008/09/condemned-criminal-origins.html'>Seguir leyendo</a> para ver el post completo.</span><br /><span class="fullpost"><br />Pese a tener un argumento bastante trillado ya, que definiremos como <span style="font-style:italic;">yo no lo hice aunque nadie me crea</span>, la enrevesada historia nos irá sumergiendo en el juego según avanzamos. Digamos que la falta de carisma del protagonista pasa a un segundo plano en cuanto quedamos envueltos por la atmósfera del juego, con sus luces, sus sombras, sus escenas <span style="font-style:italic;">gore</span>, y unos cuantos sustos de los que hacen saltar de la silla.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SLz9AqOo8oI/AAAAAAAAAMU/KCBkEoN2xRU/s1600-h/Con2.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SLz9AqOo8oI/AAAAAAAAAMU/KCBkEoN2xRU/s320/Con2.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5241342254129934978" /></a><span style="font-style:italic;"><center>Mírame mamá, soy poli!!</center></span><br />Como buen investigador, habrá que examinar la escena del crimen. Para ello contamos con un completo equipo forense, de unos 70-80 kilos de peso, pero que por lo visto no estorba para nada al fuertote de Thomas. Luz ultravioleta, cámara de fotos, escáner 3D, rayo de luz verde que ilumina pruebas... Lo típico, vamos.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_4Ori_yu5PJU/SLz-yDkEB-I/AAAAAAAAAMc/q682B3qUnPE/s1600-h/Con3.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://3.bp.blogspot.com/_4Ori_yu5PJU/SLz-yDkEB-I/AAAAAAAAAMc/q682B3qUnPE/s320/Con3.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5241344202255894498" /></a><span style="font-style:italic;"><center>Cámara de fotos Condemned Style. Prohibida su venta por separado.</center></span><br />El sistema de combate cambia un poco respecto a los FPS tradicionales. Hay armas de fuego, si, pero no abundan. Y las que encontremos, nos servirán mientras dure su munición. El resto del tiempo, tendremos que arreglárnoslas a base de palos, estacas, cañerías, hachas, y un largo etc de artefactos que podemos empuñar.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_4Ori_yu5PJU/SL0Akz7yWpI/AAAAAAAAAMs/w9ZCbWAnPOY/s1600-h/13cco1.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://1.bp.blogspot.com/_4Ori_yu5PJU/SL0Akz7yWpI/AAAAAAAAAMs/w9ZCbWAnPOY/s320/13cco1.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5241346173745388178" /></a><span style="font-style:italic;"><center>Zas, en toda la boca.</center></span><br />Cada arma tiene unas características distintas, básicamente cuanto mas daño, menos velocidad o alcance. Pero entra en juego la defensa<span style="font-style:italic;"></span>. O aprendes a cubrirte, o mueres. Con un clic de ratón en el momento justo, bloqueas el ataque del enemigo, dejándolo expuesto a tu ira, que podrás liberar aporreando el otro botón del ratón, y rompiéndole los dientes a los energúmenos que intentan acabar contigo. Lo mejor viene con el golpe final, cuando intentan levantarse agónicos, y tomas la difícil decisión entre romperle el cuello, darle un cabezazo... Literalmente.<br /><br />Sobre las armas de fuego, ya dije que no abundan. La mayoría las empuñan los enemigos, y no tiene ni pizca de gracia que te venga un señor con escopeta cuando tú vas con tu cañería reventando cabezas. Para compensar, tienes un bonito Taser que aunque tarda un rato en recargarse tras cada uso, te sacará de mas de un apuro, ya que mientras el tarado mental al que acabas de freír se está retorciendo, puedes acercarte y robarle su arma. O eso, o llevarte un escopetazo en la cara, todo depende de lo rápido que seas. <br /><br />Por si fuera poco, compartes munición con ellos, así que moverse rápido es importante. Si el tarado con escopeta del que hablábamos antes dispara tres veces antes de que acabes con él, son tres disparos menos que harás tú. Por lo menos después podrás romperle la escopeta en la cabeza, es un consuelo.<br /><br />Queda por añadir un botón que hay para dar patadas, que resulta poco más que anecdótico salvo por el detalle de que miras hacia abajo y... tienes piernas!!<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_4Ori_yu5PJU/SL0GiZeBJsI/AAAAAAAAAM0/8XjkzjrFIpU/s1600-h/Con4.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;" src="http://2.bp.blogspot.com/_4Ori_yu5PJU/SL0GiZeBJsI/AAAAAAAAAM0/8XjkzjrFIpU/s320/Con4.jpg" border="0" alt=""id="BLOGGER_PHOTO_ID_5241352729351235266" /></a><span style="font-style:italic;"><center>En fin... Si no os convence, jugadlo, y luego hablamos.</center></span><br />Como la Wikipedia en castellano en cuanto a juegos es una mierda pinchada en un palo, link al <a href="http://en.wikipedia.org/wiki/Condemned:_Criminal_Origins">artículo en inglés</a>, y al <a href="http://www.meristation.com/v3/des_analisis.php?id=cw4469081724a87&idj=cw4214eed360a57&pic=PC">análisis en MeriStation</a>.<br /><br />Ale, a pasarlo bien!</span></p>
+<style>.linkleermas{display:inline;}</style>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/cosasDelPerroVerde?i=http://www.elperroverde.net/2008/09/condemned-criminal-origins.html' type='text/javascript'></script>
+<p class='post-footer-line post-footer-line-1'><span class='post-author'>
+Lo dijo
+Tragy
+</span>
+<span class='post-timestamp'>
+a las
+<a class='timestamp-link' href='http://www.elperroverde.net/2008/09/condemned-criminal-origins.html' title='permanent link'>10:05</a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=5333776754091265298&postID=2333752196895119361&isPopup=true' onclick='javascript:window.open(this.href, "bloggerPopup", "toolbar=0,location=0,statusbar=1,menubar=0,scrollbars=yes,width=400,height=450"); return false;'>0
+comentarios</a>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=5333776754091265298&postID=2333752196895119361' title='Enviar entrada por correo electrónico'>
+<span class='email-post-icon'>&#160;</span>
+</a>
+<script src='http://www.haloscan.com/load/tragy' type='text/javascript'>
+</script>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.haloscan.com/tb/tragy/2333752196895119361/' onclick='HaloScanTB("2333752196895119361");return false;'>
+<script type='text/javascript'>postCountTB('2333752196895119361');</script>
+</a>
+<noscript><a href='http://www.haloscan.com/tb/tragy/2333752196895119361/'>Trackback</a> | </noscript>
+</span>
+<script src='http://embed.technorati.com/linkcount' type='text/javascript'></script><a class='tr-linkcount' href='http://technorati.com/search/http://www.elperroverde.net/2008/09/condemned-criminal-origins.html/'></a>
+</span>
+<span class='item-control blog-admin pid-213554954'>
+<a href='http://www.blogger.com/post-edit.g?blogID=5333776754091265298&postID=2333752196895119361' title='Editar entrada'>
+<img alt='' class='icon-action' height='18' src='http://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Etiquetas:
+<a href='http://www.elperroverde.net/search/label/An%C3%A1lisis' rel='tag'>Análisis</a>,
+<a href='http://www.elperroverde.net/search/label/PC' rel='tag'>PC</a>,
+<a href='http://www.elperroverde.net/search/label/Videojuegos' rel='tag'>Videojuegos</a>
+</span>
+</p>
+<p class='post-footer-line post-footer-line-3'></p>
+</div>
+</div>
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://www.elperroverde.net/2008_10_01_archive.html' id='Blog1_blog-pager-newer-link' title='octubre 2008'>octubre 2008</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.elperroverde.net/2008_08_01_archive.html' id='Blog1_blog-pager-older-link' title='agosto 2008'>agosto 2008</a>
+</span>
+<a class='home-link' href='http://www.elperroverde.net/'>Página principal</a>
+</div>
+<div class='clear'></div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' id='HTML7'>
+<h2 class='title'>Buscar en el Blog</h2>
+<div class='widget-content'>
+<center><br/><form id="searchthis" action="/search" style="display:inline;" method="get"><input id="search-box" value="" name="q" type="text"/>&nbsp;&nbsp;&nbsp;<input id="search-btn" value="Buscar" type="submit"/></form></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML7&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<h2 class='title'>Suscríbete!</h2>
+<div class='widget-content'>
+<center><br/><a href="http://feeds.feedburner.com/cosasDelPerroVerde" rel="alternate" type="application/rss+xml"><img alt="" src="http://eltragy.googlepages.com/rss_icon.jpg"/></a></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML3&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Label' id='Label1'>
+<h2>Temas</h2>
+<div class='widget-content'>
+<div id='labelCloud'></div>
+<script type='text/javascript'>
+
+// Don't change anything past this point -----------------
+function s(a,b,i,x){
+if(a>b){
+var m=(a-b)/Math.log(x),v=a-Math.floor(Math.log(i)*m)
+}
+else{
+var m=(b-a)/Math.log(x),v=Math.floor(Math.log(i)*m+a)
+}
+return v
+}
+
+var ta=0
+var c=[];
+var labelCount = new Array();
+var ts = new Object;
+
+var theName = "+-";
+ts[theName] = 1;
+
+var theName = "24";
+ts[theName] = 1;
+
+var theName = "Anime";
+ts[theName] = 1;
+
+var theName = "Análisis";
+ts[theName] = 6;
+
+var theName = "Blogueando";
+ts[theName] = 12;
+
+var theName = "Chorradas";
+ts[theName] = 28;
+
+var theName = "Cine";
+ts[theName] = 6;
+
+var theName = "Citas";
+ts[theName] = 3;
+
+var theName = "Comics";
+ts[theName] = 5;
+
+var theName = "Cuestionarios";
+ts[theName] = 1;
+
+var theName = "Descargas";
+ts[theName] = 9;
+
+var theName = "Emuladores";
+ts[theName] = 6;
+
+var theName = "EOL";
+ts[theName] = 2;
+
+var theName = "Flash";
+ts[theName] = 2;
+
+var theName = "Frikadas";
+ts[theName] = 18;
+
+var theName = "Guitar Hero";
+ts[theName] = 10;
+
+var theName = "Ilusiones";
+ts[theName] = 2;
+
+var theName = "Imagenes";
+ts[theName] = 11;
+
+var theName = "Informática";
+ts[theName] = 9;
+
+var theName = "Internet";
+ts[theName] = 15;
+
+var theName = "Linux";
+ts[theName] = 1;
+
+var theName = "Memes";
+ts[theName] = 1;
+
+var theName = "Mitos";
+ts[theName] = 2;
+
+var theName = "Musica";
+ts[theName] = 23;
+
+var theName = "nVidia";
+ts[theName] = 1;
+
+var theName = "Only Japón";
+ts[theName] = 7;
+
+var theName = "PC";
+ts[theName] = 8;
+
+var theName = "Pensamientos";
+ts[theName] = 2;
+
+var theName = "Prison Break";
+ts[theName] = 1;
+
+var theName = "Series";
+ts[theName] = 3;
+
+var theName = "Street Fighter";
+ts[theName] = 3;
+
+var theName = "Tutoriales";
+ts[theName] = 5;
+
+var theName = "Videojuegos";
+ts[theName] = 73;
+
+var theName = "Videos";
+ts[theName] = 35;
+
+var theName = "Wii";
+ts[theName] = 3;
+
+
+for (t in ts){
+if (!labelCount[ts[t]]){
+labelCount[ts[t]] = new Array(ts[t])
+}
+}
+tz = labelCount.length-1;
+lc2 = document.getElementById('labelCloud');
+ul = document.createElement('ul');
+ul.className = 'label-cloud';
+for(var t in ts){
+for (var i=0;3 > i;i++) {
+c[i]=s(minColor[i],maxColor[i],ts[t]-ta,tz)
+}
+var fs = s(minFontSize,maxFontSize,ts[t]-ta,tz);
+li = document.createElement('li');
+li.style.fontSize = fs+'px';
+li.style.lineHeight = '1';
+a = document.createElement('a');
+a.title = ts[t]+' Artículos en '+t;
+a.style.color = 'rgb('+c[0]+','+c[1]+','+c[2]+')';
+a.href = lcBlogURL+'/search/label/'+encodeURIComponent(t);
+if (lcShowCount){
+span = document.createElement('span');
+span.innerHTML = '('+ts[t]+') ';
+span.className = 'label-count';
+a.appendChild(document.createTextNode(t));
+li.appendChild(a);
+li.appendChild(span);
+}
+else {
+a.appendChild(document.createTextNode(t));
+li.appendChild(a);
+}
+ul.appendChild(li);
+abnk = document.createTextNode(' ');
+ul.appendChild(abnk);
+}
+lc2.appendChild(ul);
+</script>
+<noscript>
+<ul>
+<li>
+<a href='http://www.elperroverde.net/search/label/%2B-'>+-</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/24'>24</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Anime'>Anime</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/An%C3%A1lisis'>Análisis</a>
+
+(6)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Blogueando'>Blogueando</a>
+
+(12)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Chorradas'>Chorradas</a>
+
+(28)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Cine'>Cine</a>
+
+(6)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Citas'>Citas</a>
+
+(3)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Comics'>Comics</a>
+
+(5)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Cuestionarios'>Cuestionarios</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Descargas'>Descargas</a>
+
+(9)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Emuladores'>Emuladores</a>
+
+(6)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/EOL'>EOL</a>
+
+(2)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Flash'>Flash</a>
+
+(2)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Frikadas'>Frikadas</a>
+
+(18)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Guitar%20Hero'>Guitar Hero</a>
+
+(10)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Ilusiones'>Ilusiones</a>
+
+(2)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Imagenes'>Imagenes</a>
+
+(11)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Inform%C3%A1tica'>Informática</a>
+
+(9)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Internet'>Internet</a>
+
+(15)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Linux'>Linux</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Memes'>Memes</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Mitos'>Mitos</a>
+
+(2)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Musica'>Musica</a>
+
+(23)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/nVidia'>nVidia</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Only%20Jap%C3%B3n'>Only Japón</a>
+
+(7)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/PC'>PC</a>
+
+(8)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Pensamientos'>Pensamientos</a>
+
+(2)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Prison%20Break'>Prison Break</a>
+
+(1)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Series'>Series</a>
+
+(3)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Street%20Fighter'>Street Fighter</a>
+
+(3)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Tutoriales'>Tutoriales</a>
+
+(5)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Videojuegos'>Videojuegos</a>
+
+(73)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Videos'>Videos</a>
+
+(35)
+</li>
+<li>
+<a href='http://www.elperroverde.net/search/label/Wii'>Wii</a>
+
+(3)
+</li>
+</ul>
+</noscript>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=Label&widgetId=Label1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Archivo</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul>
+<li class='archivedate expanded'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=close&toggle=YEARLY-1199142000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy toggle-open'>&#9660; </span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/search?updated-min=2008-01-01T00%3A00%3A00%2B01%3A00&updated-max=2009-01-01T00%3A00%3A00%2B01%3A00&max-results=50'>2008</a>
+<span class='post-count' dir='ltr'>(89)</span>
+<ul>
+<li class='archivedate expanded'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=close&toggle=MONTHLY-1222812000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy toggle-open'>&#9660; </span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_10_01_archive.html'>octubre 2008</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/10/mmm-cookies.html'>...mmm... cookies....</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/pensamiento-1.html'>Pensamiento #1</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/fear-perseus-mandate.html'>F.E.A.R. Perseus Mandate</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/pensamiento-0.html'>Pensamiento #0</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/total-grade.html'>Total Grade: A</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/tutorial-de-feedback-eventos-y.html'>Tutorial de FeedBack: Eventos y Secciones</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/epsxe-y-el-sonido-cdda.html'>ePSXe y el sonido CDDA</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/resumen-metroid-prime-3-corruption.html'>[+-] Metroid Prime 3: Corruption</a></li>
+<li><a href='http://www.elperroverde.net/2008/10/wild-9-una-bso-tremenda.html'>Wild 9: Una BSO tremenda</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1220220000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_09_01_archive.html'>septiembre 2008</a>
+<span class='post-count' dir='ltr'>(20)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/09/no-es-lo-mismo.html'>No es lo mismo...</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/nuevo-trailer-de-max-payne-movie.html'>Nuevo Trailer de Max Payne: The Movie</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/broken-sword-25-el-retorno-de-los.html'>Broken Sword 2.5: El Retorno de los Templarios</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/broken-sword-25-ya-est-disponible.html'>Broken Sword 2.5 ya está disponible</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/mi-primer-meme-japiness.html'>Mi primer meme: the japiness</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/publicidad-impresionante-wario-land.html'>Publicidad impresionante - Wario Land: Shake It</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/piedra-vs-iphone-3g.html'>Piedra vs iPhone 3G</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/tutorial-crear-charts-personalizados.html'>Tutorial: Crear &#39;charts&#39; personalizados para Guita...</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/ese-esta-bien-pero-me-gustaria-mas-algo.html'>La visión subjetiva</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/la-del-hombre-que-quera-un-ordenador.html'>La del hombre que quería un ordenador, pero que no...</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/se-acerca-el-fin-del-mundo.html'>Se acerca el fin del mundo</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente.html'>Web 2.0, mejorando lo ya hecho</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/max-payne-movie-vs-payne-redemption.html'>Max Payne: The Movie vs Payne &amp; Redemption</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/fear-extraction-point.html'>F.E.A.R. Extraction Point</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/fear.html'>F.E.A.R.</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/consigue-una-llave-abre-la-puerta.html'>Consigue una llave... Abre la puerta...</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/una-de-tearing-v-sync-y-triple.html'>Una de Tearing, V-Sync, y Triple Buffering, por fa...</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/nios-escondeos-pedobear-inside.html'>Niños, escondeos !! [PedoBear inside]</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/how-about-kiss.html'>How about the kiss ?</a></li>
+<li><a href='http://www.elperroverde.net/2008/09/condemned-criminal-origins.html'>Condemned: Criminal Origins ...</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1217541600000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_08_01_archive.html'>agosto 2008</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/08/el-peor-da-de-mi-vida.html'>El peor día de mi vida ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/08/que-se-siente.html'>&#191;Que se siente ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/08/gh-pack-de-3-canciones-platero-y-t.html'>[GH] Pack  de 3 canciones: Platero y Tú</a></li>
+<li><a href='http://www.elperroverde.net/2008/08/nelly-elephant.html'>Nelly The Elephant ...</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1214863200000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_07_01_archive.html'>julio 2008</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/07/cerrado-por-vacaciones-o-no.html'>Cerrado por vacaciones (o no...)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1212271200000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_06_01_archive.html'>junio 2008</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/06/leyendas-urbanas-mitos-y-chorradas.html'>Leyendas urbanas, mitos, y chorradas ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/06/real-club-nutico-de-corua.html'>Real Club Náutico de A Coruña ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/06/notpron-no-apto-para-seres-mortales.html'>NotPron, no apto para seres mortales ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/06/gh-canciones-exclusivas-de-xbox-360.html'>[GH] Canciones exclusivas de Xbox 360 para PS2</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1209592800000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_05_01_archive.html'>mayo 2008</a>
+<span class='post-count' dir='ltr'>(11)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/05/classical-redone-goldeneye-source.html'>Classical Redone: Goldeneye Source</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/street-fighter-4-pc-im-lovin-it.html'>Street Fighter 4 PC! I&#39;m lovin it!</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/gh-crazy-train-ozzy-osbourne.html'>[GH] Crazy Train - Ozzy Osbourne</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/gh-la-cancin-del-pirata-tierra-santa.html'>[GH] La canción del pirata - Tierra Santa</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/gh-sptima-estrella-tierra-santa.html'>[GH] Séptima Estrella - Tierra Santa</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/gh-standby-extremoduro.html'>[GH] Standby - Extremoduro</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/tuto-insertar-canciones-personalizadas.html'>[GH] Insertar canciones personalizadas en Guitar H...</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/bauer-vs-scofield_15.html'>Bauer vs Scofield</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/supongo-que-para-tocar-los-cojones.html'>Supongo que para tocar los cojones ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/bukkake.html'>Bukkake ...</a></li>
+<li><a href='http://www.elperroverde.net/2008/05/alguien-dijo-que-quake-iii-estaba.html'>&#191;Alguien dijo que Quake III estaba muerto?</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1207000800000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_04_01_archive.html'>abril 2008</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2008/04/rabbids-are-back.html'>Rabbids are back !!</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1204326000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_03_01_archive.html'>marzo 2008</a>
+<span class='post-count' dir='ltr'>(14)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1201820400000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_02_01_archive.html'>febrero 2008</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1199142000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2008_01_01_archive.html'>enero 2008</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate expanded'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=close&toggle=YEARLY-1167606000000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy toggle-open'>&#9660; </span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/search?updated-min=2007-01-01T00%3A00%3A00%2B01%3A00&updated-max=2008-01-01T00%3A00%3A00%2B01%3A00&max-results=50'>2007</a>
+<span class='post-count' dir='ltr'>(50)</span>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1196463600000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_12_01_archive.html'>diciembre 2007</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1193871600000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_11_01_archive.html'>noviembre 2007</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate expanded'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=close&toggle=MONTHLY-1191189600000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy toggle-open'>&#9660; </span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_10_01_archive.html'>octubre 2007</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='posts'>
+<li><a href='http://www.elperroverde.net/2007/10/arcade-stick-multisistema-cap-1-lets.html'>Arcade Stick Multisistema =&gt; Cap 1: Let&#39;s start so...</a></li>
+<li><a href='http://www.elperroverde.net/2007/10/de-vuelta-la-vida.html'>De vuelta a la vida ...</a></li>
+<li><a href='http://www.elperroverde.net/2007/10/y-cuando-estoy-tan-lleno-que-no-puedo.html'>Frases para ligar ...</a></li>
+<li><a href='http://www.elperroverde.net/2007/10/puntos-de-vista.html'>Puntos de vista ...</a></li>
+<li><a href='http://www.elperroverde.net/2007/10/y-dice-usted-que-vive-donde.html'>&#191;&#191;Y dice usted que vive donde??</a></li>
+<li><a href='http://www.elperroverde.net/2007/10/ya-que-me-han-preguntado-hoy-por-l.html'>Tutorial IMBNes: Emulador de NES para PSX</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1188597600000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_09_01_archive.html'>septiembre 2007</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1185919200000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_08_01_archive.html'>agosto 2007</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1183240800000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_07_01_archive.html'>julio 2007</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul>
+<li class='archivedate collapsed'>
+<a class='toggle' href='http://www.elperroverde.net/2008_09_01_archive.html?widgetType=BlogArchive&widgetId=BlogArchive1&action=toggle&dir=open&toggle=MONTHLY-1180648800000&toggleopen=MONTHLY-1191189600000,MONTHLY-1222812000000'>
+<span class='zippy'>
+
+              &#9658;
+            
+</span>
+</a>
+<a class='post-count-link' href='http://www.elperroverde.net/2007_06_01_archive.html'>junio 2007</a>
+<span class='post-count' dir='ltr'>(28)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList1'>
+<h2>No dejes de visitar</h2>
+<div class='widget-content'>
+<ul>
+<li><a href='http://www.anaitgames.com/'>Anait Games</a></li>
+<li><a href='http://elfutbolesinjusto.blogspot.com/'>El Fútbol es Injusto</a></li>
+<li><a href='http://quegrande.org/blogs/chusky/'>El Último Reducto</a></li>
+<li><a href='http://gaminglog.blogspot.com/'>GamingLog</a></li>
+<li><a href='http://darkwizardshome.blogspot.com/'>Hogar de un Cabrón</a></li>
+<li><a href='http://orichalcumblog.blogspot.com/'>Orichalcum Blog</a></li>
+<li><a href='http://quegrande.org/blogs/luso/'>Uncle Luso Hot Blog</a></li>
+<li><a href='http://www.underground-gamer.com/'>Underground Gamer</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=LinkList&widgetId=LinkList1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Disclaimer</h2>
+<div class='widget-content'>
+<br/><center>
+Todo contenido expuesto en este<br/> blog ha sido aprobado para su visionado por PedoBear&#8482;. Imágenes, videos, y cosas varias, pertenecen cada un@ a su autor@, así que al César lo que es del César...<br/><br/> 
+Si eres el autor de cualquier cosa aquí publicada, y crees que no se te ha citado como fuente lo suficientemente bien, háztelo mirar. Si despues de la revisión, sigues pensando lo mismo, puedes contactar conmigo en <a href="mailto:tragy@elperroverde.net">tragy@elperroverde.net</a><br/>
+<br/><a href="http://www.blogger.com/profile/02863286717959738665"><img valign="middle" src="http://www.fileden.com/files/2006/7/16/134012/Yo.jpg"/></a></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML1'>
+<h2 class='title'>Estadísticas</h2>
+<div class='widget-content'>
+<br/>
+<center><a href="http://www.easycounter.com/es/">
+<img alt="Counter" src="http://www.easycounter.com/counter.php?tragy" 
+border="0"/></a>
+<br/><br/><a href="http://feeds.feedburner.com/cosasDelPerroVerde"><img width="88" style="border:0" alt="" src="http://feeds.feedburner.com/~fc/cosasDelPerroVerde?bg=CC0000&amp;fg=000000&amp;anim=1" height="26"/></a><a href="http://www.easycounter.com/es/"></a></center><br/>
+
+<center><a href="http://www.blogesfera.com/ping/15395" title="Directorio de Blogs Hispanos - Agrega tu Blog"><img border="0" alt="BlogESfera Directorio de Blogs Hispanos - Agrega tu Blog" src="http://img126.imageshack.us/img126/7720/79262981en1.gif"/></a><br/><br/>
+<a href="http://www.uniondebloggershispanos.com" target="_blank"><img border="0" alt="Unión de Bloggers Hispanos" src="http://eltragy.googlepages.com/botubhazul1.gif"/></a>
+</center>
+
+<!-- código añadido por ecoestadistica.com -->
+<a id="353477038" href="http://www.ecoestadistica.com" target="_blank"><img border="0" alt="ecoestadistica.com" src="http://eltragy.googlepages.com/pixel_negro.gif"/></a>
+<script language="JavaScript" type="text/javascript">
+document.write('<script language="Javascript" src="http://www.ecoestadistica.com/Control.php?rp_id=353477038&rp_hrf='+document.getElementById(353477038).href+'&rp_loc='+escape(document.location)+'&rp_ref='+escape(document.referrer)+'&rp_scr='+screen.width+'x'+screen.height+'"><\/script>');
+<!-- fin del código añadido por ecoestadistica.com --></script>
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-6805585736179554";
+google_ad_host = "pub-1556223355139109";
+/* 200x90, creado 18/09/08 */
+google_ad_slot = "6881899412";
+google_ad_width = 200;
+google_ad_height = 90;
+//-->
+</script>
+<a href="http://bitacoras.com" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png"/></a><br/><br/>
+<a href="http://www.blidoo.es"><img border="0" alt="Anuncios Gratis" src="http://www.blidoo.es/imagenes/botones/anuncios-gratis.gif" title="Anuncios Gratis"/></a>
+<br/><br/><a href="http://www.blogalaxia.com/"><img alt="Blogalaxia" style="border:0" src="http://botones.blogalaxia.com/img/blogalaxia7.gif"/></a>
+</center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'><div class='widget HTML' id='HTML5'>
+<div class='widget-content'>
+<br/><center>Cosas del Perro Verde utiliza una modificación personal de la plantilla <a href="http://www.blogcrowds.com/resources/view_template.php/_31">Snapshot: Tequila</a>.<br/>Esta patochada (a.k.a. blog) está bajo una <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/" rel="license">licencia de Creative Commons</a>.<br/><a href="http://creativecommons.org/licenses/by-nc-sa/2.5/es/" rel="license"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/2.5/es/80x15.png"/></a></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5333776754091265298&widgetType=HTML&widgetId=HTML5&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Editar'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<script src='http://eltragy.googlepages.com/astrack.js' type='text/javascript'></script>
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+var pageTracker = _gat._getTracker("UA-2055026-2");
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript" src="http://www.blogger.com/widgets/1069780610-widgets.js"></script>
+<script type='text/javascript'>
+_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=5333776754091265298', 'http://www.elperroverde.net/2008_09_01_archive.html','5333776754091265298');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=5333776754091265298', 'pmWS_NRRodSvHLJ2o-7ts3cOnSY:1223977566963');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'Cosas del Perro Verde', 'pageType': 'archive', 'url': 'http://www.elperroverde.net/2008_09_01_archive.html', 'homepageUrl': 'http://www.elperroverde.net/', 'pageName': 'septiembre 2008', 'pageTitle': 'Cosas del Perro Verde: septiembre 2008', 'encoding': 'UTF-8', 'isPrivate': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Cosas del Perro Verde - Atom\42 href\75\42http://www.elperroverde.net/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Cosas del Perro Verde - RSS\42 href\75\42http://www.elperroverde.net/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Cosas del Perro Verde - Atom\42 href\75\42http://www.blogger.com/feeds/5333776754091265298/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0755333776754091265298\42 /\076', 'meTag': '', 'openIdOpTag': '', 'latencyHeadScript': ''}}]);
+_WidgetManager._SetSystemMarkup({'layout': {'varName': '', 'template': '\74div class\75\47widget-wrap1\47\76\n\74div class\75\47widget-wrap2\47\76\n\74div class\75\47widget-wrap3\47\76\n\74div class\75\47widget-content\47\76\n\74div class\75\47layout-title\47\76\74data:layout-title\76\74/data:layout-title\76\74/div\76\n\74a class\75\47editlink\47 expr:href\75\47data:widget.quickEditUrl\47 expr:onclick\75\47\46quot;return _WidgetManager._PopupConfig(document.getElementById(\\\46quot;\46quot; +       data:widget.instanceId + \46quot;\\\46quot;));\46quot;\47 target\75\47chooseWidget\47\76\74data:edit-link\76\74/data:edit-link\76\74/a\76\n\74/div\76\n\74/div\76\n\74/div\76\n\74/div\076'}, 'quickedit': {'varName': '', 'template': '\74div class\75\47clear\47\76\74/div\76\n\74span class\75\47widget-item-control\47\76\n\74span class\75\47item-control blog-admin\47\76\n\74a class\75\47quickedit\47 expr:href\75\47data:widget.quickEditUrl\47 expr:onclick\75\47\46quot;return _WidgetManager._PopupConfig(document.getElementById(\\\46quot;\46quot; +       data:widget.instanceId + \46quot;\\\46quot;));\46quot;\47 expr:target\75\47\46quot;config\46quot; + data:widget.instanceId\47 expr:title\75\47data:edit-link\47\76\n\74img alt\75\47\47 height\75\04718\47 src\75\47http://img1.blogblog.com/img/icon18_wrench_allbkg.png\47 width\75\04718\47/\76\n\74/a\76\n\74/span\76\n\74/span\76\n\74div class\75\47clear\47\76\74/div\076'}, 'all-head-content': {'varName': 'page', 'template': '\74data:blog.latencyHeadScript\76\74/data:blog.latencyHeadScript\76\n\74meta expr:content\75\47\46quot;text/html; charset\75\46quot; + data:page.encoding\47 http-equiv\75\47Content-Type\47/\76\n\74meta content\75\47true\47 name\75\47MSSmartTagsPreventParsing\47/\76\n\74meta content\75\47blogger\47 name\75\47generator\47/\76\n\74data:blog.feedLinks\76\74/data:blog.feedLinks\76\n\74data:blog.meTag\76\74/data:blog.meTag\76\n\74data:blog.openIdOpTag\76\74/data:blog.openIdOpTag\76\n\74b:if cond\75\47data:page.isPrivate\47\76\n\74meta content\75\47NOINDEX,NOFOLLOW\47 name\75\47robots\47/\76\n\74/b:if\076'}});
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'footer',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title\47\76\n\74h2\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74div id\75\47labelCloud\47\76\74/div\76\n\74script type\75\47text/javascript\47\76\n\n// Don\46#39;t change anything past this point -----------------\nfunction s(a,b,i,x){\nif(a\46gt;b){\nvar m\75(a-b)/Math.log(x),v\75a-Math.floor(Math.log(i)*m)\n}\nelse{\nvar m\75(b-a)/Math.log(x),v\75Math.floor(Math.log(i)*m+a)\n}\nreturn v\n}\n\nvar ta\0750\nvar c\75[];\nvar labelCount \75 new Array();\nvar ts \75 new Object;\n\74b:loop values\75\47data:labels\47 var\75\47label\47\76\nvar theName \75 \46quot;\74data:label.name\76\74/data:label.name\76\46quot;;\nts[theName] \75 \74data:label.count\76\74/data:label.count\76;\n\74/b:loop\76\n\nfor (t in ts){\nif (!labelCount[ts[t]]){\nlabelCount[ts[t]] \75 new Array(ts[t])\n}\n}\ntz \75 labelCount.length-1;\nlc2 \75 document.getElementById(\46#39;labelCloud\46#39;);\nul \75 document.createElement(\46#39;ul\46#39;);\nul.className \75 \46#39;label-cloud\46#39;;\nfor(var t in ts){\nfor (var i\0750;3 \46gt; i;i++) {\nc[i]\75s(minColor[i],maxColor[i],ts[t]-ta,tz)\n}\nvar fs \75 s(minFontSize,maxFontSize,ts[t]-ta,tz);\nli \75 document.createElement(\46#39;li\46#39;);\nli.style.fontSize \75 fs+\46#39;px\46#39;;\nli.style.lineHeight \75 \46#39;1\46#39;;\na \75 document.createElement(\46#39;a\46#39;);\na.title \75 ts[t]+\46#39; Artículos en \46#39;+t;\na.style.color \75 \46#39;rgb(\46#39;+c[0]+\46#39;,\46#39;+c[1]+\46#39;,\46#39;+c[2]+\46#39;)\46#39;;\na.href \75 lcBlogURL+\46#39;/search/label/\46#39;+encodeURIComponent(t);\nif (lcShowCount){\nspan \75 document.createElement(\46#39;span\46#39;);\nspan.innerHTML \75 \46#39;(\46#39;+ts[t]+\46#39;) \46#39;;\nspan.className \75 \46#39;label-count\46#39;;\na.appendChild(document.createTextNode(t));\nli.appendChild(a);\nli.appendChild(span);\n}\nelse {\na.appendChild(document.createTextNode(t));\nli.appendChild(a);\n}\nul.appendChild(li);\nabnk \75 document.createTextNode(\46#39; \46#39;);\nul.appendChild(abnk);\n}\nlc2.appendChild(ul);\n\74/script\76\n\74noscript\76\n\74ul\76\n\74b:loop values\75\47data:labels\47 var\75\47label\47\76\n\74li\76\n\74b:if cond\75\47data:blog.url \75\75 data:label.url\47\76\n\74data:label.name\76\74/data:label.name\76\n\74b:else\76\74/b:else\76\n\74a expr:href\75\47data:label.url\47\76\74data:label.name\76\74/data:label.name\76\74/a\76\n\74/b:if\76\n(\74data:label.count\76\74/data:label.count\76)\n\74/li\76\n\74/b:loop\76\n\74/ul\76\n\74/noscript\76\n\74b:include name\75\47quickedit\47\76\74/b:include\76\n\74/div\076'}}, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title\47\76\n\74h2\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74div id\75\47ArchiveList\47\76\n\74div expr:id\75\47data:widget.instanceId + \46quot;_ArchiveList\46quot;\47\76\n\74b:if cond\75\47data:style \75\75 \46quot;HIERARCHY\46quot;\47\76\n\74b:include data\75\47data\47 name\75\47interval\47\76\74/b:include\76\n\74/b:if\76\n\74b:if cond\75\47data:style \75\75 \46quot;FLAT\46quot;\47\76\n\74b:include data\75\47data\47 name\75\47flat\47\76\74/b:include\76\n\74/b:if\76\n\74b:if cond\75\47data:style \75\75 \46quot;MENU\46quot;\47\76\n\74b:include data\75\47data\47 name\75\47menu\47\76\74/b:include\76\n\74/b:if\76\n\74/div\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\76\n\74/div\076'}, 'flat': {'varName': 'data', 'template': '\74ul\76\n\74b:loop values\75\47data:data\47 var\75\47i\47\76\n\74li class\75\47archivedate\47\76\n\74a expr:href\75\47data:i.url\47\76\74data:i.name\76\74/data:i.name\76\74/a\76 (\74data:i.post-count\76\74/data:i.post-count\76)\n      \74/li\76\n\74/b:loop\76\n\74/ul\076'}, 'menu': {'varName': 'data', 'template': '\74select expr:id\75\47data:widget.instanceId + \46quot;_ArchiveMenu\46quot;\47\76\n\74option value\75\47\47\76\74data:title\76\74/data:title\76\74/option\76\n\74b:loop values\75\47data:data\47 var\75\47i\47\76\n\74option expr:value\75\47data:i.url\47\76\74data:i.name\76\74/data:i.name\76 (\74data:i.post-count\76\74/data:i.post-count\76)\74/option\76\n\74/b:loop\76\n\74/select\076'}, 'interval': {'varName': 'intervalData', 'template': '\74b:loop values\75\47data:intervalData\47 var\75\47i\47\76\n\74ul\76\n\74li expr:class\75\47\46quot;archivedate \46quot; + data:i.expclass\47\76\n\74b:include data\75\47i\47 name\75\47toggle\47\76\74/b:include\76\n\74a class\75\47post-count-link\47 expr:href\75\47data:i.url\47\76\74data:i.name\76\74/data:i.name\76\74/a\76\n\74span class\75\47post-count\47 dir\75\47ltr\47\76(\74data:i.post-count\76\74/data:i.post-count\76)\74/span\76\n\74b:if cond\75\47data:i.data\47\76\n\74b:include data\75\47i.data\47 name\75\47interval\47\76\74/b:include\76\n\74/b:if\76\n\74b:if cond\75\47data:i.posts\47\76\n\74b:include data\75\47i.posts\47 name\75\47posts\47\76\74/b:include\76\n\74/b:if\76\n\74/li\76\n\74/ul\76\n\74/b:loop\076'}, 'toggle': {'varName': 'interval', 'template': '\74b:if cond\75\47data:interval.toggleId\47\76\n\74b:if cond\75\47data:interval.expclass \75\75 \46quot;expanded\46quot;\47\76\n\74a class\75\47toggle\47 expr:href\75\47data:widget.actionUrl + \46quot;\46amp;action\75toggle\46quot; +       \46quot;\46amp;dir\75close\46amp;toggle\75\46quot; + data:interval.toggleId +       \46quot;\46amp;toggleopen\75\46quot; + data:toggleopen\47\76\n\74span class\75\47zippy toggle-open\47\76\46#9660; \74/span\76\n\74/a\76\n\74b:else\76\74/b:else\76\n\74a class\75\47toggle\47 expr:href\75\47data:widget.actionUrl + \46quot;\46amp;action\75toggle\46quot; +         \46quot;\46amp;dir\75open\46amp;toggle\75\46quot; + data:interval.toggleId +         \46quot;\46amp;toggleopen\75\46quot; + data:toggleopen\47\76\n\74span class\75\47zippy\47\76\n\74b:if cond\75\47data:blog.languageDirection \75\75 \46quot;rtl\46quot;\47\76\n              \46#9668;\n            \74b:else\76\74/b:else\76\n              \46#9658;\n            \74/b:if\76\n\74/span\76\n\74/a\76\n\74/b:if\76\n\74/b:if\076'}, 'posts': {'varName': 'posts', 'template': '\74ul class\75\47posts\47\76\n\74b:loop values\75\47data:posts\47 var\75\47i\47\76\n\74li\76\74a expr:href\75\47data:i.url\47\76\74data:i.title\76\74/data:i.title\76\74/a\76\74/li\76\n\74/b:loop\76\n\74/ul\076'}}, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title\47\76\74h2\76\74data:title\76\74/data:title\76\74/h2\76\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74ul\76\n\74b:loop values\75\47data:links\47 var\75\47link\47\76\n\74li\76\74a expr:href\75\47data:link.target\47\76\74data:link.name\76\74/data:link.name\76\74/a\76\74/li\76\n\74/b:loop\76\n\74/ul\76\n\74b:include name\75\47quickedit\47\76\74/b:include\76\n\74/div\076'}}, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'main',{'main': {'varName': '', 'template': '\74b:if cond\75\47data:title !\75 \46quot;\46quot;\47\76\n\74h2 class\75\47title\47\76\74data:title\76\74/data:title\76\74/h2\76\n\74/b:if\76\n\74div class\75\47widget-content\47\76\n\74data:content\76\74/data:content\76\n\74/div\76\n\74b:include name\75\47quickedit\47\76\74/b:include\076'}}, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main'));
+</script>
+</body>
+</html>

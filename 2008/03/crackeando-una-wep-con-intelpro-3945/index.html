@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Crackeando una wep con Intel/Pro 3945 &#8230; | El Perro Verde</title>
+
+<meta name="generator" content="WordPress 2.9.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.elperroverde.net/elperroverde/wp-content/themes/girl/style.css?1269122455" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde RSS Feed" href="http://www.elperroverde.net/feed/" />
+<link rel="pingback" href="http://www.elperroverde.net/elperroverde/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde &raquo; Crackeando una wep con Intel/Pro 3945 &#8230; RSS de los comentarios" href="http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.elperroverde.net/elperroverde/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.elperroverde.net/elperroverde/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='El Perro Verde' href='http://www.elperroverde.net' />
+<link rel='start' title='Pasando el rato &#8230;' href='http://www.elperroverde.net/2007/06/pasando-el-rato/' />
+<link rel='prev' title='Devils never cry &#8230;' href='http://www.elperroverde.net/2008/03/devils-never-cry/' />
+<link rel='next' title='The Beast is Unleashed &#8230;' href='http://www.elperroverde.net/2008/04/beast-is-unleashed/' />
+<meta name="generator" content="WordPress 2.9.1" />
+
+<!-- All in One SEO Pack 1.6.10 by Michael Torbert of Semper Fi Web Design[284,383] -->
+<meta name="description" content="Actualizado por última vez el 27/09/2008: Por fin, algo de material interesante para el blog... Primero, pongámonos en situación, y ya de paso, un" />
+<meta name="keywords" content="informática,internet,redes,tutoriales" />
+<link rel="canonical" href="http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/" />
+<!-- /all in one seo pack -->
+<link rel="shortlink" href="http://wp.me/pEGkZ-1F" /><!-- wpscanner --></head>
+<body>
+<div id="main">
+  <div id="header">
+<form method="get" id="searchform" action="http://www.elperroverde.net/">
+<div><input type="text" size=50 value="Buscar en el Blog..." onblur="if(this.value == '') {this.value = 'Buscar en el Blog...';}" onfocus="if(this.value == 'Buscar en el Blog...') {this.value = '';}"name="s" id="s" />
+</div>
+</form>
+    <!--<div id="logo">
+	  <h1><a href="http://www.elperroverde.net/">El Perro Verde</a></h1>
+	  <div class="description">Videojuegos, música, y un poco de todo a partes desiguales.</div>
+	</div>-->
+	<ul id="menu">
+	  <li class="page_item"><a href="http://www.elperroverde.net/" title="Home"><img class='imageninicio' src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/home.png' alt='Página de Inicio' /></a></li>
+	  <li class="page_item page-item-944"><a href="http://www.elperroverde.net/mi-coleccion/" title="Mi colección">Mi colección</a></li>
+<li class="page_item page-item-2"><a href="http://www.elperroverde.net/contacto/" title="Contacto">Contacto</a></li>
+<li class="page_item page-item-925"><a href="http://www.elperroverde.net/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+	</ul>
+
+
+
+  </div>
+  <!--/header -->
+  <div id="content">
+  
+    
+    <div class="post" id="post-103">
+    <div class="post-date"><span class="post-month">Mar</span> <span class="post-day">29</span></div>
+<div class="title">
+	  <h2><a href="http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/" rel="bookmark" title="Permalink a Crackeando una wep con Intel/Pro 3945 &#8230;">Crackeando una wep con Intel/Pro 3945 &#8230;</a></h2>
+		<small class="author">Por <b>Tragy</b>, publicado el <b>29 de Marzo, 2008 | <a href="http://www.elperroverde.net/2008/03/crackeando-una-wep-con-intelpro-3945/#comments" title="Comentarios en Crackeando una wep con Intel/Pro 3945 &#8230;">14 comentarios </a></b><small class="date"></small></small></div>
+	  <div class="entry">
+		<p>Actualizado por última vez el 27/09/2008:</p>
+<p>Por fin, algo de material interesante para el blog&#8230;</p>
+<p>Primero, pongámonos en situación, y ya de paso, un poquito de teoría&#8230;<br />
+Hasta ahora, había intentado desde Windows hacer todo lo que voy a explicar, pero los resultados fueron bastante penosos&#8230; Con mi vieja tarjeta wifi, chip atheros incluído en el paquete, supuestamente no debería haber problemas. Existen drivers para colocarla en modo monitor e inyectar paquetes en la red tanto desde windows como desde linux, pero aún así nunca me puse a fondo a mirar como hacerlo.</p>
+<p>Sumando un poco de tiempo libre y aburrimiento, me puse a buscar alguna solución para hacerlo con la tarjeta del portátil que tengo ahora, tarjeta que se está implantando bastante&#8230; Una Intel/Pro Wireless 3945abg&#8230; Que yo sepa, por ahora en windows solo soporta el modo monitor, pero no permite inyectar paquetes en la red, cosa bastante importante para personas impacientes como yo&#8230;<br />
+<span class="fullpost">Por tanto, habrá que tirar un poquillo de linux. Instalé Ubuntu 7.10 (aka Gutsy Gibbon), y me puse a trastear un poquillo. Los drivers que carga por defecto esta distribución son los <span style="font-style:italic;">ipw3945</span>, drivers no abiertos, y que permiten colocar la tarjeta en modo monitor (capturar tráfico) pero no permiten inyectar paquetes (generar tráfico falso) Ya veremos porqué es importante el hecho de inyectar paquetes, sin hacer esto, podrían pasar semanas hasta conseguir capturar suficientes datos como para desencriptar una clave wep.</span></p>
+<p>Lo primero, es instalar los drivers <span style="font-style:italic;">ipwraw</span>. Estos, nos permitirán hacer todo lo necesario, incluyen extensiones wireless, y en resumen, están muy currados. Antes de instalar los drivers, necesitamos un par de paquetes:</p>
+<p><span style="font-style:italic;">sudo apt-get install build-essential<br />
+sudo apt-get install libssl-dev</span></p>
+<p>Descargamos los drivers de <a href="http://dl.aircrack-ng.org/drivers/ipwraw-ng-2.3.4-04022008.tar.bz2">Aquí</a></p>
+<p>Los descomprimimos en una carpeta, abrimos un terminal, y vamos a donde los tengamos descomprimidos.</p>
+<p><span style="font-style:italic;">cd ipwraw-ng</span> (carpeta donde estén, vamos&#8230;)<br />
+<span style="font-style:italic;">make<br />
+sudo make install<br />
+sudo make install_ucode<br />
+sudo echo &#8220;blacklist ipwraw&#8221; | sudo tee /etc/modprobe.d/ipwraw<br />
+sudo depmod -ae</span></p>
+<p>Con las dos últimas lineas, hacemos que no se cargue automáticamente este módulo cada vez que se inicia el equipo. Para poder iniciar el módulo, tenemos que parar antes el <span style="font-style:italic;">ipw3945</span>. Con los drivers <span style="font-style:italic;">ipwraw</span> no podremos conectarnos a internet, ya que están diseñados para el escaneo de redes. Por tanto, primero acabamos de instalar todo lo necesario.</p>
+<p><span style="font-style:italic;">sudo apt-get install aircrack-ng</span></p>
+<p>Además, aunque supongo que estaréis haciendo las pruebas con vuestro propio ap, y no hay problema, descargamos <span style="font-style:italic;">macchanger</span>, que nos sirve para cambiar la mac de nuestra tarjeta a nuestro antojo (virtualmente, por supuesto)<br />
+<span style="font-style:italic;"><br />
+sudo apt-get install macchanger</span></p>
+<p><span>Al final del tutorial añado los pasos necesarios por si necesitamos cambiar de mac, pero por ahora continuamos con lo que estabamos.</span><span style="font-style:italic;"><br />
+</span><br />
+<span class="fullpost">Para descargar <span style="font-style:italic;">ipw3945</span> y cargar <span style="font-style:italic;">ipwraw</span>:<br />
+<span style="font-style:italic;"><br />
+sudo modprobe -r ipw3945<br />
+sudo modprobe ipwraw</span></span></p>
+<p>Comprobamos:</p>
+<p><span style="font-style:italic;">iwconfig</span></p>
+<p>Y sale algo tal que así:</p>
+<p><span style="font-weight:bold;">tragy@Tragy:~$ iwconfig<br />
+lo        no wireless extensions.</span></p>
+<p>eth0      no wireless extensions.</p>
+<p>eth1      unassociated  ESSID:off/any<br />
+Mode:Monitor  Channel=1  Bit Rate=54 Mb/s</p>
+<p>rtap0     no wireless extensions.</p>
+<p>Configuramos un poquito la interfaz eth1:</p>
+<p><span style="font-style:italic;">sudo iwconfig eth1 rate 1M</span></p>
+<p>sudo iwconfig eth1 txpower 16</p>
+<p>Así, establecemos su velocidad máxima y su potencia de transmisión. Hecho esto, ya podemos subirla.</p>
+<p><span style="font-style:italic;">sudo ifconfig eth1 up<br />
+sudo ifconfig rtap0 up<br />
+</span><br />
+Aunque tenemos que subir dos interfaces, realmente las dos hacen referencia a la misma tarjeta de red. Veremos que cada una tiene su utilidad.</p>
+<p>Vamos a ver las redes que tenemos a nuestro alrededor. De la que queramos atacar, tendremos que apuntar su canal, su bssid, y su essid.<br />
+<span style="font-style:italic;"><br />
+sudo airodump-ng eth1</span></p>
+<p>Una vez tengamos los datos, paramos con Ctrl+C<br />
+Además, necesitamos nuestra dirección mac:</p>
+<p><span style="font-style:italic;">ifconfig</span></p>
+<p>Y ahí, buscamos la dirección hw, o mac.</p>
+<p>Hecho esto, tenemos los datos necesarios para empezar el ataque. La captura de datos la realizaremos con la interfaz rtap0, y la inyección de paquetes con eth1.</p>
+<p>Queda por establecer el canal en el que vamos a operar, que supuestamente acabas de apuntar hace un momento:</p>
+<p><span style="font-style:italic;">sudo iwconfig eth1 channel 11</span></p>
+<p>Es importante esta vez establecer el canal, ya que aunque sea en eth1 donde lo establezcamos, rtap0 cojerá de ahí el valor que hayamos introducido.<br />
+Hecho esto, podemos empezar la captura de datos</p>
+<p><span style="font-style:italic;">sudo airodump-ng -c 11 &#8211;bssid 00:01:02:03:04:05 -w Archivo rtap0</span></p>
+<p>Esto empieza a guardar datos sobre un ap en el canal 11, con bssid 00:01:02:03:04:05, y guardará los datos en Archivo-01.cap. Ojo, que ahora la interfaz que usamos es rtap0.</p>
+<p>Lo que tenemos que conseguir ahora es que aumente el tráfico, porque vereis que lo que aparece en la columna &#8220;data&#8221; sube muuuuy despacio, o incluso ni se mueve. Necesitamos que el número en esa columna suba, teóricamente se necesitan entre unos 250000 ivs para una wep de 64bits, y sobre 1000000 para una wep de 128 bits. Ya digo en teoría, porque con el método que usaremos despues para analizar las capturas, la clave puede salir con unos 50000 ivs nada mas, y como veremos, será cuestión de 10 o 15 minutos conseguir esa cantidad.</p>
+<p>Para elevar el tráfico, tenemos que inyectar paquetes en la red. Dejamos el terminal capturando datos, y abrimos uno nuevo.</p>
+<p>En el, vamos a hacer una &#8220;autenticación falsa&#8221; con el ap. No tengo ni idea de como funciona esto exactamente, pero el caso es que el punto de acceso nos reconocerá como un cliente asociado a su red, y podremos generar tráfico dentro de ella.</p>
+<p><span style="font-style:italic;">sudo aireplay-ng -1 0 -e WifiDeTragy -a 00:01:02:03:04:05 -h aa:ab:ac:ad:ae:af eth1</span></p>
+<p>&#8220;-1 0&#8243; es el tipo de ataque, así que no hay que cambiarlo, WifiDeTragy es el essid del ap al que nos queremos conectar, 00:01:02:03:04:05 es el bssid que apuntamos antes, y aa:ab:ac:ad:ae:af la mac de nuestra tarjeta de red. Podemos usar la original, o la que antes hemos cambiado con <span style="font-style:italic;">macchanger</span>.<br />
+Si todo va bien, deberíamos ver algo como:<br />
+<span style="font-weight:bold;"><br />
+Sending Authentication Request<br />
+Authentication successful<br />
+Sending Association Request<br />
+Association successful <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </span></p>
+<p>Si pone una y otra vez Sending Authentication Request, lo mas probable es que estemos demasiado lejos del ap (podemos ver sus datos, pero<br />
+nuestros envíos no le llegan)</p>
+<p>Si nos pone un error de que el ap ha rechazado los paquetes, lo más probable es que haya activado un filtro por mac. La solución, esperar a ver un cliente conectado a esa red, y utilizar su mac para nuestro beneficio con <span style="font-style:italic;">macchanger.</span></p>
+<p>En fin, lo dicho, si todo fue bien, podemos seguir adelante. Abrimos otro terminal, y escribimos lo siguiente:</p>
+<p><span style="font-style:italic;">sudo aireplay-ng -3 -b 00:01:02:03:04:05 -h aa:ab:ac:ad:ae:af eth1</span></p>
+<p>Lo mismo que antes, el &#8220;-3&#8243; es el tipo de ataque (inyección de paquetes) despues del -b va la mac del ap, y despues de -h va la mac de nuestra tarjeta de red.</p>
+<p>Veremos en pantalla que el número de &#8220;Read packets&#8221; va subiendo. Despues de unos minutos leyendo paquetes, debería empezar a subir el número de ARP requests. (&#8220;got 0 ARP requests&#8221;, debería poner en principio) Si empiezan a subir los ARP requests, y los &#8220;sent packets&#8221;, estaremos inyectando paquetes correctamente. En la ventana que tenemos capturando datos, la columna &#8220;data&#8221; empezará a subir como la espuma, la velocidad depende de lo bien que se reciba la señal del ap. Vamos, que puede ir desde 10 paquetes/s, hasta 500 paquetes/s. Mientras siga subiendo, lo importante es no cerrar nada.</p>
+<p>Si sigue en 0 ARP requests, puede que el router tenga algún tipo de protección, que estés demasiado lejos de él, o que te haya desautenticado. Puedes probar a asociarte a él otra vez:</p>
+<p><span style="font-style:italic;">sudo aireplay-ng -1 0 -e WifiDeTragy -a 00:01:02:03:04:05 -h aa:ab:ac:ad:ae:af eth1</span></p>
+<p>Si se conecta otra vez, sigue esperando. Puede tardar bastante en recibir arp requests, todo es cuestión de esperar, y si no estás seguro de que el router te mantenga asociado, vuelves a ejecutar este comando. Una forma de saber si estás correctamente asociado, es mirar la pantalla que tienes capturando datos. Si estás asociado, deberías aparecer en la parte de abajo, como cliente asociado al ap que estás atacando. Si desapareces de ahí en algún momento, vuelves a ejecutar este comando. Si vuelves a aparecer ahí justo tras ejecutarlo, lo dicho, todo es cuestión de esperar y repetir esto una y otra vez.</p>
+<p>Si este comando no te funciona, probablemente el ap tenga activado el filtro por mac. Si es así, necesitamos conocer una mac que tenga acceso al ap. En el terminal que está capturando datos, se captura también los datos de otros equipos que acceden al ap. Si alguien se conecta al ap durante nuestra captura, nos aparecerá su mac en la parte de abajo de la ventana de captura. La explicación de como usar su mac, al final del tutorial.</p>
+<p>Bueno, supongo que ya tenemos en el terminal que está capturando un número elevado en la columna &#8220;data&#8221;, supongamos que unos 50000-100000</p>
+<p>Abrimos otro terminal, y ejecutamos:</p>
+<p><span style="font-style:italic;">sudo aircrack-ng -z Archivo*.cap</span></p>
+<p>Si todo va bien, en un rato debería salir:<br />
+<span style="font-weight:bold;"><br />
+KEY FOUND! [ 11:12:13:14:15 ]<br />
+Decrypted correctly: 100%</span></p>
+<p>Si dice que falló, podemos probar de nuevo cuando hayamos capturado mas datos, o incluso probar con otro método de desencriptación:</p>
+<p><span style="font-style:italic;">sudo aircrack-ng Archivo*.cap</span></p>
+<p>Con este último es con el que se necesitan sobre 1000000 para que desencripte una clave de 128 bits, tarda mas, pero si el parámetro &#8220;-z&#8221; no te dio la clave, siempre puedes probar sin él a ver si funciona.</p>
+<p>Los comandos de aircrack-ng se pueden hacer sin parar la captura de datos, así mientras comprueba las claves seguirá capturando datos. Incluso si paramos la captura, y luego la iniciamos de nuevo, en lugar de guardar los datos en Archivo-01.cap, los guardará en Archivo-02.cap, de ahí que a aircrack le indiquemos que utilice los archivos Archivo*.cap</p>
+<p>Cuando tengamos la clave, bastará con hacer:</p>
+<p><span style="font-style:italic;">sudo modprobe -r ipwraw<br />
+sudo modprobe ipw3945</span></p>
+<p>Así volvemos a cambiar el módulo que está cargado para la tarjeta wireless, y ya nos podemos conectar a la red con la contraseña que hemos conseguido. Como consejo, practicad con el router que tengais en casita, ponedle una clave wep de 64 bits, y sin filtro mac. Si lo conseguís, para el resto de claves wep el método es el mismo, puede tardar mas o menos, pero funcionará.</p>
+<p>Para cualquier duda o similar, ya sabeis que los comentarios están ahí para algo.</p>
+<p>Sobre <span style="font-style:italic;">macchanger</span>:<br />
+Partimos de una situación en la que tenemos una mac que tiene permiso para acceder al ap que queramos atacar. Está comentado mas arriba el como conseguirla.</p>
+<p>Para poder hacer el cambio correctamente, debemos hacerlo justo después de cargar <span style="font-style:italic;">ipwraw</span>, ya que sino no se aplicará el cambio correctamente. Entonces, los pasos son:</p>
+<p><span style="font-style:italic;">sudo modprobe ipwraw</span><br />
+<span class="fullpost"><span style="font-style:italic;">sudo macchanger -m XX:XX:XX:XX:XX:XX eth1<br />
+sudo macchanger -m </span></span><span class="fullpost"><span style="font-style:italic;">XX:XX:XX:XX:XX:XX rtap0<br />
+sudo ifconfig eth1 up<br />
+sudo ifconfig rtap0 up<br />
+</span></span><span class="fullpost"><span><br />
+</span>Esto debe hacerse con las interfaces bajadas, que es como están según se carga <span style="font-style:italic;">ipwraw</span>. Para el caso de esta tarjeta, creará dos extensiones, eth1 y rtap0 (los nombres pueden variar, puede ser wifi0 o algo similar). Debemos ejecutar el comando para las dos interfaces.<br />
+</span><span class="fullpost"><span><br />
+</span></span><span class="fullpost"><span>A partir de aquí, ya tenemos nuestra mac &#8220;falseada&#8221;, y podremos continuar normalmente, configurando el rate, txpower, y subiendo las interfaces.<br />
+Por supuesto, <span style="font-style:italic;">macchanger</span> puede usarse en cualquier momento, aunque al principio sea lo mejor. Lo único que hay que recordar es que debemos bajar las interfaces antes:</span></span></p>
+<p><span style="font-style:italic;">sudo ifconfig eth1 down</span><br />
+<span style="font-style:italic;">sudo ifconfig rtap0 down</span></p>
+<p>Y después volver a subirlas, como vimos antes.</p>
+<p><span style="font-style:italic;">Notas mentales</span>, y más detalles sobre lo que estamos haciendo:</p>
+<p>La interfaz eth1 puede no llamarse así en tu equipo, ya que depende de la nomenclatura que siga tu versión de linux. Por lo que he visto, wifi0 es otro nombre bastante común para esta interfaz.</p>
+<p>Cuando establecemos el rate de la tarjeta de red, lo que hacemos es decirle a que velocidad va a trabajar enviando y recibiendo datos. Cuanta más alta sea esta velocidad, más rápido conseguiremos inyectar paquetes. El problema es que si el ap se encuentra bastante lejos, para estabilizar la conexión necesitamos bajar la velocidad de transferencia. En el tutorial, he usado 1M como velocidad, que es el mínimo. Podemos usar valores como 2M, 9M, 11M&#8230; Aunque para asegurarnos de que todo funciona bien, es mejor usar un rate bajo y tener un poco de paciencia.</p>
+<p>Esto es todo por ahora, aunque iré actualizándolo cada cierto tiempo con más datos y problemas que vaya encontrando. Si tenéis cualquier problema, basta con dejar un comentario y echaré un vistazo a ver si encontramos una solución. Un saludo!</p>
+<h3  class="related_post_title">También te puede interesar...</h3><ul class="related_post"><li><a href="http://www.elperroverde.net/2009/12/firefox-photobucket-uploader-big-combo/" title="Firefox + Photobucket Uploader = Big Combo">Firefox + Photobucket Uploader = Big Combo</a></li><li><a href="http://www.elperroverde.net/2009/01/overclock-con-drivers-forceware/" title="Overclock con drivers ForceWare">Overclock con drivers ForceWare</a></li><li><a href="http://www.elperroverde.net/2009/01/scribfire-la-mejor-forma-de-publicar-en/" title="Scribfire: la mejor forma de publicar en blogger">Scribfire: la mejor forma de publicar en blogger</a></li><li><a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/" title="C&#038;C Red Alert 2: Jugar en una red Hamachi">C&#038;C Red Alert 2: Jugar en una red Hamachi</a></li><li><a href="http://www.elperroverde.net/2008/09/web-20-mejorando-lo-existente/" title="Web 2.0, mejorando lo ya hecho">Web 2.0, mejorando lo ya hecho</a></li></ul>				
+			  </div>		
+
+		
+<!-- You can start editing here. -->
+
+	<hr><h5 id="comments">14 respuestas a &#8220;Crackeando una wep con Intel/Pro 3945 &#8230;&#8221;</h5> 
+
+	<ol class="commentlist">
+                
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-439">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://quegrande.org/blogs/luso/' rel='external nofollow' class='url'>0_LuSo</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/4/08 a las 20:26 | <a href="#comment-439">#1</a>  </small></div>
+
+			<div class="txtcom"><p>simplemente</p>
+<p>AWESOME!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-441">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/5/08 a las 20:52 | <a href="#comment-441">#2</a>  </small></div>
+
+			<div class="txtcom"><p>Cuando haces:<br />sudo aireplay-ng -1 0&#8230;&#8230;<br />Te sale esto?</p>
+<p>Sending Authentication Request<br />Authentication successful<br />Sending Association Request<br />Association successful <img src='http://www.elperroverde.net/elperroverde/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+<p>Ojo al association succesful, que es lo importante.</p>
+<p>El error que comentas es porque no estás conectado correctamente con el router, de ahí que la columna data no suba. Puedes dejar abierto el terminal que te pone el error, y y volver a conectarte desde otro terminal. Si estás con tu router, asegurate de tener desactivado el filtrado de MAC&#8230; Si es del vecino&#8230; Esperas a que lo veas conectado, y usas macchanger para ponerte su dirección MAC.</p>
+<p>Un saludo, y a ver si te sirve de ayuda!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-440">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>juan plablo</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/5/08 a las 20:40 | <a href="#comment-440">#3</a>  </small></div>
+
+			<div class="txtcom"><p>hola :</p>
+<p>cuando hago &#8220;aireplay-ng -3 -b&#8230;&#8230;..&#8221;</p>
+<p>me sale bn pero cuando me captura un ARP me empieza a salir este mensaje reitaradamente:</p>
+<p>Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?<br />Notice: got a deauth/disassoc packet. Is the source MAC associated ?</p>
+<p>es normal esto???? y lo que pasaba tmb q es no captura mucho en  data?? que podra ser</p>
+<p>gracias de antemano por tu ayuda</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-443">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/5/08 a las 22:49 | <a href="#comment-443">#4</a>  </small></div>
+
+			<div class="txtcom"><p>Quizá se te haya mezclado la captura de paquetes que hacías mal al principio, y la que haces bien ahora. Yo volvería a empezar desde cero, guarda datos en otro directorio, y si se hace la captura bien, no debería haber problema.</p>
+<p>Y poco mas te puedo decir&#8230; Ahora mismo, no se me ocurre nada&#8230;</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-442">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>juan plablo</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/5/08 a las 22:35 | <a href="#comment-442">#5</a>  </small></div>
+
+			<div class="txtcom"><p>logre solucoinar ese prblema .ahora si q no e podido sacar la clave..tengo como 400000 ded datos y no me funciona el comando con la &#8220;z&#8221; (el otro lo prbe pero lleva 30 min y aun no dea respuesta) tengo la versiuon 0.6.2 de aircrack.ojala me ayudes y gracias de antemano</p>
+<p>SALUDOS::</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-444">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">4/7/08 a las 5:33 | <a href="#comment-444">#6</a>  </small></div>
+
+			<div class="txtcom"><p>hola creo que no tengo bien instalado esto<br />cuando pongo iwconfig<br />me sale algo asi<br />lo                 no wireless extensions.<br />eth0               no wireless extension</p>
+<p>sabes a que se debe esto¿?</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-445">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">11/7/08 a las 8:11 | <a href="#comment-445">#7</a>  </small></div>
+
+			<div class="txtcom"><p>Muy buenas! Has probado a hacer el iwconfig antes de tocar nada? Si te sale alguna extensión, es que tienes los drivers para tu tarjeta bien configurados. Despues es cuando debes usar modprobe para descargar los &#8220;oficiales&#8221; y cargar los ipwraw. Si es al cargar los ipwraw cuando te dice que no hay &#8220;wireless extensions&#8221;, puede que no tengas la tarjeta de red adecuada, seguro que tienes exactamente la misma?</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-447">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/1/09 a las 1:07 | <a href="#comment-447">#8</a>  </small></div>
+
+			<div class="txtcom"><p>Prueba &#8220;cd /home/gonzalo/drivers/ipwraw-ng/&#8221;, no te vendría nada mal echar un vistazo a un manual con cosas básicas sobre linux. Para cualquier otro problema, aquí estamos.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-446">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>gonza</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/1/09 a las 0:59 | <a href="#comment-446">#9</a>  </small></div>
+
+			<div class="txtcom"><p>amigo mira yo lo coloco en &#8220;cd ipwraw-ng /home/gonzalo/drivers/&#8221; y probe tambien asi &#8220;cd ipwraw-ng /home/gonzalo/drivers&#8221; y no pasa nada me dice que el fichero no existe no se que hacer amigo ayuda por favor lo estoy haciendo en ubuntu 8.04</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-448">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>gonzaloko</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/1/09 a las 5:01 | <a href="#comment-448">#10</a>  </small></div>
+
+			<div class="txtcom"><p>si lo intente amigo pero no me resulta no sabes si es ke puede ser por algun repositorio o otra cosa ayuda por favor man gracias</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-449">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>gonzaloko</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/1/09 a las 5:03 | <a href="#comment-449">#11</a>  </small></div>
+
+			<div class="txtcom"><p>y amigo otra cosa como revizo si mis drivers estan todos correctamente ???</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-450">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">14/1/09 a las 2:45 | <a href="#comment-450">#12</a>  </small></div>
+
+			<div class="txtcom"><p>Como ya dije, echa un vistazo a un manual básico de linux, con los principales comandos, y como usarlos.</p>
+<p>Los drivers sabes que los tienes bien instalados cuando ves que funcionan, si haces el modprobe ipwraw y no da ningún error, es que se cargó correctamente el driver ipwraw.</p>
+<p>De lo contrario, o te has saltado algún paso, o ejecutaste mal alguno de los comandos&#8230;</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-729">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">12/9/09 a las 16:27 | <a href="#comment-729">#13</a>  </small></div>
+
+			<div class="txtcom"><p>Hola amigazo, sabes he leido bastante, estoy capturando paquetes y todo, pero coo se que para disminuir los tiempos debo inyectar trafico en el Ap, lo he querido hacer dando d ebaja los driver que no me lo permiten y subiendo el ipraw, pero es ahi donde tengo el problema, cada vez que intento hacerlo del siguiente modo &#8220;rmmod iwl3945&#8243;, el pc se me congela, comenzando a parpadear el led que me indicaa el uso de mayusculas, de ahi en adelante no me queda mas que apagar por la fuerza la maquina, sabes o tienes una idea de porque se me congela cuando intento bajar iwl4935? de antemano gracias compadre</p>
+<p>Atte Weisstras</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-730">
+				<div class="cleft">
+			<img alt='' src='http://www.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">12/9/09 a las 16:50 | <a href="#comment-730">#14</a>  </small></div>
+
+			<div class="txtcom"><p>Muy buenas!</p>
+<p>Pues el cuelgue podría venir porque el módulo se esté usando en ese momento, podrías probar a poner antes del rmmod:</p>
+<p>sudo ifconfig wifi down</p>
+<p>En lugar de &#8220;wifi&#8221;, debes poner el nombre que tenga tu interfaz (puedes verlo poniendo un ifconfig en la consola)</p>
+<p>Para descargar el módulo y sus dependencias, la sintaxis del comando sería:</p>
+<p>sudo rmmod -r iwl3945</p>
+<p>Si se te sigue colgando, prueba con:</p>
+<p>sudo modprobe -r iwl3945</p>
+<p>Juraría que modprobe no requiere que los módulos estén en desuso, ya me dirás si alguna de las soluciones te sirvió.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	
+	</ol>
+
+ 
+
+<h3 id="respond">Escríbeme algo ;)</h3>
+
+
+<form action="http://www.elperroverde.net/elperroverde/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><strong>Nombre</strong> (obligatorio)</label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><strong>Mail</strong> (no será publicado) (obligatorio)</label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><strong>Sitio Web</strong> (opcional)</label></p>
+
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p class="enviar"><input name="submit" type="submit" id="submit" tabindex="5" value="Enviar Comentario" />
+<input type="hidden" name="comment_post_ID" value="103" />
+</p>
+
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notificarme nuevos comentarios vía e-mail.</label>
+	</p>
+
+
+
+</form>
+<pre>Pingbacks/Trackbacks:<br /></pre>
+
+	
+	  </div><!--/post -->
+		
+			
+  </div><!--/content -->
+
+<div id="sidebar">
+<ul>
+
+  <li id="text-3" class="widget widget_text"><h2 class="sidebartitle">RSS</h2>			<div class="textwidget"><center><a href="http://feeds2.feedburner.com/cosasDelPerroVerde" rel="alternate" title="RSS El Perro Verde" type="application/rss+xml"><img alt="" src="http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon.jpg"/></a></center>
+
+</div>
+		</li><li id="get-recent-comments" class="widget widget_get_recent_comments"><h2 class="sidebartitle">Se comenta...</h2><div id="get_recent_comments_wrap"><ul>	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2cc90b51a364d6e07389f6229987d89b&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1809" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">agumatt</a>:<br/>gracias por responder</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=aafccc3a4f895d0720237fbe278b4107&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1807" title ="En Sobre Games for Windows Live y su sistema de claves, 26/05/2010">perfecto</a>:<br/>Si, tienes que tener una clave solo del Section 8, no vale la de otro juego, como el Dirt 2. Hay webs que...</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2cc90b51a364d6e07389f6229987d89b&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-1806" title ="En Sobre Games for Windows Live y su sistema de claves, 25/05/2010">agumatt</a>:<br/>tengo un problema con live en el section 8, estoy usando la clave del quantum of solace.Me sale: la clave...</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=c8ef788f7d44d770f8fa1f2ac92cce0c&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-1804" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 25/05/2010">jago</a>:<br/>hola tengo problemas para jugar en red ,,, la red himachi funciona ,,,la conexion del jueego funciona sepuede...</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=4a28043052da987a899144ad1428e755&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Felperroverde%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2010/03/instalacion-de-dingux-en-dingoo-a320/#comment-1802" title ="En Instalación de Dingux en Dingoo A320, 23/05/2010">Federico</a>:<br/>Buenas tardes. Tengo un poco un lio. ¿Cual es el mejor local, el mas completo, el ultimo? Muchas gracias...</div>
+</ul></div></li><li id="execphp-2" class="widget widget_execphp"><h2 class="sidebartitle">Etiquetas</h2>			
+			<div class="execphpwidget"><!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/swfobject.js"></script><div id="wpcumuluscontent8577134"><p><a href='http://www.elperroverde.net/tag/analisis/' class='tag-link-5' title='8 temas' style='font-size: 13.027624309392pt;'>Análisis</a>
+<a href='http://www.elperroverde.net/tag/anime/' class='tag-link-6' title='4 temas' style='font-size: 11.093922651934pt;'>Anime</a>
+<a href='http://www.elperroverde.net/tag/articulos/' class='tag-link-67' title='2 temas' style='font-size: 9.3922651933702pt;'>Artículos</a>
+<a href='http://www.elperroverde.net/tag/blogueando/' class='tag-link-7' title='10 temas' style='font-size: 13.723756906077pt;'>Blogueando</a>
+<a href='http://www.elperroverde.net/tag/cabreos/' class='tag-link-77' title='12 temas' style='font-size: 14.265193370166pt;'>Cabreos</a>
+<a href='http://www.elperroverde.net/tag/chorradas/' class='tag-link-8' title='65 temas' style='font-size: 19.756906077348pt;'>Chorradas</a>
+<a href='http://www.elperroverde.net/tag/cine/' class='tag-link-9' title='6 temas' style='font-size: 12.254143646409pt;'>Cine</a>
+<a href='http://www.elperroverde.net/tag/citas/' class='tag-link-10' title='10 temas' style='font-size: 13.723756906077pt;'>Citas</a>
+<a href='http://www.elperroverde.net/tag/concursos/' class='tag-link-83' title='2 temas' style='font-size: 9.3922651933702pt;'>Concursos</a>
+<a href='http://www.elperroverde.net/tag/descargas/' class='tag-link-13' title='29 temas' style='font-size: 17.127071823204pt;'>Descargas</a>
+<a href='http://www.elperroverde.net/tag/dreamcast/' class='tag-link-66' title='6 temas' style='font-size: 12.254143646409pt;'>Dreamcast</a>
+<a href='http://www.elperroverde.net/tag/el-perro-verde/' class='tag-link-85' title='4 temas' style='font-size: 11.093922651934pt;'>El Perro Verde</a>
+<a href='http://www.elperroverde.net/tag/emuladores/' class='tag-link-14' title='9 temas' style='font-size: 13.414364640884pt;'>Emuladores</a>
+<a href='http://www.elperroverde.net/tag/epic-win/' class='tag-link-63' title='11 temas' style='font-size: 14.033149171271pt;'>Epic Win</a>
+<a href='http://www.elperroverde.net/tag/eventos/' class='tag-link-16' title='3 temas' style='font-size: 10.32044198895pt;'>Eventos</a>
+<a href='http://www.elperroverde.net/tag/flash/' class='tag-link-17' title='2 temas' style='font-size: 9.3922651933702pt;'>Flash</a>
+<a href='http://www.elperroverde.net/tag/guitar-hero/' class='tag-link-19' title='12 temas' style='font-size: 14.265193370166pt;'>Guitar Hero</a>
+<a href='http://www.elperroverde.net/tag/humor/' class='tag-link-59' title='32 temas' style='font-size: 17.436464088398pt;'>Humor</a>
+<a href='http://www.elperroverde.net/tag/imagenes/' class='tag-link-21' title='37 temas' style='font-size: 17.900552486188pt;'>Imagenes</a>
+<a href='http://www.elperroverde.net/tag/informatica/' class='tag-link-22' title='12 temas' style='font-size: 14.265193370166pt;'>Informática</a>
+<a href='http://www.elperroverde.net/tag/internet/' class='tag-link-23' title='32 temas' style='font-size: 17.436464088398pt;'>Internet</a>
+<a href='http://www.elperroverde.net/tag/kaos2k/' class='tag-link-84' title='8 temas' style='font-size: 13.027624309392pt;'>Kaos2K</a>
+<a href='http://www.elperroverde.net/tag/left-4-dead/' class='tag-link-70' title='4 temas' style='font-size: 11.093922651934pt;'>Left 4 Dead</a>
+<a href='http://www.elperroverde.net/tag/memes/' class='tag-link-25' title='3 temas' style='font-size: 10.32044198895pt;'>Memes</a>
+<a href='http://www.elperroverde.net/tag/mods/' class='tag-link-71' title='5 temas' style='font-size: 11.71270718232pt;'>Mods</a>
+<a href='http://www.elperroverde.net/tag/musica/' class='tag-link-27' title='41 temas' style='font-size: 18.209944751381pt;'>Musica</a>
+<a href='http://www.elperroverde.net/tag/nvidia/' class='tag-link-28' title='1 tema' style='font-size: 8pt;'>nVidia</a>
+<a href='http://www.elperroverde.net/tag/ofertas/' class='tag-link-75' title='4 temas' style='font-size: 11.093922651934pt;'>Ofertas</a>
+<a href='http://www.elperroverde.net/tag/only-japon/' class='tag-link-29' title='2 temas' style='font-size: 9.3922651933702pt;'>Only Japón</a>
+<a href='http://www.elperroverde.net/tag/opiniones/' class='tag-link-60' title='15 temas' style='font-size: 14.961325966851pt;'>Opiniones</a>
+<a href='http://www.elperroverde.net/tag/pc/' class='tag-link-30' title='34 temas' style='font-size: 17.591160220994pt;'>PC</a>
+<a href='http://www.elperroverde.net/tag/pensamientos/' class='tag-link-31' title='7 temas' style='font-size: 12.640883977901pt;'>Pensamientos</a>
+<a href='http://www.elperroverde.net/tag/proyectos/' class='tag-link-81' title='2 temas' style='font-size: 9.3922651933702pt;'>Proyectos</a>
+<a href='http://www.elperroverde.net/tag/redes/' class='tag-link-78' title='2 temas' style='font-size: 9.3922651933702pt;'>Redes</a>
+<a href='http://www.elperroverde.net/tag/retro/' class='tag-link-61' title='20 temas' style='font-size: 15.889502762431pt;'>Retro</a>
+<a href='http://www.elperroverde.net/tag/series/' class='tag-link-33' title='6 temas' style='font-size: 12.254143646409pt;'>Series</a>
+<a href='http://www.elperroverde.net/tag/street-fighter/' class='tag-link-34' title='7 temas' style='font-size: 12.640883977901pt;'>Street Fighter</a>
+<a href='http://www.elperroverde.net/tag/tetinas/' class='tag-link-80' title='5 temas' style='font-size: 11.71270718232pt;'>Tetiñas</a>
+<a href='http://www.elperroverde.net/tag/tutoriales/' class='tag-link-35' title='17 temas' style='font-size: 15.425414364641pt;'>Tutoriales</a>
+<a href='http://www.elperroverde.net/tag/vinetas/' class='tag-link-82' title='7 temas' style='font-size: 12.640883977901pt;'>Viñetas</a>
+<a href='http://www.elperroverde.net/tag/videojuegos/' class='tag-link-36' title='127 temas' style='font-size: 22pt;'>Videojuegos</a>
+<a href='http://www.elperroverde.net/tag/videos/' class='tag-link-37' title='58 temas' style='font-size: 19.370165745856pt;'>Videos</a>
+<a href='http://www.elperroverde.net/tag/wii/' class='tag-link-38' title='7 temas' style='font-size: 12.640883977901pt;'>Wii</a>
+<a href='http://www.elperroverde.net/tag/wtf/' class='tag-link-39' title='3 temas' style='font-size: 10.32044198895pt;'>WTF</a>
+<a href='http://www.elperroverde.net/tag/mm/' class='tag-link-110' title='2 temas' style='font-size: 9.3922651933702pt;'>[+-]</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com">Roy Tanck</a> and <a href="http://lukemorton.co.uk/">Luke Morton</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var so5991411 = new SWFObject("http://www.elperroverde.net/elperroverde/wp-content/plugins/wp-cumulus/tagcloud.swf?r=6930016", "tagcloudflash", "288", "250", "9", "#22201D");so5991411.addParam("wmode", "transparent");so5991411.addParam("allowScriptAccess", "always");so5991411.addVariable("tcolor", "0x7ACD23");so5991411.addVariable("tcolor2", "0x7ACD23");so5991411.addVariable("hicolor", "0x7ACD23");so5991411.addVariable("tspeed", "100");so5991411.addVariable("distr", "true");so5991411.addVariable("mode", "tags");so5991411.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanalisis%2F%27+class%3D%27tag-link-5%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EAn%C3%A1lisis%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanime%2F%27+class%3D%27tag-link-6%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EAnime%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Farticulos%2F%27+class%3D%27tag-link-67%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EArt%C3%ADculos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fblogueando%2F%27+class%3D%27tag-link-7%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3EBlogueando%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcabreos%2F%27+class%3D%27tag-link-77%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3ECabreos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fchorradas%2F%27+class%3D%27tag-link-8%27+title%3D%2765+temas%27+style%3D%27font-size%3A+19.756906077348pt%3B%27%3EChorradas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcine%2F%27+class%3D%27tag-link-9%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ECine%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcitas%2F%27+class%3D%27tag-link-10%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3ECitas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fconcursos%2F%27+class%3D%27tag-link-83%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EConcursos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdescargas%2F%27+class%3D%27tag-link-13%27+title%3D%2729+temas%27+style%3D%27font-size%3A+17.127071823204pt%3B%27%3EDescargas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdreamcast%2F%27+class%3D%27tag-link-66%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3EDreamcast%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fel-perro-verde%2F%27+class%3D%27tag-link-85%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EEl+Perro+Verde%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Femuladores%2F%27+class%3D%27tag-link-14%27+title%3D%279+temas%27+style%3D%27font-size%3A+13.414364640884pt%3B%27%3EEmuladores%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fepic-win%2F%27+class%3D%27tag-link-63%27+title%3D%2711+temas%27+style%3D%27font-size%3A+14.033149171271pt%3B%27%3EEpic+Win%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Feventos%2F%27+class%3D%27tag-link-16%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EEventos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fflash%2F%27+class%3D%27tag-link-17%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EFlash%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fguitar-hero%2F%27+class%3D%27tag-link-19%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EGuitar+Hero%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fhumor%2F%27+class%3D%27tag-link-59%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EHumor%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fimagenes%2F%27+class%3D%27tag-link-21%27+title%3D%2737+temas%27+style%3D%27font-size%3A+17.900552486188pt%3B%27%3EImagenes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finformatica%2F%27+class%3D%27tag-link-22%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EInform%C3%A1tica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finternet%2F%27+class%3D%27tag-link-23%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EInternet%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fkaos2k%2F%27+class%3D%27tag-link-84%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EKaos2K%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fleft-4-dead%2F%27+class%3D%27tag-link-70%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3ELeft+4+Dead%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmemes%2F%27+class%3D%27tag-link-25%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EMemes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmods%2F%27+class%3D%27tag-link-71%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3EMods%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmusica%2F%27+class%3D%27tag-link-27%27+title%3D%2741+temas%27+style%3D%27font-size%3A+18.209944751381pt%3B%27%3EMusica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fnvidia%2F%27+class%3D%27tag-link-28%27+title%3D%271+tema%27+style%3D%27font-size%3A+8pt%3B%27%3EnVidia%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fofertas%2F%27+class%3D%27tag-link-75%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EOfertas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fonly-japon%2F%27+class%3D%27tag-link-29%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EOnly+Jap%C3%B3n%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fopiniones%2F%27+class%3D%27tag-link-60%27+title%3D%2715+temas%27+style%3D%27font-size%3A+14.961325966851pt%3B%27%3EOpiniones%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpc%2F%27+class%3D%27tag-link-30%27+title%3D%2734+temas%27+style%3D%27font-size%3A+17.591160220994pt%3B%27%3EPC%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpensamientos%2F%27+class%3D%27tag-link-31%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EPensamientos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fproyectos%2F%27+class%3D%27tag-link-81%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EProyectos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fredes%2F%27+class%3D%27tag-link-78%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3ERedes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fretro%2F%27+class%3D%27tag-link-61%27+title%3D%2720+temas%27+style%3D%27font-size%3A+15.889502762431pt%3B%27%3ERetro%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fseries%2F%27+class%3D%27tag-link-33%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ESeries%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fstreet-fighter%2F%27+class%3D%27tag-link-34%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EStreet+Fighter%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftetinas%2F%27+class%3D%27tag-link-80%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3ETeti%C3%B1as%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftutoriales%2F%27+class%3D%27tag-link-35%27+title%3D%2717+temas%27+style%3D%27font-size%3A+15.425414364641pt%3B%27%3ETutoriales%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvinetas%2F%27+class%3D%27tag-link-82%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EVi%C3%B1etas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideojuegos%2F%27+class%3D%27tag-link-36%27+title%3D%27127+temas%27+style%3D%27font-size%3A+22pt%3B%27%3EVideojuegos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideos%2F%27+class%3D%27tag-link-37%27+title%3D%2758+temas%27+style%3D%27font-size%3A+19.370165745856pt%3B%27%3EVideos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwii%2F%27+class%3D%27tag-link-38%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EWii%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwtf%2F%27+class%3D%27tag-link-39%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EWTF%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmm%2F%27+class%3D%27tag-link-110%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3E%5B%2B-%5D%3C%2Fa%3E%3C%2Ftags%3E");so5991411.write("wpcumuluscontent8577134");</script></div>
+		</li><li id="linkcat-57" class="widget widget_links"><h2 class="sidebartitle">A veces me paso por...</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://akihabarablues.com/" target="_blank">Akihabara Blues</a></li>
+<li><a href="http://www.anaitgames.com/" target="_blank">AnaitGames</a></li>
+<li><a href="http://botafumeiroag.blogspot.com/" target="_blank">Botafumeiro AG</a></li>
+<li><a href="http://botafumeirovideojuegos.blogspot.com/" target="_blank">Botafumeiro Videojuegos</a></li>
+<li><a href="http://danteneverdies.wordpress.com/" target="_blank">Danteneverdies Gamerblog</a></li>
+<li><a href="http://elblogdemanu.com/" target="_blank">El Blog de Manu</a></li>
+<li><a href="http://www.topofarmer.com/" target="_blank">El Blog de Topofarmer</a></li>
+<li><a href="http://www.elpixelilustre.com/" target="_blank">El Pixel Ilustre</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er Blog der JuMaFaS</a></li>
+<li><a href="http://www.frostias.com/" target="_blank">Frostias</a></li>
+<li><a href="http://www.gamesajare.com/" target="_blank">GamesAjare</a></li>
+<li><a href="http://jueves13.com" target="_blank">Jueves13</a></li>
+<li><a href="http://www.kaos2k.com/" target="_blank">Kaos2K.com</a></li>
+<li><a href="http://www.nosologames.net" target="_blank">NoSoloGames</a></li>
+<li><a href="http://www.pixfans.com" target="_blank">PixFans</a></li>
+<li><a href="http://www.yonosoyfreak.com/" target="_blank">Yo no soy freak</a></li>
+
+	</ul>
+</li>
+<li id="archives-3" class="widget widget_archive"><h2 class="sidebartitle">Archivo del Blog</h2>		<ul>
+			<li><a href='http://www.elperroverde.net/2010/03/' title='Marzo 2010'>Marzo 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2010/02/' title='Febrero 2010'>Febrero 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2010/01/' title='Enero 2010'>Enero 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/12/' title='Diciembre 2009'>Diciembre 2009</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2009/11/' title='Noviembre 2009'>Noviembre 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/10/' title='Octubre 2009'>Octubre 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2009/09/' title='Septiembre 2009'>Septiembre 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/08/' title='Agosto 2009'>Agosto 2009</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2009/07/' title='Julio 2009'>Julio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/06/' title='Junio 2009'>Junio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/05/' title='Mayo 2009'>Mayo 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2009/04/' title='Abril 2009'>Abril 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/03/' title='Marzo 2009'>Marzo 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/02/' title='Febrero 2009'>Febrero 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2009/01/' title='Enero 2009'>Enero 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/12/' title='Diciembre 2008'>Diciembre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2008/11/' title='Noviembre 2008'>Noviembre 2008</a>&nbsp;(12)</li>
+	<li><a href='http://www.elperroverde.net/2008/10/' title='Octubre 2008'>Octubre 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.elperroverde.net/2008/09/' title='Septiembre 2008'>Septiembre 2008</a>&nbsp;(20)</li>
+	<li><a href='http://www.elperroverde.net/2008/08/' title='Agosto 2008'>Agosto 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/07/' title='Julio 2008'>Julio 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2008/06/' title='Junio 2008'>Junio 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/05/' title='Mayo 2008'>Mayo 2008</a>&nbsp;(11)</li>
+	<li><a href='http://www.elperroverde.net/2008/04/' title='Abril 2008'>Abril 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/03/' title='Marzo 2008'>Marzo 2008</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2008/02/' title='Febrero 2008'>Febrero 2008</a>&nbsp;(13)</li>
+	<li><a href='http://www.elperroverde.net/2008/01/' title='Enero 2008'>Enero 2008</a>&nbsp;(9)</li>
+	<li><a href='http://www.elperroverde.net/2007/12/' title='Diciembre 2007'>Diciembre 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2007/11/' title='Noviembre 2007'>Noviembre 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2007/10/' title='Octubre 2007'>Octubre 2007</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2007/09/' title='Septiembre 2007'>Septiembre 2007</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2007/08/' title='Agosto 2007'>Agosto 2007</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2007/07/' title='Julio 2007'>Julio 2007</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2007/06/' title='Junio 2007'>Junio 2007</a>&nbsp;(19)</li>
+		</ul>
+</li><li id="text-8" class="widget widget_text">			<div class="textwidget"><br/>&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed Completo</a><br/>
+
+&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde/Comentarios'><img src='http://elperroverde.net/elperroverde/wp-content/themes/girl/images/rss_icon_mini.jpg' /> Feed de Comentarios</a><br/>
+
+<form action="http://feedburner.google.com/fb/a/mailverify" style="border:0px solid #ccc;padding:3px;text-align:center;" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=cosasDelPerroVerde', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>También te puedes suscribir por e-mail:</p><p><input style="width:140px" name="email" type="text"/></p><input value="cosasDelPerroVerde" name="uri" type="hidden"/><input value="es_ES" name="loc" type="hidden"/><input value="Suscribirse" type="submit"/></form>
+<br/></div>
+		</li><li id="text-6" class="widget widget_text">			<div class="textwidget"><br/>
+<center><a href="http://www.easycounter.com/es/">
+<img alt="Counter" src="http://www.easycounter.com/counter.php?tragy" 
+border="0"/></a><br/><br/>
+<center><p><a href="http://feeds.feedburner.com/cosasDelPerroVerde"><img src="http://feeds.feedburner.com/~fc/cosasDelPerroVerde?bg=4AAD13&amp;fg=FF5A00&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p></center>
+<center>
+<a href="http://bitacoras.com/bitacora/elperroverde.net" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png"/></a></center></center><br/></div>
+		</li>
+ </ul>
+</div>
+<!--/sidebar -->  
+ <div id="footer">
+<div class="center">El Perro Verde utiliza <a href="http://wordpress.org/">WordPress</a>, con una modificación personal de la plantilla <a href=http://wordpress.org/extend/themes/girl>girl</a>.
+Todos los contenidos publicados bajo <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">Creative Commons</a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">   <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png"/>
+</div></div>
+<script src="http://stats.wordpress.com/e-201021.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'9695869',v:'ext',post:'103'});
+var load_cmc = function(){linktracker_init(9695869,103,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+<!--Analytics-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2055026-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>

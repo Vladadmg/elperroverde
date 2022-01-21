@@ -1,0 +1,804 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2 | El Perro Verde</title>
+
+<meta name="generator" content="WordPress 3.2.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.elperroverde.net/wp-content/themes/girl/style.css?1307372778" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde RSS Feed" href="http://www.elperroverde.net/feed/" />
+<link rel="pingback" href="http://www.elperroverde.net/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="El Perro Verde &raquo; Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2 RSS de los comentarios" href="http://www.elperroverde.net/2008/02/tutorial-neocd-06c-emulador-de-neo-geo/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.elperroverde.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.elperroverde.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='El Perro Verde' href='http://www.elperroverde.net/' />
+<link rel='start' title='Full metal alchemist &#8230;' href='http://www.elperroverde.net/2007/06/full-metal-alchemist/' />
+<link rel='prev' title='Tutorial InfoGB. Juega a GB y GBC en tu ps2' href='http://www.elperroverde.net/2008/02/tutorial-infogb-juega-gb-y-gbc-en-tu/' />
+<link rel='next' title='F***ing s**t!!! No More Heroes censurado &#8230;' href='http://www.elperroverde.net/2008/02/fing-st-no-more-heroes-censurado/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='shortlink' href='http://wp.me/pEGkZ-1g' />
+
+<!-- All in One SEO Pack 1.6.13.3 by Michael Torbert of Semper Fi Web Design[284,390] -->
+<meta name="description" content="Otro tutorial que rescato, esta vez actualizándolo un poquito, ya que la última versión de este emulador trae bastantes mejoras respecto a la que usé en el" />
+<meta name="keywords" content="emuladores,retro,tutoriales,videojuegos" />
+<link rel="canonical" href="http://www.elperroverde.net/2008/02/tutorial-neocd-06c-emulador-de-neo-geo/" />
+<!-- /all in one seo pack -->
+<!-- wpscanner --></head>
+<body>
+<div id="main">
+  <div id="header">
+<form method="get" id="searchform" action="http://www.elperroverde.net/">
+<div><input type="text" size=50 value="Buscar en el Blog..." onblur="if(this.value == '') {this.value = 'Buscar en el Blog...';}" onfocus="if(this.value == 'Buscar en el Blog...') {this.value = '';}"name="s" id="s" />
+</div>
+</form>
+    <!--<div id="logo">
+	  <h1><a href="http://www.elperroverde.net/">El Perro Verde</a></h1>
+	  <div class="description">Videojuegos, música, y un poco de todo a partes desiguales.</div>
+	</div>-->
+	<ul id="menu">
+	  <li class="page_item"><a href="http://www.elperroverde.net/" title="Home"><img class='imageninicio' src='http://elperroverde.net/wp-content/themes/girl/images/home.png' alt='Página de Inicio' /></a></li>
+	  <li class="page_item page-item-944"><a href="http://www.elperroverde.net/mi-coleccion/" title="Mi colección">Mi colección</a></li>
+<li class="page_item page-item-2"><a href="http://www.elperroverde.net/contacto/" title="Contacto">Contacto</a></li>
+<li class="page_item page-item-925"><a href="http://www.elperroverde.net/disclaimer/" title="Disclaimer">Disclaimer</a></li>
+	</ul>
+
+
+
+  </div>
+  <!--/header -->
+<div class="post" style="text-align:center; width: 488px; margin: 0px auto; margin-top: 10px;"><!-- CODIGO ADPV -->
+<script type="text/javascript" src="http://ads.adpv.com/?z=11171"></script>
+<!-- FIN CODIGO ADPV --></div>
+  <div id="content">
+  
+    
+    <div class="post" id="post-78">
+    <div class="post-date"><span class="post-month">feb</span> <span class="post-day">05</span></div>
+<div class="title">
+	  <h2><a href="http://www.elperroverde.net/2008/02/tutorial-neocd-06c-emulador-de-neo-geo/" rel="bookmark" title="Permalink a Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2">Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2</a></h2>
+		<small class="author">Por <b>Tragy</b>, publicado el <b>5 de febrero, 2008 | <a href="http://www.elperroverde.net/2008/02/tutorial-neocd-06c-emulador-de-neo-geo/#comments" title="Comentarios en Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2">21 comentarios </a></b><small class="date"></small></small></div>
+	  <div class="entry">
+		<p>Otro tutorial que rescato, esta vez actualizándolo un poquito, ya que la última versión de este emulador trae bastantes mejoras respecto a la que usé en el tutorial original.</p>
+<p>Vamos allá pues.</p>
+<p>Primero de todo, este emulador es de &#8220;Neo Geo CD&#8221;. Por lo tanto, emulará juegos en cd diseñados para esa consola, y NO roms arcade de neo-geo.<br />
+Esta es la <a href="http://www.emulatronia.com/reportajes/neogeo/lista.htm">lista de juegos completa</a> que existen para esta consola.</p>
+<p>-Descargamos el emulador de aquí: <a href="http://sksapps.com/emu/neo%20cd/neocd_ps2_06c.zip">Neocd 0.6c</a><br />
+-Descargamos tambien la <a href="http://www.fileden.com/files/2006/7/16/134012/neocd.zip">bios de Neo Geo CD</a></p>
+<p>Hasta ahora, solo he conseguido cargar el emulador con swap magic 3.3 y superiores, con swap magic 3.0, cdloader, y cogswaploader no lo he podido hacer funcionar.</p>
+<p>Necesitareis algún juego para probarlo, por supuesto. Al final de todo, queda explicado como grabar correctamente un juego que incluya sonido en mp3, ya que una de las mejoras de esta última versión es el soporte de este sonido.</p>
+<p>Para tener una idea de la compatibilidad, aquí hay una <a href="http://psx-scene.com/forums/showthread.php?t=38649" target="_blank">lista medianamente completa de juegos compatibles</a>. En verde, funcionan perfectamente; en amarillo, con ligeros problemas, ya sean de video o audio; en rojo, injugables; los demás, es cosa vuestra comprobarlo.</p>
+<p>Para crear la imagen, se puede usar <a href="http://www.fileden.com/files/2006/7/16/134012/CDGENPS2_3.0.rar">CD Gen 3.0</a>. Para grabarla en cd, Alcohol 120%, aunque cualquier otro programa debería servir perfectamente.</p>
+<p>Si tenemos todo a mano, podemos empezar.</p>
+<p>Abrimos el cdgen, y metemos en la compilación todos los archivos que están dentro del neocd_ps2_06c.zip. También añadimos el neocd.bin, en la raíz. Aunque en la imagen no aparece, debe ir en la raíz del DVD junto al resto de archivos.</p>
+<p>Hacemos click con el botón derecho encima del archivo system.cnf, le damos a edit, y seleccionamos fix lba, poniendo 12231. Queda la imagen así:</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/GedwfhjpbfrnkhDn5alT-Q?feat=embedwebsite"><img src="http://lh5.ggpht.com/_4Ori_yu5PJU/R6iTl3Ft0vI/AAAAAAAAAFo/dRLFUTX7x5c/s400/Neocd1.JPG" alt="" /></a></p>
+<p>Ya solo queda pulsar el botón de crear la imagen, y grabarla a velocidad moderada si es posible (4x si puede ser)</p>
+<p>Se carga como un juego de ps2 en cd (vamos, usando Swap Magic CD) y tras la carga, aparece una pantalla indicando que cambiemos el disco. Se hace un swap, y se pone el CD con el juego de Neo Geo.</p>
+<p>En el emulador, pulsando R2+L2 durante el juego se accede al menú del emulador, para activar diversas opciones (la mas interesante, la del frameskip, que mejora bastante la velocidad de algunos juegos.)</p>
+<p>Ahora, falta crear correctamente el disco de Neo Geo CD. Como buenos piratillas que somos, seguro que acabamos de bajar de la red algún juego de Neo Geo CD. Lo mas normal, es que incluya unos cuantos archivos que forman el juego, y aparte una serie de MP3, que son el sonido CDDA del juego. Para grabar todo junto en un disco, de forma que quede lo mas parecido a un CD de Neo Geo CD, tenemos que crear un archivito .cue que le diga al programa que usemos como debe grabar el disco. Suponemos que tenemos &#8220;MetalSlug.iso&#8221;, y al lado &#8220;Pista2.mp3&#8243;, &#8220;Pista3.mp3&#8243; &#8230;. &#8220;Pista15.mp3&#8243;</p>
+<p>Abrimos el bloc de notas, y pegamos esto:</p>
+<p style="text-align: center;">FILE &#8220;MetalSlug.iso&#8221; BINARY<br />
+TRACK 01 MODE1/2048<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista2.mp3&#8243; MP3<br />
+TRACK 02 AUDIO<br />
+PREGAP 00:03:00<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista3.mp3&#8243; MP3<br />
+TRACK 03 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista4.mp3&#8243; MP3<br />
+TRACK 04 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista5.mp3&#8243; MP3<br />
+TRACK 05 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista6.mp3&#8243; MP3<br />
+TRACK 06 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista7.mp3&#8243; MP3<br />
+TRACK 07 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista8.mp3&#8243; MP3<br />
+TRACK 08 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista9.mp3&#8243; MP3<br />
+TRACK 09 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista10.mp3&#8243; MP3<br />
+TRACK 10 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista11.mp3&#8243; MP3<br />
+TRACK 11 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista12.mp3&#8243; MP3<br />
+TRACK 12 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista13.mp3&#8243; MP3<br />
+TRACK 13 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista14.mp3&#8243; MP3<br />
+TRACK 14 AUDIO<br />
+INDEX 01 00:00:00<br />
+FILE &#8220;Pista15.mp3&#8243; MP3<br />
+TRACK 15 AUDIO<br />
+INDEX 01 00:00:00</p>
+<p>Lo único que hay que cambiar es los nombres de los archivos, tanto el .iso como los .mp3. Nos quedaría algo así:</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/FRUamI7sKgIEq5KUcp1YWA?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4Ori_yu5PJU/R6icmHFt0wI/AAAAAAAAAFw/FnP4LqpUbsA/s400/Cap2Neo.JPG" alt="" /></a></p>
+<p>Guardamos el archivo como Metal.cue, lo colocamos en la misma carpeta que el .iso, y abrimos Nero. Vamos a Grabador/Seleccionar Grabador, y marcamos Image Recorder.</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/u6qYunU44-p9-oCk49caaw?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4Ori_yu5PJU/R6icvHFt0xI/AAAAAAAAAF4/ySpu7U-ABeQ/s400/Cap3Neo.JPG" alt="" /></a></p>
+<p>Despues abrimos el .cue que guardamos antes, y ya aparece la información de la imagen que vamos a crear.</p>
+<p style="text-align: center;"><a href="http://picasaweb.google.com/lh/photo/6F3rZZlT0fXIT_Tpsp4bBQ?feat=embedwebsite"><img src="http://lh6.ggpht.com/_4Ori_yu5PJU/R6ic3HFt0yI/AAAAAAAAAGA/5iKlM41qQ2o/s400/Cap4Neo.JPG" alt="" /></a></p>
+<p>La nueva imagen ya tiene los mp3 y el .iso integrado en una sola imagen, así que ya la podemos grabar en un disco.</p>
+<p>Supongo, y solo supongo, que se puede grabar directamente en un CD desde el .cue, pero como para grabarlo tiene que convertir los mp3 a CDA, mejor crear una imagen primero y despues grabarla en un disco.</p>
+<p>Con esto, ya está el disco listo, así que se carga el emulador usando Swap Magic, y luego se cambia por el disco de Neo Geo CD al que se quiera jugar. Tirao, no?</p>
+<p>Y como el Perro Verde está hoy generoso, ilegalidad a tope, para que saquéis los juegos de algún lado: <a href="http://romhustler.net/roms/neogeocd">RomHustler.net</a></p>
+<h3  class="related_post_title">También te puede interesar...</h3><ul class="related_post"><li><a href="http://www.elperroverde.net/2010/03/instalacion-de-dingux-en-dingoo-a320/" title="Instalación de Dingux en Dingoo A320">Instalación de Dingux en Dingoo A320</a></li><li><a href="http://www.elperroverde.net/2008/10/epsxe-y-el-sonido-cdda/" title="ePSXe y el sonido CDDA">ePSXe y el sonido CDDA</a></li><li><a href="http://www.elperroverde.net/2008/03/tutorial-de-pgen-megadrive-en-ps2/" title="Tutorial de Pgen: Megadrive en PS2">Tutorial de Pgen: Megadrive en PS2</a></li><li><a href="http://www.elperroverde.net/2008/02/tutorial-infogb-juega-gb-y-gbc-en-tu/" title="Tutorial InfoGB. Juega a GB y GBC en tu ps2">Tutorial InfoGB. Juega a GB y GBC en tu ps2</a></li><li><a href="http://www.elperroverde.net/2007/10/ya-que-me-han-preguntado-hoy-por-l/" title="Tutorial IMBNes: Emulador de NES para PSX">Tutorial IMBNes: Emulador de NES para PSX</a></li></ul>				
+			  </div>		
+
+		
+<!-- You can start editing here. -->
+
+	<hr><h5 id="comments">21 respuestas a &#8220;Tutorial NeoCD 0.6c: Emulador de Neo Geo CD para PS2&#8221;</h5> 
+
+	<ol class="commentlist">
+                
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-417">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">24/2/08 a las 21:26 | <a href="#comment-417">#1</a>  </small></div>
+
+			<div class="txtcom"><p>Muchas gracias por el tutorial tio, muy currao</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-418">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/12/08 a las 13:29 | <a href="#comment-418">#2</a>  </small></div>
+
+			<div class="txtcom"><p>Hola lo primero gracias por el manual, pero tengo un monton de dudas ya que hace poco que me he puesto a rebuscar sobre este tema:<br />1-Cuando ya has metido todos los archivos en el cdgen cuando dices crear la imagen te refieres creo yo a &#8220;save image.bin&#8221;,¿es correcto?.2- apartir de aqui ya me pierdo completamente(es lo que tiene la ignorancia)donde la grabas , en cd? &#8230; y luego cargas el juego con otro? si pudieses poner mas imagenes de toda esa parte te lo gradeceria.<br />Saludos y de nuevo gracias.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-419">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/12/08 a las 17:35 | <a href="#comment-419">#3</a>  </small></div>
+
+			<div class="txtcom"><p>Sobre lo primero, correcto, a eso mismo me refiero. Quizá está un poco mal explicado, pero veo que al fin y al cabo se entendió&#8230; xD</p>
+<p>Despues, sobre lo que te pierdes&#8230; La imagen.bin la tienes que grabar en un CD, y cargarla en la PS2 con Swap Magic CD o el método que prefieras (ya puse arriba que no todos funcionan, aunque con chips debería ir sin problemas.)</p>
+<p>Una vez metas el disco ese en la PS2 (que solo tiene el emulador en si) aparece una pantalla en la que te pide que insertes el disco. Aquí es donde tienes que insertar el juego de Neo-Geo, que tambien explico como grabar correctamente en el tutorial. Para ponerlo, si tienes chip bastaría con quitar el CD del emulador y poner el del juego. Si usas swap, tienes que abrir la bandeja manualmente.</p>
+<p>Si tienes alguna duda sobre algo más concreto, pregunta, y te ayudaré en lo que pueda. Por ahora no tengo pensado añadir más imagenes al tutorial, aunque todo se andará.</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-420">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">7/1/09 a las 22:05 | <a href="#comment-420">#4</a>  </small></div>
+
+			<div class="txtcom"><p>magnifico</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-674">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Anonymous</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">1/8/09 a las 22:47 | <a href="#comment-674">#5</a>  </small></div>
+
+			<div class="txtcom"><p>gracias por el tutorial vamos a ver si me funciona que aun no lo instalo</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1393">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">6/3/10 a las 13:02 | <a href="#comment-1393">#6</a>  </small></div>
+
+			<div class="txtcom"><p>Hola tragy,me he descargado el super sidekick de neo geo cd,y me biene dentro esto,<br />
+Art Of Fighting &#8211; Track 01.iso y los archivos de musica todos en mp.3<br />
+Esta es mi duda&#8230;cuando dices que hay que crear un blog de notas sigo los pasos que dices y a la hora de guardarlo por ejemplo lo guardo con el nombre art.cue y se me crea mal,con un archivo de mp3,no me aparece como a ti que te sale el Metal.cue la imagen para poder gravarlo con el nero,me aparece art.cue pero en archivo mp3 y no en archivo de imagen.</p>
+<p>Un saludo.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1394">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">7/3/10 a las 20:07 | <a href="#comment-1394">#7</a>  </small></div>
+
+			<div class="txtcom"><p>Te salga con un icono u otro, el caso es que lo puedas abrir con nero. Lo del icono erróneo puede ser por la configuración de tu PC, aunque no afecta para nada <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1396">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">9/3/10 a las 21:13 | <a href="#comment-1396">#8</a>  </small></div>
+
+			<div class="txtcom"><p>Gracias Tragy por contestar tan rapido,ahora lo que pasa es cuando cargo el archivo cue en el nero burniing ROM este archivo el&#8230;Art of Fighting 2 (1994)(SNK)(Jp-US)[!][Ryuuko no Ken 2].cue<br />
+Y le doy abrir me sale este mensaje del nero..<br />
+An error occurred while loading the cue sheet file.<br />
+D:\soulseek\Art of Fighting 2(1994)(SNK)(Jp-US)[!][Ryuuko no Ken 2]Art of Fighting 2 (1994)(SNK)(Jp-US)[!][Ryuuko no Ken 2].cue<br />
+(line 5).<br />
+Y no me carga para poder quemarlo,porque me sale este mensaje&#8230;</p>
+<p>Un saludo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1402">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">12/3/10 a las 13:35 | <a href="#comment-1402">#9</a>  </small></div>
+
+			<div class="txtcom"><p>Te está indicando que hay un problema en la línea 5 del archivo .cue, lo que no se es exactamente por qué&#8230;</p>
+<p>Concretamente, la línea 5 de tu archivo tendría que ser TRACK 02 AUDIO, revisa que esté bien. Por lo demás, no se me ocurre que puede pasar. Revisa que en el .cue estén bien puestos los nombres de todos los archivos (tanto de los .mp3 como del .iso) y prueba de nuevo. </p>
+<p>Como alternativa, puedes crear el .cue con <a href="http://www.racketboy.com/forum/viewtopic.php?f=17&#038;t=10106" rel="nofollow">Sega Cue Maker</a>, si estás desde Vista/7 tendrás que hacer antes <a href="http://www.racketboy.com/forum/viewtopic.php?f=17&#038;t=10106" rel="nofollow">estos pasos</a> para poder ejecutarlo. </p>
+<p>Si sigue sin funcionarte, pásame tu .cue y miro a ver si puedo hacer algo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1408">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/3/10 a las 16:38 | <a href="#comment-1408">#10</a>  </small></div>
+
+			<div class="txtcom"><p>Hola Tragy,esto sigue igual cuando cargo el Art of Fighting 2 (1994)(SNK)(Jp-US)[!][Ryuuko no Ken 2].cue al nero me sale el maldito error de la linea 6.<br />
+Te lo he subido al servidor megaupload haber si ves tu algo raro.</p>
+<p>Un saludo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Art of Fighting 2 (1994)(SNK)(Jp-US)[!][Ryuuko no Ken 2]<br />
+<a href="http://www.megaupload.com/?d=YIYJV14G" rel="nofollow">http://www.megaupload.com/?d=YIYJV14G</a></p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1409">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/3/10 a las 19:29 | <a href="#comment-1409">#11</a>  </small></div>
+
+			<div class="txtcom"><p>Acabo de probar el .cue que subiste, y me funciona sin ningún problema. Lo único que se me ocurre es que el nombre del archivo mp3 que tienes en la carpeta y el que indicas en  el .cue sean diferentes, si pasa eso da exactamente el error que comentas&#8230; Pero si coinciden los nombres del .iso y del .mp3, el archivo que subiste funciona sin editarle nada.</p>
+<p>Probé con el Nero portable de <a href="http://www.gigasize.com/get.php?d=xzjgb2xswrd" rel="nofollow">este enlace</a>, a ver si va a ser problema del Nero en si&#8230;</p>
+<p>Por lo demás, si sigue sin funcionarte siempre puedes pillar <a href="http://www.romnation.net/srv/roms/44644/neogeocd/Art-of-Fighting-2.html" rel="nofollow">la versión que hay colgada en romnation.net</a>, que ya viene con el .cue listo para grabar <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1410">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">13/3/10 a las 23:07 | <a href="#comment-1410">#12</a>  </small></div>
+
+			<div class="txtcom"><p>Hola Tragy,he probado el nero portable de tu enlace y lo he probado de grabar y me a dejado grabarlo sin problemas a cargado el cue perfecto,tenias razón el problema era de mi nero este punto esta solucionado,pero me a surgido otro problema que al final los 2 cds que he gravado los tengo como posa vasos jejejejeje&#8230;te cuento.<br />
+He metido el emulador de la neo geo cd en la ps2 cuando carga el emulador a continuacion me dice que saque el emulador y meta el cd del juego pues bien cuando meto el juego el Art of Fighting 2 de neo geo cd tanto el mio como el de rommation de tu enlace&#8230;nada cuando arranca para leer la ps2 los cds tanto uno como el otro no carga no se porque sucede esto,debería de pillarlo sin problemas porque puede ser esto.<br />
+Un saludo:)</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1411">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">14/3/10 a las 0:22 | <a href="#comment-1411">#13</a>  </small></div>
+
+			<div class="txtcom"><p>Bueno, es un avance por lo menos..</p>
+<p>Es raro que ahora no te los pille&#8230; Como puse arriba, con Swap Magic 3.3 o superior carga ambos discos sin problemas, hay que hacer swap también al meter el disco de Neo Geo CD. Si tienes modchip&#8230; Pues ya me pierdo un poco, pero en teoría deberías poder abrir la bandeja normalmente, y meter el segundo disco. Si no carga, es bastante extraño&#8230;</p>
+<p>Yo comprobaría primero si el disco está bien grabado, por ejemplo con la versión de NeoCD para PC.</p>
+<p>La puedes descargar desde <a href="http://pacifi3d.retrogames.com/neocdsdl/neocd031win32.zip" rel="nofollow">aquí</a>, le pones el archivo neocd.bin en la carpeta donde lo hayas extraído, y metes uno de los discos que has grabado en el PC. Con abrir neocd.exe debería arrancar el juego y empezar a funcionar.</p>
+<p>Si no arranca, se puede mirar en el archivo stdout.txt para saber qué falló. Si funciona en el PC, será fallo de la PS2. Funcione o no, la verdad es que no se qué aconsejarte para hacerlo funcionar en la PS2. Lo único, revisar que la bios esté en el disco del emulador, si no es eso no se que puede fallar :S</p>
+<p>Un saludo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1412">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">14/3/10 a las 11:32 | <a href="#comment-1412">#14</a>  </small></div>
+
+			<div class="txtcom"><p>Hola Tragy,he probado el NeoCD para PC y funcionan bien los 2 juegos,la ps2 tiene chip.<br />
+Te subo el emulador de la ps2 y le hechas un vistazo para ver si ves algo raro,el caso es que trae el metal slun 2 y lo pilla bien,he estado mirando como han metido el metal pero es muy raro no se ve metido ni el cue ni la iso,no se como lo harán,.<br />
+Este cd que te comento bien también con varios emuladores el de la super la mega,master,nintendo,neo cd,ect.. con bastantes juegos Y ningún problemas con estos emuladores.<br />
+Ayuda me averiguar aun que sea la forma de meter el juego dentro del mismo emulador y que lo pille,estoy ya desanimado&#8230;</p>
+<p>Un saludo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1413">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">14/3/10 a las 16:49 | <a href="#comment-1413">#15</a>  </small></div>
+
+			<div class="txtcom"><p>He estado investigando un poco, y parece ser que hay mucha gente que ha tenido problemas al hacer el cambio de disco. La solución sería:</p>
+<p>a) Integrar el emulador y el juego en un mismo CD (como han hecho con ese Metal Slug 2)</p>
+<p>b) Si tu modchip lo permite arrancar la consola con el disco de Neo Geo CD ya dentro, y ejecutar el programa desde la memory card (habría que copiar todos los archivos y la bios a la memory)</p>
+<p>Para ninguna de las opciones te se aconsejar, pues no tengo modchip y no consigo encontrar una guía en condiciones sobre como integrar el juego y emulador en un solo disco&#8230; Si aparece algo te daré un toque, siento no poder ser de más ayuda.</p>
+<p>Un saludo!</p>
+<p>Edito: Arrancando el NeoCD con uLaunchELF (desde un USB) he podido cargar el disco de Neo Geo CD sin integrar, pero del CDDA del juego ni rastro. Comentan en los foros oficiales que esto pasa en las PS2 que no tienen modchip, por lo que podrías probar a ejecutarlo con uLaunchELF desde un pendrive y comprobar si funciona correctamente. Sobre como ejecutar uLaunchELF, pues dependiendo del chip que tengas necesitarás seguir unas instrucciones u otras.</p>
+<p>Un saludo de nuevo!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1414">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">14/3/10 a las 21:45 | <a href="#comment-1414">#16</a>  </small></div>
+
+			<div class="txtcom"><p>Que tal Tragy,muchas gracias por todo.<br />
+Investigare por los foros haber si hay solución.</p>
+<p>Un saludo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="alt" id="comment-1435">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/3/10 a las 13:57 | <a href="#comment-1435">#17</a>  </small></div>
+
+			<div class="txtcom"><p>Hola Tragy,he visto por otras paginas la lista de juego compatible para el emulador de Neocd 0.6c,claro yo no sabia eso,pensaba de que los cogeria todos los ROM sin problema pero no es así,no todos son compatibles algunos presentan efectos de sonido que faltan,graficos corruptos,voces de los personajes están desaparecidos,ect&#8230; de algunos juegos,si eso te dejo la dirección de la pagina y hacer un hiper vinculo que yo no se hacer un hiper vinculo,por si alguien no sabe cuales son los juego compatibles y los incompatibles para que no tengan que malgastar cds en gravar juegos que luego no los va a leer el emulador Neocd 0.6c por no se compatibles.<br />
+Me baje el sengoku 2 y lo pillos sin problemas todo perfecto de graficos,velocidad ,sonido,porque este si es compatible como se aprecia en la lista de compatibles.</p>
+<p>lista de roms compatibles y no compatibles:<br />
+<a href="http://psx-scene.com/forums/showthread.php?t=38649" rel="nofollow">http://psx-scene.com/forums/showthread.php?t=38649</a></p>
+<p>Un saludo. <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1438">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">25/3/10 a las 16:47 | <a href="#comment-1438">#18</a>  </small></div>
+
+			<div class="txtcom"><p>Hola de nuevo ivan <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>En el tutorial ya tenía enlazada esa misma lista, pero debieron hacer algún cambio en los foros de psx-scene y al hacer click en el enlace daba error. Ya lo he actualizado con tu enlace, así no da lugar a error. Muchas gracias por ponerlo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Por cierto, por curiosidad&#8230; ¿al final cómo solucionaste el problema de que no te cargaba los discos? Quizá le sea de ayuda a alguien si se encuentra con el mismo problema.</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-1446">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/86de0f3aae73cf0e3e516294baf66d0d?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>ivan</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/3/10 a las 16:36 | <a href="#comment-1446">#19</a>  </small></div>
+
+			<div class="txtcom"><p>Hola Tragy,la verdad es que no hay que explicar mucho jejejeje,porque tu explicación Tragy es la que seguí.Es la correcta,lo único que hay que hacer antes de bajar cualquier rom de la neo geo cd ,es ir primero al enlace actualizado que ha puesto nuestro amigo Tragy,para ver los juegos que son compatible con el emulador Neocd 0.6c,porque no son todos validos,verás tres colores,el verde el naranja y el rojo.</p>
+<p>-Los de color verde:juego funciona perfecto = CDDA + efectos de sonido.</p>
+<p>-Los de color naranja:juego funciona bien, pero CDDA o efectos de sonido (música) podría faltar, o problemas técnicos de menor importancia.</p>
+<p>_Los rojos:Texto: se producen mientras se congela / reproducción de carga, o fallos importantes.</p>
+<p>Los que están de color rojo en la lista ni proveéis de bajar esos títulos porque tendréis un buen posa-vaso jejejeje lo digo por experiencia.</p>
+<p>Los juegos los podéis bajar de la pagina que menciona el amigo Tragy y esta la <a href="http://www.coolrom.com/roms/neogeocd/s/" rel="nofollow">http://www.coolrom.com/roms/neogeocd/s/</a> ,y a la hora de grabarlos seguir las instrucciones que dice Tragy mas arriba.</p>
+<p>Un saludo <img src='http://www.elperroverde.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="autor" id="comment-1447">
+				<div class="cleft">
+			<img alt='' src='http://1.gravatar.com/avatar/71da886ffefa7e58124677c1f487f082?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite><a href='http://www.elperroverde.net' rel='external nofollow' class='url'>Tragy</a></cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">26/3/10 a las 17:11 | <a href="#comment-1447">#20</a>  </small></div>
+
+			<div class="txtcom"><p>Nada, lo preguntaba porque justamente el Art of Fighting 2 con el que estabas probando aparece en verde, me alegro de que al final quedara el problema solucionado. Un saludo, y a viciar mucho!</p>
+</div>
+
+		</ul>
+         	
+
+	                 
+            	   
+
+
+		<ul class="norm" id="comment-2076">
+				<div class="cleft">
+			<img alt='' src='http://0.gravatar.com/avatar/6b5da8499dc37605c4cafbd5c301756c?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div>
+<div class="elautor">
+			<cite>Axelat</cite> ha dicho:
+						<br />
+
+			<small class="commentmetadata">27/10/10 a las 0:42 | <a href="#comment-2076">#21</a>  </small></div>
+
+			<div class="txtcom"><p>Justo tengo el metal Slug xDDDDDDDD</p>
+</div>
+
+		</ul>
+         	
+
+	
+	</ol>
+
+ 
+
+<h3 id="respond">Escríbeme algo ;)</h3>
+
+
+<form action="http://www.elperroverde.net/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><strong>Nombre</strong> (obligatorio)</label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><strong>Mail</strong> (no será publicado) (obligatorio)</label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><strong>Sitio Web</strong> (opcional)</label></p>
+
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p class="enviar"><input name="submit" type="submit" id="submit" tabindex="5" value="Enviar Comentario" />
+<input type="hidden" name="comment_post_ID" value="78" />
+</p>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="b54195c0d3" /></p>
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notificarme nuevos comentarios vía e-mail.</label>
+	</p>
+
+
+
+</form>
+<pre>Pingbacks/Trackbacks:<br /></pre>
+
+	
+	  </div><!--/post -->
+		
+			
+  </div><!--/content -->
+
+<div id="sidebar">
+<ul>
+
+  <li id="text-3" class="widget widget_text"><h2 class="sidebartitle">RSS</h2>			<div class="textwidget"><center><a href="http://feeds2.feedburner.com/cosasDelPerroVerde" rel="alternate" title="RSS El Perro Verde" type="application/rss+xml"><img alt="" src="http://elperroverde.net/wp-content/themes/girl/images/rss_icon.jpg"/></a></center>
+
+</div>
+		</li><li id="get-recent-comments" class="widget widget_get_recent_comments"><h2 class="sidebartitle">Se comenta...</h2><div id="get_recent_comments_wrap"><ul>	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=e27ce841dc41c13446aa4ba43e2ac48a&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-5410" title ="En Sobre Games for Windows Live y su sistema de claves, 25/12/2011">Fernando</a>:<br/>me pueden dar la clave para q la partida del dirt2 se guarde gracias</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=260c35ecc7693f39566ad6531d9dd680&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-5352" title ="En Sobre Games for Windows Live y su sistema de claves, 17/12/2011">juan</a>:<br/>necesito un serial original para resident evil 5 pc para jugar en live por favor gracias de antemano.</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=1ed22541a410d4e30b090b4a9a185e38&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2009/07/sobre-games-for-windows-live-y-su/#comment-5317" title ="En Sobre Games for Windows Live y su sistema de claves, 12/12/2011">kevin</a>:<br/>me pueden dar la clave del producto de resident evil 5 para pc porfavor</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=07ad947a0b1a16face6ddfb059f32fac&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-5277" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 08/12/2011">jorge ivan (QrR1)</a>:<br/>http://www.taringa.net/posts/a &#8230;..ows-7.html mira este link es detallado y deja puntos por fa</div>
+	<div class="comentariosidebar"><img src="http://www.gravatar.com/avatar.php?gravatar_id=fd24afbc14e2c3b9f73c03cc12b55374&amp;size=20&amp;rating=X&amp;default=http%3A%2F%2Felperroverde.net%2Fwp-content%2Fthemes%2Fgirl%2Fimages%2Fanon.png" alt="" width="20" height="20" class="kjgrcGravatar" /> <a href="http://www.elperroverde.net/2008/11/c-red-alert-2-jugar-en-una-red-hamachi/#comment-5271" title ="En C&#038;C Red Alert 2: Jugar en una red Hamachi, 08/12/2011">gary</a>:<br/>como puedo hacer pero en version windows 7 xfa detallado</div>
+</ul></div></li><li id="execphp-2" class="widget widget_execphp"><h2 class="sidebartitle">Etiquetas</h2>			
+			<div class="execphpwidget"><!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.elperroverde.net/wp-content/plugins/wp-cumulus/swfobject.js"></script><div id="wpcumuluscontent7165592"><p><a href='http://www.elperroverde.net/tag/anime/' class='tag-link-6' title='4 temas' style='font-size: 11.093922651934pt;'>Anime</a>
+<a href='http://www.elperroverde.net/tag/analisis/' class='tag-link-5' title='8 temas' style='font-size: 13.027624309392pt;'>Análisis</a>
+<a href='http://www.elperroverde.net/tag/articulos/' class='tag-link-67' title='2 temas' style='font-size: 9.3922651933702pt;'>Artículos</a>
+<a href='http://www.elperroverde.net/tag/blogueando/' class='tag-link-7' title='10 temas' style='font-size: 13.723756906077pt;'>Blogueando</a>
+<a href='http://www.elperroverde.net/tag/cabreos/' class='tag-link-77' title='12 temas' style='font-size: 14.265193370166pt;'>Cabreos</a>
+<a href='http://www.elperroverde.net/tag/chorradas/' class='tag-link-8' title='65 temas' style='font-size: 19.756906077348pt;'>Chorradas</a>
+<a href='http://www.elperroverde.net/tag/cine/' class='tag-link-9' title='6 temas' style='font-size: 12.254143646409pt;'>Cine</a>
+<a href='http://www.elperroverde.net/tag/citas/' class='tag-link-10' title='10 temas' style='font-size: 13.723756906077pt;'>Citas</a>
+<a href='http://www.elperroverde.net/tag/concursos/' class='tag-link-83' title='2 temas' style='font-size: 9.3922651933702pt;'>Concursos</a>
+<a href='http://www.elperroverde.net/tag/descargas/' class='tag-link-13' title='30 temas' style='font-size: 17.204419889503pt;'>Descargas</a>
+<a href='http://www.elperroverde.net/tag/dreamcast/' class='tag-link-66' title='6 temas' style='font-size: 12.254143646409pt;'>Dreamcast</a>
+<a href='http://www.elperroverde.net/tag/el-perro-verde/' class='tag-link-85' title='4 temas' style='font-size: 11.093922651934pt;'>El Perro Verde</a>
+<a href='http://www.elperroverde.net/tag/emuladores/' class='tag-link-14' title='9 temas' style='font-size: 13.414364640884pt;'>Emuladores</a>
+<a href='http://www.elperroverde.net/tag/epic-win/' class='tag-link-63' title='11 temas' style='font-size: 14.033149171271pt;'>Epic Win</a>
+<a href='http://www.elperroverde.net/tag/eventos/' class='tag-link-16' title='3 temas' style='font-size: 10.32044198895pt;'>Eventos</a>
+<a href='http://www.elperroverde.net/tag/flash/' class='tag-link-17' title='2 temas' style='font-size: 9.3922651933702pt;'>Flash</a>
+<a href='http://www.elperroverde.net/tag/guitar-hero/' class='tag-link-19' title='12 temas' style='font-size: 14.265193370166pt;'>Guitar Hero</a>
+<a href='http://www.elperroverde.net/tag/humor/' class='tag-link-59' title='32 temas' style='font-size: 17.436464088398pt;'>Humor</a>
+<a href='http://www.elperroverde.net/tag/imagenes/' class='tag-link-21' title='37 temas' style='font-size: 17.900552486188pt;'>Imagenes</a>
+<a href='http://www.elperroverde.net/tag/informatica/' class='tag-link-22' title='12 temas' style='font-size: 14.265193370166pt;'>Informática</a>
+<a href='http://www.elperroverde.net/tag/internet/' class='tag-link-23' title='32 temas' style='font-size: 17.436464088398pt;'>Internet</a>
+<a href='http://www.elperroverde.net/tag/kaos2k/' class='tag-link-84' title='8 temas' style='font-size: 13.027624309392pt;'>Kaos2K</a>
+<a href='http://www.elperroverde.net/tag/left-4-dead/' class='tag-link-70' title='4 temas' style='font-size: 11.093922651934pt;'>Left 4 Dead</a>
+<a href='http://www.elperroverde.net/tag/memes/' class='tag-link-25' title='3 temas' style='font-size: 10.32044198895pt;'>Memes</a>
+<a href='http://www.elperroverde.net/tag/mods/' class='tag-link-71' title='5 temas' style='font-size: 11.71270718232pt;'>Mods</a>
+<a href='http://www.elperroverde.net/tag/musica/' class='tag-link-27' title='42 temas' style='font-size: 18.28729281768pt;'>Musica</a>
+<a href='http://www.elperroverde.net/tag/nvidia/' class='tag-link-28' title='1 tema' style='font-size: 8pt;'>nVidia</a>
+<a href='http://www.elperroverde.net/tag/ofertas/' class='tag-link-75' title='4 temas' style='font-size: 11.093922651934pt;'>Ofertas</a>
+<a href='http://www.elperroverde.net/tag/only-japon/' class='tag-link-29' title='2 temas' style='font-size: 9.3922651933702pt;'>Only Japón</a>
+<a href='http://www.elperroverde.net/tag/opiniones/' class='tag-link-60' title='15 temas' style='font-size: 14.961325966851pt;'>Opiniones</a>
+<a href='http://www.elperroverde.net/tag/pc/' class='tag-link-30' title='34 temas' style='font-size: 17.591160220994pt;'>PC</a>
+<a href='http://www.elperroverde.net/tag/pensamientos/' class='tag-link-31' title='7 temas' style='font-size: 12.640883977901pt;'>Pensamientos</a>
+<a href='http://www.elperroverde.net/tag/prison-break/' class='tag-link-32' title='1 tema' style='font-size: 8pt;'>Prison Break</a>
+<a href='http://www.elperroverde.net/tag/proyectos/' class='tag-link-81' title='2 temas' style='font-size: 9.3922651933702pt;'>Proyectos</a>
+<a href='http://www.elperroverde.net/tag/redes/' class='tag-link-78' title='2 temas' style='font-size: 9.3922651933702pt;'>Redes</a>
+<a href='http://www.elperroverde.net/tag/retro/' class='tag-link-61' title='20 temas' style='font-size: 15.889502762431pt;'>Retro</a>
+<a href='http://www.elperroverde.net/tag/series/' class='tag-link-33' title='6 temas' style='font-size: 12.254143646409pt;'>Series</a>
+<a href='http://www.elperroverde.net/tag/street-fighter/' class='tag-link-34' title='7 temas' style='font-size: 12.640883977901pt;'>Street Fighter</a>
+<a href='http://www.elperroverde.net/tag/tetinas/' class='tag-link-80' title='5 temas' style='font-size: 11.71270718232pt;'>Tetiñas</a>
+<a href='http://www.elperroverde.net/tag/tutoriales/' class='tag-link-35' title='17 temas' style='font-size: 15.425414364641pt;'>Tutoriales</a>
+<a href='http://www.elperroverde.net/tag/videojuegos/' class='tag-link-36' title='128 temas' style='font-size: 22pt;'>Videojuegos</a>
+<a href='http://www.elperroverde.net/tag/videos/' class='tag-link-37' title='58 temas' style='font-size: 19.370165745856pt;'>Videos</a>
+<a href='http://www.elperroverde.net/tag/vinetas/' class='tag-link-82' title='7 temas' style='font-size: 12.640883977901pt;'>Viñetas</a>
+<a href='http://www.elperroverde.net/tag/wii/' class='tag-link-38' title='7 temas' style='font-size: 12.640883977901pt;'>Wii</a>
+<a href='http://www.elperroverde.net/tag/wtf/' class='tag-link-39' title='3 temas' style='font-size: 10.32044198895pt;'>WTF</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com">Roy Tanck</a> and <a href="http://lukemorton.co.uk/">Luke Morton</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var so6934600 = new SWFObject("http://www.elperroverde.net/wp-content/plugins/wp-cumulus/tagcloud.swf?r=7628717", "tagcloudflash", "288", "250", "9", "#22201D");so6934600.addParam("wmode", "transparent");so6934600.addParam("allowScriptAccess", "always");so6934600.addVariable("tcolor", "0x7ACD23");so6934600.addVariable("tcolor2", "0x7ACD23");so6934600.addVariable("hicolor", "0x7ACD23");so6934600.addVariable("tspeed", "100");so6934600.addVariable("distr", "true");so6934600.addVariable("mode", "tags");so6934600.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanime%2F%27+class%3D%27tag-link-6%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EAnime%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fanalisis%2F%27+class%3D%27tag-link-5%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EAn%C3%A1lisis%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Farticulos%2F%27+class%3D%27tag-link-67%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EArt%C3%ADculos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fblogueando%2F%27+class%3D%27tag-link-7%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3EBlogueando%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcabreos%2F%27+class%3D%27tag-link-77%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3ECabreos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fchorradas%2F%27+class%3D%27tag-link-8%27+title%3D%2765+temas%27+style%3D%27font-size%3A+19.756906077348pt%3B%27%3EChorradas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcine%2F%27+class%3D%27tag-link-9%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ECine%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fcitas%2F%27+class%3D%27tag-link-10%27+title%3D%2710+temas%27+style%3D%27font-size%3A+13.723756906077pt%3B%27%3ECitas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fconcursos%2F%27+class%3D%27tag-link-83%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EConcursos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdescargas%2F%27+class%3D%27tag-link-13%27+title%3D%2730+temas%27+style%3D%27font-size%3A+17.204419889503pt%3B%27%3EDescargas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fdreamcast%2F%27+class%3D%27tag-link-66%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3EDreamcast%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fel-perro-verde%2F%27+class%3D%27tag-link-85%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EEl+Perro+Verde%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Femuladores%2F%27+class%3D%27tag-link-14%27+title%3D%279+temas%27+style%3D%27font-size%3A+13.414364640884pt%3B%27%3EEmuladores%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fepic-win%2F%27+class%3D%27tag-link-63%27+title%3D%2711+temas%27+style%3D%27font-size%3A+14.033149171271pt%3B%27%3EEpic+Win%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Feventos%2F%27+class%3D%27tag-link-16%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EEventos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fflash%2F%27+class%3D%27tag-link-17%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EFlash%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fguitar-hero%2F%27+class%3D%27tag-link-19%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EGuitar+Hero%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fhumor%2F%27+class%3D%27tag-link-59%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EHumor%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fimagenes%2F%27+class%3D%27tag-link-21%27+title%3D%2737+temas%27+style%3D%27font-size%3A+17.900552486188pt%3B%27%3EImagenes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finformatica%2F%27+class%3D%27tag-link-22%27+title%3D%2712+temas%27+style%3D%27font-size%3A+14.265193370166pt%3B%27%3EInform%C3%A1tica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Finternet%2F%27+class%3D%27tag-link-23%27+title%3D%2732+temas%27+style%3D%27font-size%3A+17.436464088398pt%3B%27%3EInternet%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fkaos2k%2F%27+class%3D%27tag-link-84%27+title%3D%278+temas%27+style%3D%27font-size%3A+13.027624309392pt%3B%27%3EKaos2K%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fleft-4-dead%2F%27+class%3D%27tag-link-70%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3ELeft+4+Dead%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmemes%2F%27+class%3D%27tag-link-25%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EMemes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmods%2F%27+class%3D%27tag-link-71%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3EMods%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fmusica%2F%27+class%3D%27tag-link-27%27+title%3D%2742+temas%27+style%3D%27font-size%3A+18.28729281768pt%3B%27%3EMusica%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fnvidia%2F%27+class%3D%27tag-link-28%27+title%3D%271+tema%27+style%3D%27font-size%3A+8pt%3B%27%3EnVidia%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fofertas%2F%27+class%3D%27tag-link-75%27+title%3D%274+temas%27+style%3D%27font-size%3A+11.093922651934pt%3B%27%3EOfertas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fonly-japon%2F%27+class%3D%27tag-link-29%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EOnly+Jap%C3%B3n%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fopiniones%2F%27+class%3D%27tag-link-60%27+title%3D%2715+temas%27+style%3D%27font-size%3A+14.961325966851pt%3B%27%3EOpiniones%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpc%2F%27+class%3D%27tag-link-30%27+title%3D%2734+temas%27+style%3D%27font-size%3A+17.591160220994pt%3B%27%3EPC%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fpensamientos%2F%27+class%3D%27tag-link-31%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EPensamientos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fprison-break%2F%27+class%3D%27tag-link-32%27+title%3D%271+tema%27+style%3D%27font-size%3A+8pt%3B%27%3EPrison+Break%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fproyectos%2F%27+class%3D%27tag-link-81%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3EProyectos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fredes%2F%27+class%3D%27tag-link-78%27+title%3D%272+temas%27+style%3D%27font-size%3A+9.3922651933702pt%3B%27%3ERedes%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fretro%2F%27+class%3D%27tag-link-61%27+title%3D%2720+temas%27+style%3D%27font-size%3A+15.889502762431pt%3B%27%3ERetro%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fseries%2F%27+class%3D%27tag-link-33%27+title%3D%276+temas%27+style%3D%27font-size%3A+12.254143646409pt%3B%27%3ESeries%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fstreet-fighter%2F%27+class%3D%27tag-link-34%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EStreet+Fighter%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftetinas%2F%27+class%3D%27tag-link-80%27+title%3D%275+temas%27+style%3D%27font-size%3A+11.71270718232pt%3B%27%3ETeti%C3%B1as%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Ftutoriales%2F%27+class%3D%27tag-link-35%27+title%3D%2717+temas%27+style%3D%27font-size%3A+15.425414364641pt%3B%27%3ETutoriales%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideojuegos%2F%27+class%3D%27tag-link-36%27+title%3D%27128+temas%27+style%3D%27font-size%3A+22pt%3B%27%3EVideojuegos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvideos%2F%27+class%3D%27tag-link-37%27+title%3D%2758+temas%27+style%3D%27font-size%3A+19.370165745856pt%3B%27%3EVideos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fvinetas%2F%27+class%3D%27tag-link-82%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EVi%C3%B1etas%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwii%2F%27+class%3D%27tag-link-38%27+title%3D%277+temas%27+style%3D%27font-size%3A+12.640883977901pt%3B%27%3EWii%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.elperroverde.net%2Ftag%2Fwtf%2F%27+class%3D%27tag-link-39%27+title%3D%273+temas%27+style%3D%27font-size%3A+10.32044198895pt%3B%27%3EWTF%3C%2Fa%3E%3C%2Ftags%3E");so6934600.write("wpcumuluscontent7165592");</script></div>
+		</li><li id="linkcat-57" class="widget widget_links"><h2 class="sidebartitle">A veces me paso por...</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://akihabarablues.com/" target="_blank">Akihabara Blues</a></li>
+<li><a href="http://www.anaitgames.com/" target="_blank">AnaitGames</a></li>
+<li><a href="http://botafumeiroag.blogspot.com/" target="_blank">Botafumeiro AG</a></li>
+<li><a href="http://botafumeirovideojuegos.blogspot.com/" target="_blank">Botafumeiro Videojuegos</a></li>
+<li><a href="http://danteneverdies.wordpress.com/" target="_blank">Danteneverdies Gamerblog</a></li>
+<li><a href="http://elblogdemanu.com/" target="_blank">El Blog de Manu</a></li>
+<li><a href="http://www.topofarmer.com/" target="_blank">El Blog de Topofarmer</a></li>
+<li><a href="http://www.elpixelilustre.com/" target="_blank">El Pixel Ilustre</a></li>
+<li><a href="http://jumafas.blogvideojuegos.com/" target="_blank">Er Blog der JuMaFaS</a></li>
+<li><a href="http://www.frostias.com/" target="_blank">Frostias</a></li>
+<li><a href="http://www.gamesajare.com/" target="_blank">GamesAjare</a></li>
+<li><a href="http://jueves13.com" target="_blank">Jueves13</a></li>
+<li><a href="http://www.kaos2k.com/" target="_blank">Kaos2K.com</a></li>
+<li><a href="http://www.nosologames.net" target="_blank">NoSoloGames</a></li>
+<li><a href="http://www.pixfans.com" target="_blank">PixFans</a></li>
+<li><a href="http://www.yonosoyfreak.com/" target="_blank">Yo no soy freak</a></li>
+
+	</ul>
+</li>
+<li id="archives-3" class="widget widget_archive"><h2 class="sidebartitle">Archivo del Blog</h2>		<ul>
+			<li><a href='http://www.elperroverde.net/2011/07/' title='julio 2011'>julio 2011</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2010/03/' title='marzo 2010'>marzo 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2010/02/' title='febrero 2010'>febrero 2010</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2010/01/' title='enero 2010'>enero 2010</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/12/' title='diciembre 2009'>diciembre 2009</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2009/11/' title='noviembre 2009'>noviembre 2009</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2009/10/' title='octubre 2009'>octubre 2009</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2009/09/' title='septiembre 2009'>septiembre 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/08/' title='agosto 2009'>agosto 2009</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2009/07/' title='julio 2009'>julio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/06/' title='junio 2009'>junio 2009</a>&nbsp;(8)</li>
+	<li><a href='http://www.elperroverde.net/2009/05/' title='mayo 2009'>mayo 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2009/04/' title='abril 2009'>abril 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/03/' title='marzo 2009'>marzo 2009</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2009/02/' title='febrero 2009'>febrero 2009</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2009/01/' title='enero 2009'>enero 2009</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/12/' title='diciembre 2008'>diciembre 2008</a>&nbsp;(7)</li>
+	<li><a href='http://www.elperroverde.net/2008/11/' title='noviembre 2008'>noviembre 2008</a>&nbsp;(12)</li>
+	<li><a href='http://www.elperroverde.net/2008/10/' title='octubre 2008'>octubre 2008</a>&nbsp;(17)</li>
+	<li><a href='http://www.elperroverde.net/2008/09/' title='septiembre 2008'>septiembre 2008</a>&nbsp;(20)</li>
+	<li><a href='http://www.elperroverde.net/2008/08/' title='agosto 2008'>agosto 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/07/' title='julio 2008'>julio 2008</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2008/06/' title='junio 2008'>junio 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/05/' title='mayo 2008'>mayo 2008</a>&nbsp;(11)</li>
+	<li><a href='http://www.elperroverde.net/2008/04/' title='abril 2008'>abril 2008</a>&nbsp;(4)</li>
+	<li><a href='http://www.elperroverde.net/2008/03/' title='marzo 2008'>marzo 2008</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2008/02/' title='febrero 2008'>febrero 2008</a>&nbsp;(13)</li>
+	<li><a href='http://www.elperroverde.net/2008/01/' title='enero 2008'>enero 2008</a>&nbsp;(9)</li>
+	<li><a href='http://www.elperroverde.net/2007/12/' title='diciembre 2007'>diciembre 2007</a>&nbsp;(2)</li>
+	<li><a href='http://www.elperroverde.net/2007/11/' title='noviembre 2007'>noviembre 2007</a>&nbsp;(5)</li>
+	<li><a href='http://www.elperroverde.net/2007/10/' title='octubre 2007'>octubre 2007</a>&nbsp;(6)</li>
+	<li><a href='http://www.elperroverde.net/2007/09/' title='septiembre 2007'>septiembre 2007</a>&nbsp;(3)</li>
+	<li><a href='http://www.elperroverde.net/2007/08/' title='agosto 2007'>agosto 2007</a>&nbsp;(1)</li>
+	<li><a href='http://www.elperroverde.net/2007/07/' title='julio 2007'>julio 2007</a>&nbsp;(14)</li>
+	<li><a href='http://www.elperroverde.net/2007/06/' title='junio 2007'>junio 2007</a>&nbsp;(19)</li>
+		</ul>
+</li><li id="text-8" class="widget widget_text">			<div class="textwidget"><br/>&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde'><img src='http://elperroverde.net/wp-content/themes/girl/images/rss_icon_mini.jpg' />Feed Completo</a><br/>
+
+&nbsp;&nbsp;&nbsp;<a href='http://feeds.feedburner.com/cosasDelPerroVerde/Comentarios'><img src='http://elperroverde.net/wp-content/themes/girl/images/rss_icon_mini.jpg' />Feed de Comentarios</a><br/>
+
+<form action="http://feedburner.google.com/fb/a/mailverify" style="border:0px solid #ccc;padding:3px;text-align:center;" target="popupwindow" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=cosasDelPerroVerde', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>También te puedes suscribir por e-mail:</p><p><input style="width:140px" name="email" type="text"/></p><input value="cosasDelPerroVerde" name="uri" type="hidden"/><input value="es_ES" name="loc" type="hidden"/><input value="Suscribirse" type="submit"/></form>
+<br/></div>
+		</li><li id="text-6" class="widget widget_text">			<div class="textwidget"><br/>
+<center><a href="http://www.easycounter.com/es/">
+<img alt="Counter" src="http://www.easycounter.com/counter.php?tragy" 
+border="0"/></a><br/><br/>
+<center><p><a href="http://feeds.feedburner.com/cosasDelPerroVerde"><img src="http://feeds.feedburner.com/~fc/cosasDelPerroVerde?bg=4AAD13&amp;fg=FF5A00&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p></center>
+<center>
+<a href="http://bitacoras.com/bitacora/elperroverde.net" title="Bitácoras, weblogs en español"><img alt="Bitacoras.com" src="http://bitacoras.com/images/badges/badge3.png"/></a></center></center><br/></div>
+		</li>
+ </ul>
+</div>
+<!--/sidebar -->  
+ <div id="footer">
+<div class="center">El Perro Verde utiliza <a href="http://wordpress.org/">WordPress</a>, con una modificación personal de la plantilla <a href=http://wordpress.org/extend/themes/girl>girl</a>.
+Todos los contenidos publicados bajo <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">Creative Commons</a><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/" rel="license">   <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/80x15.png"/>
+</div></div>
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201152.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'9695869',v:'ext',post:'78'});
+var load_cmc = function(){linktracker_init(9695869,78,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+
+<!--Analytics-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2055026-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
